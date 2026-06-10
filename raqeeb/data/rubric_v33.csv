@@ -1,0 +1,24 @@
+Error_Type,Class,CSR_Min,OCS_Min,SFR_Min,SFR_Max,Weight_CSR,Weight_OCS,Weight_SFR,Expected_MPQS_Min,Expected_MPQS_Max,Target_Accept_Rate,Adjust_If_Below,CSR_Adjustment,OCS_Adjustment,SFR_Adjustment,Inverted,Notes
+Gender Disagreement,B,0.87,1.0,0.82,1.0,0.45,0.3,0.25,0.85,0.92,0.1,0.1,-0.02,-0.02,0.0,False,Suffix changes only (ـة/ـ)
+Definiteness Shift,B,0.9,1.0,0.84,1.0,0.45,0.3,0.25,0.88,0.94,0.15,0.15,-0.02,-0.03,0.0,False,Just adds/removes ال
+Tanween Omission,B,0.92,1.0,0.86,1.0,0.45,0.3,0.25,0.9,0.95,0.1,0.1,-0.03,0.0,0.0,False,Diacritic only - may have preprocessing issues
+Active to Passive Voice,B,0.82,1.0,0.75,1.0,0.45,0.3,0.25,0.8,0.88,0.2,0.2,-0.03,-0.03,-0.05,False,Adds particles (تم/يتم) - NOT always minimal
+Passive to Active Voice,B,0.82,1.0,0.75,1.0,0.45,0.3,0.25,0.8,0.88,0.2,0.2,-0.03,-0.03,-0.05,False,Removes particles - NOT always minimal
+Perfective to Progressive,B,0.84,1.0,0.76,1.0,0.45,0.3,0.25,0.82,0.89,0.15,0.15,-0.03,-0.03,0.0,False,Tense shift (ماضي→مضارع)
+Progressive to Perfective,B,0.84,1.0,0.76,1.0,0.45,0.3,0.25,0.82,0.89,0.15,0.15,-0.03,-0.03,0.0,False,Tense shift (مضارع→ماضي)
+Tense Shift Under Negation,B,0.82,1.0,0.74,1.0,0.45,0.3,0.25,0.8,0.87,0.2,0.2,-0.04,-0.03,-0.04,False,Negation changes tense
+Adjective to Noun,B,0.85,1.0,0.78,1.0,0.45,0.3,0.25,0.83,0.9,0.15,0.15,-0.03,-0.03,0.0,False,POS shift (صفة→اسم)
+Noun to Adjective,B,0.85,1.0,0.78,1.0,0.45,0.3,0.25,0.83,0.9,0.15,0.15,-0.03,-0.03,0.0,False,POS shift (اسم→صفة)
+Wrong Word Order,B,0.78,1.0,0.65,1.0,0.45,0.3,0.25,0.75,0.85,0.25,0.25,-0.05,-0.05,0.0,False,High ISR - reordering only
+Wrong Structure,B,0.75,1.0,0.62,1.0,0.45,0.3,0.25,0.72,0.82,0.25,0.25,-0.05,-0.05,0.0,False,Structural change
+Invalid Pattern,B,0.8,1.0,0.72,1.0,0.45,0.3,0.25,0.78,0.86,0.2,0.2,-0.04,-0.04,0.0,False,Morphologically impossible forms
+Register Mismatch,B,0.8,1.0,0.65,1.0,0.45,0.3,0.25,0.76,0.84,0.25,0.25,-0.05,-0.05,0.0,False,Formality shift (formal↔colloquial)
+Spelling Error,A,0.88,1.0,0.78,1.0,0.35,0.35,0.3,0.85,0.92,0.15,0.15,-0.03,-0.03,0.0,False,1-2 character errors max
+Terminology Substitution,A,0.82,1.0,0.68,1.0,0.35,0.35,0.3,0.78,0.87,0.25,0.25,-0.04,-0.04,-0.05,False,Domain-specific term substitution
+Literal Translation,A,0.8,1.0,0.65,1.0,0.35,0.35,0.3,0.75,0.84,0.25,0.25,-0.05,-0.05,-0.06,False,Word-for-word translation
+Hypernym for Hyponym,A,0.82,1.0,0.68,1.0,0.35,0.35,0.3,0.78,0.86,0.25,0.25,-0.04,-0.04,-0.05,False,General→Specific (animal→cat)
+Hyponym for Hypernym,A,0.82,1.0,0.68,1.0,0.35,0.35,0.3,0.78,0.86,0.25,0.25,-0.04,-0.04,-0.05,False,Specific→General (cat→animal)
+Name Entity Error,A,0.85,1.0,0.72,1.0,0.35,0.35,0.3,0.82,0.89,0.2,0.2,-0.03,-0.03,0.0,False,Proper noun misspelling
+Meaning Shift,A,0.88,1.0,0.45,0.78,0.35,0.35,0.3,0.65,0.8,0.25,0.25,0.03,0.03,0.0,True,⚠️ INVERTED: CSR/ISR are MAXIMUMS. SFR range 0.45-0.78 ensures controlled semantic shift
+Total Omission,A,0.85,1.0,0.5,0.8,0.35,0.35,0.3,0.6,0.78,0.25,0.25,0.03,0.05,0.0,True,⚠️ INVERTED: CSR/ISR are MAXIMUMS. SFR range 0.50-0.80 ensures clear content loss without collapse
+Partial Translation,A,0.75,1.0,0.55,1.0,0.35,0.35,0.3,0.68,0.8,0.3,0.3,-0.05,-0.05,-0.05,False,Mix of translated/untranslated

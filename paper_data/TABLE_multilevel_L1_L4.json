@@ -1,0 +1,58 @@
+[
+  {
+    "level": "L4",
+    "tag": "23 sub-subtypes",
+    "n_classes": 23,
+    "mean_f1": 0.6144,
+    "std_f1": 0.0167,
+    "best_f1": 0.6348,
+    "ci": [
+      0.5632,
+      0.6746
+    ],
+    "best_fold": 0,
+    "source_module": "M01"
+  },
+  {
+    "level": "L3",
+    "tag": "14 subtypes",
+    "n_classes": 14,
+    "mean_f1": 0.6757,
+    "std_f1": 0.021,
+    "best_f1": 0.6927,
+    "ci": [
+      0.6079,
+      0.74
+    ],
+    "best_fold": 1,
+    "source_module": "P01"
+  },
+  {
+    "level": "L2",
+    "tag": "5 parent groups",
+    "n_classes": 5,
+    "mean_f1": 0.6243,
+    "std_f1": 0.0623,
+    "best_f1": 0.7272,
+    "ci": [
+      0.5716,
+      0.8161
+    ],
+    "best_fold": 1,
+    "source_module": "P03"
+  },
+  {
+    "level": "L1",
+    "tag": "4 TQA categories",
+    "n_classes": 4,
+    "mean_f1": 0.6557,
+    "std_f1": 0.0216,
+    "best_f1": 0.6893,
+    "ci": [
+      0.634,
+      0.7402
+    ],
+    "best_fold": 2,
+    "source_module": "P05"
+  }
+]

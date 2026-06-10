@@ -1,0 +1,331 @@
+{
+  "table1": {
+    "AraBERT-v2": {
+      "mean_f1": 0.6144,
+      "std_f1": 0.0167,
+      "best_f1": 0.6348,
+      "ci_95": [
+        0.5632,
+        0.6746
+      ]
+    },
+    "CAMeLBERT-MSA": {
+      "mean_f1": 0.5869,
+      "std_f1": 0.0287,
+      "best_f1": 0.6301,
+      "ci_95": [
+        0.5635,
+        0.669
+      ]
+    },
+    "CAMeLBERT-Mix": {
+      "mean_f1": 0.597,
+      "std_f1": 0.021,
+      "best_f1": 0.6217,
+      "ci_95": [
+        0.5533,
+        0.6601
+      ]
+    },
+    "ConfliBERT": {
+      "mean_f1": 0.5828,
+      "std_f1": 0.0207,
+      "best_f1": 0.6068,
+      "ci_95": [
+        0.5657,
+        0.6457
+      ]
+    },
+    "XLM-R": {
+      "mean_f1": 0.4566,
+      "std_f1": 0.251,
+      "best_f1": 0.6004,
+      "ci_95": [
+        0.5441,
+        0.6481
+      ]
+    }
+  },
+  "significance": {
+    "n_pairs": 10,
+    "significant_after_bh": 0,
+    "pairs": [
+      {
+        "a": "AraBERT-v2",
+        "b": "CAMeLBERT-MSA",
+        "diff": 0.003688,
+        "p_adj": 1.0,
+        "significant": false
+      },
+      {
+        "a": "AraBERT-v2",
+        "b": "CAMeLBERT-Mix",
+        "diff": 0.012261,
+        "p_adj": 1.0,
+        "significant": false
+      },
+      {
+        "a": "AraBERT-v2",
+        "b": "ConfliBERT",
+        "diff": 0.01664,
+        "p_adj": 1.0,
+        "significant": false
+      },
+      {
+        "a": "AraBERT-v2",
+        "b": "XLM-R",
+        "diff": 0.02704,
+        "p_adj": 1.0,
+        "significant": false
+      },
+      {
+        "a": "CAMeLBERT-MSA",
+        "b": "CAMeLBERT-Mix",
+        "diff": 0.008573,
+        "p_adj": 1.0,
+        "significant": false
+      },
+      {
+        "a": "CAMeLBERT-MSA",
+        "b": "ConfliBERT",
+        "diff": 0.012952,
+        "p_adj": 1.0,
+        "significant": false
+      },
+      {
+        "a": "CAMeLBERT-MSA",
+        "b": "XLM-R",
+        "diff": 0.023352,
+        "p_adj": 1.0,
+        "significant": false
+      },
+      {
+        "a": "CAMeLBERT-Mix",
+        "b": "ConfliBERT",
+        "diff": 0.004379,
+        "p_adj": 1.0,
+        "significant": false
+      },
+      {
+        "a": "CAMeLBERT-Mix",
+        "b": "XLM-R",
+        "diff": 0.014779,
+        "p_adj": 1.0,
+        "significant": false
+      },
+      {
+        "a": "ConfliBERT",
+        "b": "XLM-R",
+        "diff": 0.0104,
+        "p_adj": 1.0,
+        "significant": false
+      }
+    ]
+  },
+  "raqeeb": {
+    "AraBERT-v2": {
+      "overall": {
+        "pearson_r": 0.5703,
+        "pearson_p": 3.7872274634310727e-39,
+        "spearman_rho": 0.6996,
+        "spearman_p": 1.2137025018119974e-65,
+        "mae": 0.156963,
+        "n": 438
+      },
+      "per_tqa": {
+        "Accuracy": {
+          "pearson_r": 0.5879,
+          "spearman_rho": 0.6587,
+          "mae": 0.148131,
+          "n": 198
+        },
+        "Fluency": {
+          "pearson_r": 0.6409,
+          "spearman_rho": 0.8869,
+          "mae": 0.006313,
+          "n": 80
+        },
+        "Style & Register": {
+          "pearson_r": 0.7071,
+          "spearman_rho": 0.6624,
+          "mae": 0.027361,
+          "n": 108
+        },
+        "Terminology": {
+          "pearson_r": NaN,
+          "spearman_rho": NaN,
+          "mae": 0.691538,
+          "n": 52
+        }
+      }
+    },
+    "CAMeLBERT-MSA": {
+      "overall": {
+        "pearson_r": 0.5526,
+        "pearson_p": 2.2215871306712918e-36,
+        "spearman_rho": 0.6591,
+        "spearman_p": 6.499386484508877e-56,
+        "mae": 0.159703,
+        "n": 438
+      },
+      "per_tqa": {
+        "Accuracy": {
+          "pearson_r": 0.5523,
+          "spearman_rho": 0.622,
+          "mae": 0.153939,
+          "n": 198
+        },
+        "Fluency": {
+          "pearson_r": 0.6558,
+          "spearman_rho": 0.9112,
+          "mae": 0.005313,
+          "n": 80
+        },
+        "Style & Register": {
+          "pearson_r": 0.6795,
+          "spearman_rho": 0.6252,
+          "mae": 0.03375,
+          "n": 108
+        },
+        "Terminology": {
+          "pearson_r": NaN,
+          "spearman_rho": NaN,
+          "mae": 0.680769,
+          "n": 52
+        }
+      }
+    },
+    "CAMeLBERT-Mix": {
+      "overall": {
+        "pearson_r": 0.5307,
+        "pearson_p": 3.4888181305637586e-33,
+        "spearman_rho": 0.6508,
+        "spearman_p": 4.02078925326933e-54,
+        "mae": 0.172169,
+        "n": 438
+      },
+      "per_tqa": {
+        "Accuracy": {
+          "pearson_r": 0.4981,
+          "spearman_rho": 0.5756,
+          "mae": 0.178561,
+          "n": 198
+        },
+        "Fluency": {
+          "pearson_r": 0.1773,
+          "spearman_rho": 0.9004,
+          "mae": 0.031813,
+          "n": 80
+        },
+        "Style & Register": {
+          "pearson_r": 0.4001,
+          "spearman_rho": 0.6187,
+          "mae": 0.057222,
+          "n": 108
+        },
+        "Terminology": {
+          "pearson_r": NaN,
+          "spearman_rho": NaN,
+          "mae": 0.6025,
+          "n": 52
+        }
+      }
+    },
+    "ConfliBERT": {
+      "overall": {
+        "pearson_r": 0.568,
+        "pearson_p": 8.7899094712964e-39,
+        "spearman_rho": 0.6724,
+        "spearman_p": 5.959541017124847e-59,
+        "mae": 0.15879,
+        "n": 438
+      },
+      "per_tqa": {
+        "Accuracy": {
+          "pearson_r": 0.5479,
+          "spearman_rho": 0.6501,
+          "mae": 0.158838,
+          "n": 198
+        },
+        "Fluency": {
+          "pearson_r": 0.2323,
+          "spearman_rho": 0.8885,
+          "mae": 0.0235,
+          "n": 80
+        },
+        "Style & Register": {
+          "pearson_r": 0.4693,
+          "spearman_rho": 0.6029,
+          "mae": 0.051389,
+          "n": 108
+        },
+        "Terminology": {
+          "pearson_r": NaN,
+          "spearman_rho": NaN,
+          "mae": 0.589808,
+          "n": 52
+        }
+      }
+    },
+    "XLM-R": {
+      "overall": {
+        "pearson_r": 0.5901,
+        "pearson_p": 1.9235035119920264e-42,
+        "spearman_rho": 0.706,
+        "spearman_p": 2.5968160572027213e-67,
+        "mae": 0.149121,
+        "n": 438
+      },
+      "per_tqa": {
+        "Accuracy": {
+          "pearson_r": 0.6349,
+          "spearman_rho": 0.7009,
+          "mae": 0.135657,
+          "n": 198
+        },
+        "Fluency": {
+          "pearson_r": 0.3025,
+          "spearman_rho": 0.8772,
+          "mae": 0.054813,
+          "n": 80
+        },
+        "Style & Register": {
+          "pearson_r": 0.4427,
+          "spearman_rho": 0.6296,
+          "mae": 0.046944,
+          "n": 108
+        },
+        "Terminology": {
+          "pearson_r": NaN,
+          "spearman_rho": NaN,
+          "mae": 0.557692,
+          "n": 52
+        }
+      }
+    }
+  },
+  "baselines": {
+    "majority_class": {
+      "macro_f1": 0.0108,
+      "accuracy": 0.1416
+    },
+    "stratified_random": {
+      "macro_f1_mean": 0.0337,
+      "macro_f1_std": 0.0077
+    },
+    "tfidf_svm": {
+      "macro_f1_mean": 0.2374,
+      "macro_f1_std": 0.013,
+      "best_fold_f1": 0.2559
+    },
+    "tfidf_logreg": {
+      "macro_f1_mean": 0.1622,
+      "macro_f1_std": 0.0068,
+      "best_fold_f1": 0.1757
+    },
+    "keyword_rule": {
+      "macro_f1": 0.0596,
+      "accuracy": 0.3516
+    }
+  }
+}

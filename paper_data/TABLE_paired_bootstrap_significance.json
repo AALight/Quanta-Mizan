@@ -1,0 +1,122 @@
+[
+  {
+    "mean_diff": 0.003688,
+    "ci_low": -0.046677,
+    "ci_high": 0.048839,
+    "p_value": 0.8482,
+    "significant_005": false,
+    "model_a": "AraBERT-v2",
+    "model_b": "CAMeLBERT-MSA",
+    "sig_label": "ns",
+    "p_adjusted": 1.0,
+    "significant_bh": false
+  },
+  {
+    "mean_diff": 0.012261,
+    "ci_low": -0.02678,
+    "ci_high": 0.054194,
+    "p_value": 0.5578,
+    "significant_005": false,
+    "model_a": "AraBERT-v2",
+    "model_b": "CAMeLBERT-Mix",
+    "sig_label": "ns",
+    "p_adjusted": 1.0,
+    "significant_bh": false
+  },
+  {
+    "mean_diff": 0.01664,
+    "ci_low": -0.032081,
+    "ci_high": 0.064439,
+    "p_value": 0.5352,
+    "significant_005": false,
+    "model_a": "AraBERT-v2",
+    "model_b": "ConfliBERT",
+    "sig_label": "ns",
+    "p_adjusted": 1.0,
+    "significant_bh": false
+  },
+  {
+    "mean_diff": 0.02704,
+    "ci_low": -0.02233,
+    "ci_high": 0.074665,
+    "p_value": 0.3084,
+    "significant_005": false,
+    "model_a": "AraBERT-v2",
+    "model_b": "XLM-R",
+    "sig_label": "ns",
+    "p_adjusted": 1.0,
+    "significant_bh": false
+  },
+  {
+    "mean_diff": 0.008573,
+    "ci_low": -0.042656,
+    "ci_high": 0.067626,
+    "p_value": 0.8182,
+    "significant_005": false,
+    "model_a": "CAMeLBERT-MSA",
+    "model_b": "CAMeLBERT-Mix",
+    "sig_label": "ns",
+    "p_adjusted": 1.0,
+    "significant_bh": false
+  },
+  {
+    "mean_diff": 0.012952,
+    "ci_low": -0.047856,
+    "ci_high": 0.059684,
+    "p_value": 0.5672,
+    "significant_005": false,
+    "model_a": "CAMeLBERT-MSA",
+    "model_b": "ConfliBERT",
+    "sig_label": "ns",
+    "p_adjusted": 1.0,
+    "significant_bh": false
+  },
+  {
+    "mean_diff": 0.023352,
+    "ci_low": -0.031378,
+    "ci_high": 0.056746,
+    "p_value": 0.274,
+    "significant_005": false,
+    "model_a": "CAMeLBERT-MSA",
+    "model_b": "XLM-R",
+    "sig_label": "ns",
+    "p_adjusted": 1.0,
+    "significant_bh": false
+  },
+  {
+    "mean_diff": 0.004379,
+    "ci_low": -0.043687,
+    "ci_high": 0.05223,
+    "p_value": 0.8806,
+    "significant_005": false,
+    "model_a": "CAMeLBERT-Mix",
+    "model_b": "ConfliBERT",
+    "sig_label": "ns",
+    "p_adjusted": 1.0,
+    "significant_bh": false
+  },
+  {
+    "mean_diff": 0.014779,
+    "ci_low": -0.040519,
+    "ci_high": 0.066523,
+    "p_value": 0.6164,
+    "significant_005": false,
+    "model_a": "CAMeLBERT-Mix",
+    "model_b": "XLM-R",
+    "sig_label": "ns",
+    "p_adjusted": 1.0,
+    "significant_bh": false
+  },
+  {
+    "mean_diff": 0.0104,
+    "ci_low": -0.027891,
+    "ci_high": 0.049029,
+    "p_value": 0.5998,
+    "significant_005": false,
+    "model_a": "ConfliBERT",
+    "model_b": "XLM-R",
+    "sig_label": "ns",
+    "p_adjusted": 1.0,
+    "significant_bh": false
+  }
+]

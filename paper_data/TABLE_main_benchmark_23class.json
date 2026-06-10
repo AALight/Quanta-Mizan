@@ -1,0 +1,294 @@
+{
+  "protocol": "5-fold CV, T1+T2 (audited), Format D, 23-class",
+  "training_size": 8594,
+  "gold_test_size": 438,
+  "n_classes": 23,
+  "data_checksum": "7942270a97b0581d",
+  "models": {
+    "AraBERT-v2": {
+      "short_name": "AraBERT-v2",
+      "hf_name": "aubmindlab/bert-base-arabertv02",
+      "model_type": "arabic-specific",
+      "fold_results": [
+        {
+          "fold": 0,
+          "val_f1": 0.8732,
+          "gold_f1": 0.6348,
+          "gold_acc": 0.6073,
+          "time_sec": 100.1,
+          "gpu_mb": 8351.1
+        },
+        {
+          "fold": 1,
+          "val_f1": 0.8753,
+          "gold_f1": 0.6173,
+          "gold_acc": 0.5822,
+          "time_sec": 95.9,
+          "gpu_mb": 8361.9
+        },
+        {
+          "fold": 2,
+          "val_f1": 0.8617,
+          "gold_f1": 0.6109,
+          "gold_acc": 0.5822,
+          "time_sec": 95.4,
+          "gpu_mb": 8339.9
+        },
+        {
+          "fold": 3,
+          "val_f1": 0.8621,
+          "gold_f1": 0.589,
+          "gold_acc": 0.5776,
+          "time_sec": 98.2,
+          "gpu_mb": 8369.3
+        },
+        {
+          "fold": 4,
+          "val_f1": 0.875,
+          "gold_f1": 0.6198,
+          "gold_acc": 0.6142,
+          "time_sec": 98.3,
+          "gpu_mb": 8373.4
+        }
+      ],
+      "mean_gold_f1": 0.6144,
+      "std_gold_f1": 0.0167,
+      "best_gold_f1": 0.6348,
+      "best_fold": 0,
+      "mean_gold_acc": 0.5927,
+      "bootstrap_ci_95": [
+        0.5632,
+        0.6746
+      ],
+      "total_time_min": 8.2
+    },
+    "CAMeLBERT-MSA": {
+      "short_name": "CAMeLBERT-MSA",
+      "hf_name": "CAMeL-Lab/bert-base-arabic-camelbert-msa",
+      "model_type": "arabic-specific",
+      "fold_results": [
+        {
+          "fold": 0,
+          "val_f1": 0.8619,
+          "gold_f1": 0.5787,
+          "gold_acc": 0.5753,
+          "time_sec": 98.5,
+          "gpu_mb": 8082.3
+        },
+        {
+          "fold": 1,
+          "val_f1": 0.8584,
+          "gold_f1": 0.5999,
+          "gold_acc": 0.5913,
+          "time_sec": 98.4,
+          "gpu_mb": 8078.2
+        },
+        {
+          "fold": 2,
+          "val_f1": 0.8528,
+          "gold_f1": 0.6301,
+          "gold_acc": 0.6096,
+          "time_sec": 98.2,
+          "gpu_mb": 8100.8
+        },
+        {
+          "fold": 3,
+          "val_f1": 0.8616,
+          "gold_f1": 0.5588,
+          "gold_acc": 0.6027,
+          "time_sec": 101.3,
+          "gpu_mb": 8076.9
+        },
+        {
+          "fold": 4,
+          "val_f1": 0.8772,
+          "gold_f1": 0.5671,
+          "gold_acc": 0.5868,
+          "time_sec": 100.6,
+          "gpu_mb": 8081.3
+        }
+      ],
+      "mean_gold_f1": 0.5869,
+      "std_gold_f1": 0.0287,
+      "best_gold_f1": 0.6301,
+      "best_fold": 2,
+      "mean_gold_acc": 0.5931,
+      "bootstrap_ci_95": [
+        0.5635,
+        0.669
+      ],
+      "total_time_min": 8.3
+    },
+    "CAMeLBERT-Mix": {
+      "short_name": "CAMeLBERT-Mix",
+      "hf_name": "CAMeL-Lab/bert-base-arabic-camelbert-mix",
+      "model_type": "arabic-specific",
+      "fold_results": [
+        {
+          "fold": 0,
+          "val_f1": 0.8574,
+          "gold_f1": 0.5799,
+          "gold_acc": 0.5594,
+          "time_sec": 98.1,
+          "gpu_mb": 8089.3
+        },
+        {
+          "fold": 1,
+          "val_f1": 0.8621,
+          "gold_f1": 0.5735,
+          "gold_acc": 0.5731,
+          "time_sec": 98.2,
+          "gpu_mb": 8079.9
+        },
+        {
+          "fold": 2,
+          "val_f1": 0.8464,
+          "gold_f1": 0.6143,
+          "gold_acc": 0.6096,
+          "time_sec": 98.2,
+          "gpu_mb": 8094.6
+        },
+        {
+          "fold": 3,
+          "val_f1": 0.8461,
+          "gold_f1": 0.5954,
+          "gold_acc": 0.6256,
+          "time_sec": 101.2,
+          "gpu_mb": 8076.9
+        },
+        {
+          "fold": 4,
+          "val_f1": 0.8706,
+          "gold_f1": 0.6217,
+          "gold_acc": 0.6027,
+          "time_sec": 100.6,
+          "gpu_mb": 8072.8
+        }
+      ],
+      "mean_gold_f1": 0.597,
+      "std_gold_f1": 0.021,
+      "best_gold_f1": 0.6217,
+      "best_fold": 4,
+      "mean_gold_acc": 0.5941,
+      "bootstrap_ci_95": [
+        0.5533,
+        0.6601
+      ],
+      "total_time_min": 8.3
+    },
+    "ConfliBERT": {
+      "short_name": "ConfliBERT",
+      "hf_name": "eventdata-utd/ConfliBERT-Arabic-Arabert-v2",
+      "model_type": "domain-specific",
+      "fold_results": [
+        {
+          "fold": 0,
+          "val_f1": 0.8475,
+          "gold_f1": 0.5667,
+          "gold_acc": 0.5731,
+          "time_sec": 136.6,
+          "gpu_mb": 8393.4
+        },
+        {
+          "fold": 1,
+          "val_f1": 0.8418,
+          "gold_f1": 0.6068,
+          "gold_acc": 0.5913,
+          "time_sec": 135.6,
+          "gpu_mb": 8397.9
+        },
+        {
+          "fold": 2,
+          "val_f1": 0.8521,
+          "gold_f1": 0.5696,
+          "gold_acc": 0.5616,
+          "time_sec": 136.4,
+          "gpu_mb": 8380.7
+        },
+        {
+          "fold": 3,
+          "val_f1": 0.8423,
+          "gold_f1": 0.5668,
+          "gold_acc": 0.5616,
+          "time_sec": 137.4,
+          "gpu_mb": 8382.9
+        },
+        {
+          "fold": 4,
+          "val_f1": 0.839,
+          "gold_f1": 0.6041,
+          "gold_acc": 0.5982,
+          "time_sec": 139.1,
+          "gpu_mb": 8377.9
+        }
+      ],
+      "mean_gold_f1": 0.5828,
+      "std_gold_f1": 0.0207,
+      "best_gold_f1": 0.6068,
+      "best_fold": 1,
+      "mean_gold_acc": 0.5772,
+      "bootstrap_ci_95": [
+        0.5657,
+        0.6457
+      ],
+      "total_time_min": 11.5
+    },
+    "XLM-R": {
+      "short_name": "XLM-R",
+      "hf_name": "xlm-roberta-base",
+      "model_type": "multilingual",
+      "fold_results": [
+        {
+          "fold": 0,
+          "val_f1": 0.8314,
+          "gold_f1": 0.5652,
+          "gold_acc": 0.5457,
+          "time_sec": 158.8,
+          "gpu_mb": 10009.0
+        },
+        {
+          "fold": 1,
+          "val_f1": 0.0041,
+          "gold_f1": 0.0092,
+          "gold_acc": 0.1187,
+          "time_sec": 149.9,
+          "gpu_mb": 10014.5
+        },
+        {
+          "fold": 2,
+          "val_f1": 0.8317,
+          "gold_f1": 0.5413,
+          "gold_acc": 0.5822,
+          "time_sec": 151.7,
+          "gpu_mb": 10004.3
+        },
+        {
+          "fold": 3,
+          "val_f1": 0.8437,
+          "gold_f1": 0.6004,
+          "gold_acc": 0.605,
+          "time_sec": 154.5,
+          "gpu_mb": 9998.0
+        },
+        {
+          "fold": 4,
+          "val_f1": 0.8539,
+          "gold_f1": 0.5671,
+          "gold_acc": 0.5639,
+          "time_sec": 154.0,
+          "gpu_mb": 10004.1
+        }
+      ],
+      "mean_gold_f1": 0.4566,
+      "std_gold_f1": 0.251,
+      "best_gold_f1": 0.6004,
+      "best_fold": 3,
+      "mean_gold_acc": 0.4831,
+      "bootstrap_ci_95": [
+        0.5441,
+        0.6481
+      ],
+      "total_time_min": 12.9
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "model": "CAMeLBERT-MSA",
+  "ci_low": 0.5635,
+  "ci_high": 0.669
+}

@@ -1,0 +1,1110 @@
+{
+  "Active to Passive Voice": [
+    {
+      "keyword": "شنت الهجوم",
+      "best_match": "تم تنفيذ الهجوم",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/60/563:4"
+    },
+    {
+      "keyword": "شنت الهجوم",
+      "best_match": "شن الهجوم",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/60/563:4"
+    },
+    {
+      "keyword": "شنت الهجوم",
+      "best_match": "نفذ الهجوم",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/60/563:4"
+    }
+  ],
+  "Adjective to Noun": [
+    {
+      "keyword": "المستمرة",
+      "best_match": "استمرار",
+      "is_total_omission": false,
+      "sentence_id": "2011/s/2011/245/51:2"
+    }
+  ],
+  "Definiteness Shift": [
+    {
+      "keyword": "سلام",
+      "best_match": "السلام",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/682/29:1"
+    },
+    {
+      "keyword": "سلام إقليمي دائم",
+      "best_match": "السلام الإقليمي الدائم",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/633/25:2"
+    },
+    {
+      "keyword": "عنف",
+      "best_match": "العنف",
+      "is_total_omission": false,
+      "sentence_id": "2008/s/2008/250/69:2"
+    }
+  ],
+  "Gender Disagreement": [
+    {
+      "keyword": "أربع",
+      "best_match": "أربعة",
+      "is_total_omission": false,
+      "sentence_id": "2011/s/2011/463/120:5"
+    },
+    {
+      "keyword": "إدانته",
+      "best_match": "إدانتها",
+      "is_total_omission": false,
+      "sentence_id": "2010/s/prst/2010/25/819:1"
+    },
+    {
+      "keyword": "يساوره",
+      "best_match": "يساورها",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/res/2195__2014_/21:1"
+    }
+  ],
+  "Hypernym for Hyponym": [
+    {
+      "keyword": "أجهزة",
+      "best_match": "أدوات",
+      "is_total_omission": false,
+      "sentence_id": "2006/s/2006/384/61:1"
+    },
+    {
+      "keyword": "إحراز التقدم",
+      "best_match": "للتقدم",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/648/40:2"
+    },
+    {
+      "keyword": "الاعمال المتعلقه بالالغام",
+      "best_match": "الاجراءات المتعلقه بالالغام",
+      "is_total_omission": false,
+      "sentence_id": "2010/s/prst/2010/25/568:1"
+    },
+    {
+      "keyword": "التنظيم القبلي",
+      "best_match": "الإدارة القبلية",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/60/236:4"
+    },
+    {
+      "keyword": "بلدان أخرى",
+      "best_match": "بلدان ثالثة",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/648/15:4"
+    },
+    {
+      "keyword": "تقديم تقارير",
+      "best_match": "تقدم معلومات",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/686/23:1"
+    },
+    {
+      "keyword": "جماعات",
+      "best_match": "مجموعات",
+      "is_total_omission": false,
+      "sentence_id": "2006/s/2006/154/290:2"
+    },
+    {
+      "keyword": "قانوني",
+      "best_match": "رسمي",
+      "is_total_omission": false,
+      "sentence_id": "2006/s/2006/384/61:1"
+    },
+    {
+      "keyword": "محطات توليد الطاقة",
+      "best_match": "محطات الطاقة",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/902/124:1"
+    },
+    {
+      "keyword": "مستقل",
+      "best_match": "منفصل",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/66/30:1"
+    }
+  ],
+  "Hyponym for Hypernym": [
+    {
+      "keyword": "التدريب على الحياة الواقعية",
+      "best_match": "التدريب الميداني",
+      "is_total_omission": false,
+      "sentence_id": "2011/s/2011/245/131:3"
+    },
+    {
+      "keyword": "التدريب في الحياة الواقعية",
+      "best_match": "التدريب الميداني",
+      "is_total_omission": false,
+      "sentence_id": "2011/s/2011/245/131:3"
+    },
+    {
+      "keyword": "الملاحين",
+      "best_match": "البحارة",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/740/81:1"
+    },
+    {
+      "keyword": "حركة",
+      "best_match": "تنقل",
+      "is_total_omission": false,
+      "sentence_id": "2011/s/2011/463/445:1"
+    }
+  ],
+  "Invalid Pattern": [
+    {
+      "keyword": "عتاد",
+      "best_match": "الأعتدة",
+      "is_total_omission": false,
+      "sentence_id": "2013/s/prst/2013/21/9:1"
+    },
+    {
+      "keyword": "عملاً بالقرارات",
+      "best_match": "عملاً القرارات",
+      "is_total_omission": false,
+      "sentence_id": "2009/s/2009/170/31:1"
+    },
+    {
+      "keyword": "معدات",
+      "best_match": "أعتدة",
+      "is_total_omission": false,
+      "sentence_id": "2009/s/res/1904_2009_/23:1"
+    },
+    {
+      "keyword": "معدات",
+      "best_match": "الأعتدة",
+      "is_total_omission": false,
+      "sentence_id": "2009/s/res/1904_2009_/23:1"
+    }
+  ],
+  "Literal Translation": [
+    {
+      "keyword": "الدلائل المشجعة الزائفة",
+      "best_match": "الفجر الكاذب",
+      "is_total_omission": false,
+      "sentence_id": "2003/s/2003/398/12:1"
+    },
+    {
+      "keyword": "طريقا عسكريا سريعا",
+      "best_match": "الخط الساخن العسكري",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/662/363:5"
+    },
+    {
+      "keyword": "طريقا عسكريا سريعا",
+      "best_match": "الممر الساخن العسكري",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/662/363:5"
+    },
+    {
+      "keyword": "طريقا عسكريا سريعا",
+      "best_match": "ممر حار عسكري",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/662/363:5"
+    },
+    {
+      "keyword": "محتدم",
+      "best_match": "ساخن",
+      "is_total_omission": false,
+      "sentence_id": "2006/s/2006/822/209:8"
+    },
+    {
+      "keyword": "مكتبة للمراجع",
+      "best_match": "مكتبة مرجعية",
+      "is_total_omission": false,
+      "sentence_id": "2010/s/2010/529/29:2"
+    }
+  ],
+  "Meaning Shift": [
+    {
+      "keyword": "أوعز",
+      "best_match": "طلب",
+      "is_total_omission": false,
+      "sentence_id": "2006/s/2006/822/223:8"
+    },
+    {
+      "keyword": "إحالة",
+      "best_match": "الرجوع",
+      "is_total_omission": false,
+      "sentence_id": "2004/s/prst/2004/46/15:1"
+    },
+    {
+      "keyword": "إعاقة",
+      "best_match": "تثبيط",
+      "is_total_omission": false,
+      "sentence_id": "2013/s/2013/447/22:4"
+    },
+    {
+      "keyword": "التحركات الإرهابية",
+      "best_match": "الحركات الإرهابية",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/869/17:4"
+    },
+    {
+      "keyword": "التعاون الجاري",
+      "best_match": "التعاون المستمر",
+      "is_total_omission": false,
+      "sentence_id": "2009/s/res/1904_2009_/74:1"
+    },
+    {
+      "keyword": "التهديدات",
+      "best_match": "الأخطار",
+      "is_total_omission": false,
+      "sentence_id": "2008/s/prst/2008/45/2:1"
+    },
+    {
+      "keyword": "السبب الأساسي",
+      "best_match": "المقام الأول",
+      "is_total_omission": false,
+      "sentence_id": "2004/s/pv_5025/324:2"
+    },
+    {
+      "keyword": "السترات الواقية من الرصاص",
+      "best_match": "سترات الشظايا",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/921/27:1"
+    },
+    {
+      "keyword": "السلام والتنمية المستدامة",
+      "best_match": "السلام والتنمية الطويلة الأجل",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/96/5:1"
+    },
+    {
+      "keyword": "العاج",
+      "best_match": "الأعرج",
+      "is_total_omission": false,
+      "sentence_id": "2009/s/prst/2009/1/595:1"
+    },
+    {
+      "keyword": "المناقشات",
+      "best_match": "المبادلات",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/935/72:3"
+    },
+    {
+      "keyword": "النزاعات",
+      "best_match": "الصراعات",
+      "is_total_omission": false,
+      "sentence_id": "2009/s/prst/2009/1/595:1"
+    },
+    {
+      "keyword": "النيجر بلد",
+      "best_match": "النيجر منطقة",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/ac_37/2005/_1455_/9/14:1"
+    },
+    {
+      "keyword": "بالمحطة",
+      "best_match": "بالمصنع",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/902/124:1"
+    },
+    {
+      "keyword": "بضرورة",
+      "best_match": "بالحاجة",
+      "is_total_omission": false,
+      "sentence_id": "2012/s/prst/2012/24/11:1"
+    },
+    {
+      "keyword": "بعثة",
+      "best_match": "عملية",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/430/50:1"
+    },
+    {
+      "keyword": "بعثة",
+      "best_match": "قوة",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/604/24:1"
+    },
+    {
+      "keyword": "تتشاطرها ثلاثة بلدان لحمايتها",
+      "best_match": "المنطقة المحمية الثلاثية",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/921/27:1"
+    },
+    {
+      "keyword": "تثير قلق",
+      "best_match": "تهم",
+      "is_total_omission": false,
+      "sentence_id": "2012/s/2012/373/43:1"
+    },
+    {
+      "keyword": "تسلل إرهابي",
+      "best_match": "غارة ارهابية",
+      "is_total_omission": false,
+      "sentence_id": "2011/s/2011/463/291:7"
+    },
+    {
+      "keyword": "تغير على قرى",
+      "best_match": "تداهم قرى",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/60/254:1"
+    },
+    {
+      "keyword": "تغير على قرى",
+      "best_match": "تهاجم قرى",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/60/254:1"
+    },
+    {
+      "keyword": "تنقل",
+      "best_match": "تحركات",
+      "is_total_omission": false,
+      "sentence_id": "2011/s/2011/463/445:1"
+    },
+    {
+      "keyword": "حالة",
+      "best_match": "أجواء",
+      "is_total_omission": false,
+      "sentence_id": "2006/s/2006/822/159:1"
+    },
+    {
+      "keyword": "حالة",
+      "best_match": "الغلاف الجوي",
+      "is_total_omission": false,
+      "sentence_id": "2006/s/2006/822/159:1"
+    },
+    {
+      "keyword": "رحلته التي أجراها مؤخراً",
+      "best_match": "رحلته الأخيرة",
+      "is_total_omission": false,
+      "sentence_id": "2007/s/2007/471/29:1"
+    },
+    {
+      "keyword": "سلطة",
+      "best_match": "ممارسة السيطرة",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/60/120:2"
+    },
+    {
+      "keyword": "سهل البقاع",
+      "best_match": "وادي البقاع",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/673/61:3"
+    },
+    {
+      "keyword": "عقود",
+      "best_match": "فترة",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/686/23:1"
+    },
+    {
+      "keyword": "عقود",
+      "best_match": "فترة عمل",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/686/23:1"
+    },
+    {
+      "keyword": "للترويج",
+      "best_match": "لتعزيز",
+      "is_total_omission": false,
+      "sentence_id": "2006/s/2006/154/290:2"
+    },
+    {
+      "keyword": "ملاحقة المشتبه فيهم قضائياً",
+      "best_match": "كفالة المحاكمة الفعالة للمشتبه فيهم",
+      "is_total_omission": false,
+      "sentence_id": "2012/s/prst/2012/24/10:1"
+    },
+    {
+      "keyword": "منطقة",
+      "best_match": "مجال",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/60/458:3"
+    }
+  ],
+  "Name Entity Error": [
+    {
+      "keyword": "صوت الجهاد",
+      "best_match": "صوت العالم",
+      "is_total_omission": false,
+      "sentence_id": "2006/s/2006/154/290:2"
+    }
+  ],
+  "Noun to Adjective": [
+    {
+      "keyword": "إعدام جماعي",
+      "best_match": "الإعدام الجماعية",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/60/842:2"
+    },
+    {
+      "keyword": "التحقيق",
+      "best_match": "تحقيقية",
+      "is_total_omission": false,
+      "sentence_id": "2011/s/2011/463/305:7"
+    }
+  ],
+  "Partial Translation": [
+    {
+      "keyword": "الملاحقة القضائية الفعالة للقراصنة المشتبه فيهم",
+      "best_match": "محاكمة القراصنة المشتبه",
+      "is_total_omission": false,
+      "sentence_id": "2012/s/prst/2012/24/10:1"
+    },
+    {
+      "keyword": "الملاحقة القضائية الفعالة للقراصنة المشتبه فيهم",
+      "best_match": "ملاحقة المشتبه فيهم قضائياً",
+      "is_total_omission": false,
+      "sentence_id": "2012/s/prst/2012/24/10:1"
+    },
+    {
+      "keyword": "مكتب الأمم المتحدة",
+      "best_match": "المكتب",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/740/38:1"
+    },
+    {
+      "keyword": "مكتب المدعي العام",
+      "best_match": "مكتب المدعي العام للمقاطعة",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/60/754:4"
+    }
+  ],
+  "Passive to Active Voice": [
+    {
+      "keyword": "اختير",
+      "best_match": "قد تم اختيار",
+      "is_total_omission": false,
+      "sentence_id": "2007/s/2007/677/102:2"
+    },
+    {
+      "keyword": "اكتمل إنشاء",
+      "best_match": "تم إنشاء",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/631/69:1"
+    },
+    {
+      "keyword": "نُقلت",
+      "best_match": "تم نقل",
+      "is_total_omission": false,
+      "sentence_id": "2002/s/2002/169/93:5"
+    }
+  ],
+  "Perfective to Progressive": [
+    {
+      "keyword": "ادعى",
+      "best_match": "يدعي",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/645/14:1"
+    },
+    {
+      "keyword": "حث",
+      "best_match": "يحث",
+      "is_total_omission": false,
+      "sentence_id": "2009/s/2009/193/92:3"
+    },
+    {
+      "keyword": "قُيمت",
+      "best_match": "يجري تقييم",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/276/73:3"
+    }
+  ],
+  "Progressive to Perfective": [
+    {
+      "keyword": "التي ترتكب",
+      "best_match": "المرتكبة",
+      "is_total_omission": false,
+      "sentence_id": "2011/s/2011/463/142:1"
+    },
+    {
+      "keyword": "ظلت تنظم",
+      "best_match": "كانت إريتريا تنظم",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/690/14:3"
+    },
+    {
+      "keyword": "ظلت جنوب أفريقيا تترأس",
+      "best_match": "ترأست جنوب أفريقيا",
+      "is_total_omission": false,
+      "sentence_id": "2004/s/2004/170/40:1"
+    }
+  ],
+  "Register Mismatch": [
+    {
+      "keyword": "آنذاك",
+      "best_match": "في الوقت الذي",
+      "is_total_omission": false,
+      "sentence_id": "2006/s/2006/822/203:10"
+    },
+    {
+      "keyword": "آنذاك",
+      "best_match": "في ذلك الوقت",
+      "is_total_omission": false,
+      "sentence_id": "2006/s/2006/822/203:10"
+    },
+    {
+      "keyword": "أخرى",
+      "best_match": "المزيد",
+      "is_total_omission": false,
+      "sentence_id": "2003/s/2003/946/19:9"
+    },
+    {
+      "keyword": "أخرى",
+      "best_match": "وغيرها",
+      "is_total_omission": false,
+      "sentence_id": "2012/s/2012/373/576:1"
+    },
+    {
+      "keyword": "أشد أشكاله تطرفا",
+      "best_match": "أكثر أشكاله تطرفا",
+      "is_total_omission": false,
+      "sentence_id": "2012/s/2012/16/45:5"
+    },
+    {
+      "keyword": "أعرب",
+      "best_match": "ووفقاً لمشارك آخر",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/213/81:7"
+    },
+    {
+      "keyword": "أفضى إلى",
+      "best_match": "أسفر عن",
+      "is_total_omission": false,
+      "sentence_id": "2006/s/2006/822/15:3"
+    },
+    {
+      "keyword": "الإجراءات الاحتياطية",
+      "best_match": "الاحتياطات",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/60/457:3"
+    },
+    {
+      "keyword": "الإضطلاع",
+      "best_match": "القيام",
+      "is_total_omission": false,
+      "sentence_id": "2013/s/2013/447/22:4"
+    },
+    {
+      "keyword": "الحصول على معلومات",
+      "best_match": "إمكانية الوصول إلى معلومات استخباراتية تكتيكية موثوقة",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/631/28:3"
+    },
+    {
+      "keyword": "الصراع القائم",
+      "best_match": "الصراع الحالي",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/60/254:1"
+    },
+    {
+      "keyword": "الصراع القائم",
+      "best_match": "النزاع الحالي",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/60/254:1"
+    },
+    {
+      "keyword": "الهجوم المباغت",
+      "best_match": "الهجوم المفاجئ",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/60/457:3"
+    },
+    {
+      "keyword": "اندلاع النزاع",
+      "best_match": "بداية الصراع",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/935/80:2"
+    },
+    {
+      "keyword": "اندلاع النزاع",
+      "best_match": "بداية النزاع",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/935/80:2"
+    },
+    {
+      "keyword": "بتنظيم القاعدة",
+      "best_match": "بالقاعدة",
+      "is_total_omission": false,
+      "sentence_id": "2006/s/2006/154/290:2"
+    },
+    {
+      "keyword": "ترمي إلى",
+      "best_match": "تهدف إلى",
+      "is_total_omission": false,
+      "sentence_id": "2013/s/2013/447/22:4"
+    },
+    {
+      "keyword": "تقديم تقارير",
+      "best_match": "تقديم تحديثات",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/686/23:1"
+    },
+    {
+      "keyword": "جدال شفوي",
+      "best_match": "تبادل كلامي",
+      "is_total_omission": false,
+      "sentence_id": "2006/s/2006/822/209:8"
+    },
+    {
+      "keyword": "جراء أعمال العنف",
+      "best_match": "بالعنف",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/731/14:3"
+    },
+    {
+      "keyword": "جراء أعمال العنف",
+      "best_match": "من أعمال العنف",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/731/14:3"
+    },
+    {
+      "keyword": "زهاء",
+      "best_match": "حوالي",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/902/70:4"
+    },
+    {
+      "keyword": "زهاء",
+      "best_match": "ما يقارب",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/902/70:4"
+    },
+    {
+      "keyword": "شطب أسماء",
+      "best_match": "حذف الأسماء",
+      "is_total_omission": false,
+      "sentence_id": "2006/s/res/1735_2006_/42:1"
+    },
+    {
+      "keyword": "شطب أسماء",
+      "best_match": "رفع أسماء",
+      "is_total_omission": false,
+      "sentence_id": "2006/s/res/1735_2006_/42:1"
+    },
+    {
+      "keyword": "عظم تحدي",
+      "best_match": "ضخامة التحدي",
+      "is_total_omission": false,
+      "sentence_id": "2004/s/pv_5025/185:1"
+    },
+    {
+      "keyword": "عظم تحدي",
+      "best_match": "ضخامة تحدٍ",
+      "is_total_omission": false,
+      "sentence_id": "2004/s/pv_5025/185:1"
+    },
+    {
+      "keyword": "على صعيد",
+      "best_match": "على مستوى",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/369/37:1"
+    },
+    {
+      "keyword": "على نحو فعال",
+      "best_match": "بنشاط",
+      "is_total_omission": false,
+      "sentence_id": "2011/s/res/1989_2011_/107:1"
+    },
+    {
+      "keyword": "في أعقاب",
+      "best_match": "بعد",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/740/53:1"
+    },
+    {
+      "keyword": "قائم على",
+      "best_match": "تعتمد",
+      "is_total_omission": false,
+      "sentence_id": "2008/s/2008/379/52:1"
+    },
+    {
+      "keyword": "لا سيما",
+      "best_match": "بوجه خاص",
+      "is_total_omission": false,
+      "sentence_id": "2011/s/2011/463/171:1"
+    },
+    {
+      "keyword": "مؤتمر دولي معني",
+      "best_match": "مؤتمر دولي بشأن",
+      "is_total_omission": false,
+      "sentence_id": "2013/s/2013/722/48:3"
+    },
+    {
+      "keyword": "مؤخراً",
+      "best_match": "الأخيرة",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/935/36:1"
+    },
+    {
+      "keyword": "ملائم",
+      "best_match": "مناسب",
+      "is_total_omission": false,
+      "sentence_id": "2009/s/res/1904_2009_/68:1"
+    },
+    {
+      "keyword": "وجهات نظر",
+      "best_match": "آراء",
+      "is_total_omission": false,
+      "sentence_id": "2006/s/2006/154/77:2"
+    },
+    {
+      "keyword": "وجهات نظر",
+      "best_match": "وجهات نظره",
+      "is_total_omission": false,
+      "sentence_id": "2006/s/2006/154/77:2"
+    }
+  ],
+  "Spelling Error": [
+    {
+      "keyword": "أربعة",
+      "best_match": "اربعة",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/60/540:11"
+    },
+    {
+      "keyword": "البتار",
+      "best_match": "البطتر",
+      "is_total_omission": false,
+      "sentence_id": "2006/s/2006/154/290:2"
+    }
+  ],
+  "Tanween Omission": [
+    {
+      "keyword": "أولاً",
+      "best_match": "أولا",
+      "is_total_omission": false,
+      "sentence_id": "2008/s/2008/80/79:1"
+    },
+    {
+      "keyword": "إخطاراً",
+      "best_match": "إخطارا",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/919/26:2"
+    },
+    {
+      "keyword": "عدائياً",
+      "best_match": "عدائيا",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/699/320:3"
+    },
+    {
+      "keyword": "عملاً",
+      "best_match": "عملا",
+      "is_total_omission": false,
+      "sentence_id": "2009/s/res/1904_2009_/68:1"
+    }
+  ],
+  "Tense Shift Under Negation": [
+    {
+      "keyword": "لا يكون",
+      "best_match": "لن يكون",
+      "is_total_omission": false,
+      "sentence_id": "2011/s/2013/467/84:2"
+    },
+    {
+      "keyword": "لم ولن توجه",
+      "best_match": "لم تتعرض",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/60/386:1"
+    },
+    {
+      "keyword": "لم يكن متوفرا",
+      "best_match": "لا تمتلك",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/60/183:3"
+    }
+  ],
+  "Terminology Substitution": [
+    {
+      "keyword": "استخدام أراضيها",
+      "best_match": "استخدام أقاليم",
+      "is_total_omission": false,
+      "sentence_id": "2011/s/2011/463/395:4"
+    },
+    {
+      "keyword": "الحشود العسكرية",
+      "best_match": "التجمعات العسكرية",
+      "is_total_omission": false,
+      "sentence_id": "2012/s/2012/245/16:1"
+    },
+    {
+      "keyword": "الحشود العسكرية",
+      "best_match": "للتمركزات العسكرية",
+      "is_total_omission": false,
+      "sentence_id": "2012/s/2012/245/16:1"
+    },
+    {
+      "keyword": "الدورة المقبلة",
+      "best_match": "الدورة التالية",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/686/23:1"
+    },
+    {
+      "keyword": "الدورة المقبلة",
+      "best_match": "الدورة القادمة",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/686/23:1"
+    },
+    {
+      "keyword": "الدول العربية",
+      "best_match": "البلدان العربية",
+      "is_total_omission": false,
+      "sentence_id": "2009/s/2009/241/162:1"
+    },
+    {
+      "keyword": "العابرة",
+      "best_match": "عبر الوطنية",
+      "is_total_omission": false,
+      "sentence_id": "2011/s/2011/463/291:7"
+    },
+    {
+      "keyword": "المؤلفة من",
+      "best_match": "المكونة من",
+      "is_total_omission": false,
+      "sentence_id": "2003/s/2003/90/107:3"
+    },
+    {
+      "keyword": "المخالفة للقوانين",
+      "best_match": "التي تتعارض مع القوانين",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/921/27:1"
+    },
+    {
+      "keyword": "المعنية",
+      "best_match": "ذات الصلة",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/636/676:1"
+    },
+    {
+      "keyword": "المكتب الاتحادي للشؤون الخارجية لألمانيا",
+      "best_match": "وزارة الخارجية الاتحادية في ألمانيا",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/942/42:1"
+    },
+    {
+      "keyword": "المكتب الاتحادي للشؤون الخارجية لألمانيا",
+      "best_match": "وزارة الخارجية الاتحادية لألمانيا",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/942/42:1"
+    },
+    {
+      "keyword": "المنظمة الدولية لتوحيد المقاييس",
+      "best_match": "المنظمة الدولية للمعايير",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/740/53:1"
+    },
+    {
+      "keyword": "بموجب الفقرة",
+      "best_match": "عملا بالفقرة",
+      "is_total_omission": false,
+      "sentence_id": "2009/s/res/1904_2009_/68:1"
+    },
+    {
+      "keyword": "بيانا أوليا شفويا",
+      "best_match": "معلومات شفوية أولية",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/res/2178__2014_/55:1"
+    },
+    {
+      "keyword": "خبراء المحاسبة في مجال الأدلة الجنائية",
+      "best_match": "المحاسبين الشرعيين",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/686/23:1"
+    },
+    {
+      "keyword": "عتادها الجوي",
+      "best_match": "أصولها الجوية",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/699/316:1"
+    },
+    {
+      "keyword": "غير المشروعة",
+      "best_match": "غير قانوني",
+      "is_total_omission": false,
+      "sentence_id": "2006/s/2006/154/268:2"
+    },
+    {
+      "keyword": "فظائع",
+      "best_match": "أعمال وحشية",
+      "is_total_omission": false,
+      "sentence_id": "2003/s/2003/90/60:2"
+    },
+    {
+      "keyword": "لمكافحة تمويل الإرهاب",
+      "best_match": "التعامل مع تمويل الإرهاب",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/572/141:1"
+    },
+    {
+      "keyword": "لمكافحة تمويل الإرهاب",
+      "best_match": "لمعالجة تمويل الإرهاب",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/572/141:1"
+    },
+    {
+      "keyword": "مسؤولية الرئيس",
+      "best_match": "المسؤولية العليا",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/60/120:2"
+    },
+    {
+      "keyword": "يؤكد المجلس",
+      "best_match": "يكرر المجلس",
+      "is_total_omission": false,
+      "sentence_id": "2012/s/prst/2012/23/21:2"
+    },
+    {
+      "keyword": "يهيب",
+      "best_match": "يدعو",
+      "is_total_omission": false,
+      "sentence_id": "2012/s/prst/2012/22/10:3"
+    }
+  ],
+  "Total Omission": [
+    {
+      "keyword": "أخرى",
+      "best_match": "[OMITTED]",
+      "is_total_omission": true,
+      "sentence_id": "2014/s/2014/276/179:1"
+    },
+    {
+      "keyword": "الأخرى",
+      "best_match": "[OMITTED]",
+      "is_total_omission": true,
+      "sentence_id": "2014/s/2014/921/27:1"
+    },
+    {
+      "keyword": "الرصاص",
+      "best_match": "[OMITTED]",
+      "is_total_omission": true,
+      "sentence_id": "2014/s/2014/921/27:1"
+    },
+    {
+      "keyword": "المساعي",
+      "best_match": "[OMITTED]",
+      "is_total_omission": true,
+      "sentence_id": "2014/s/2014/935/72:3"
+    },
+    {
+      "keyword": "بعثة",
+      "best_match": "[OMITTED]",
+      "is_total_omission": true,
+      "sentence_id": "2014/s/2014/943/18:4"
+    },
+    {
+      "keyword": "بقرارات مجلس الامن",
+      "best_match": "[OMITTED]",
+      "is_total_omission": true,
+      "sentence_id": "2009/s/2009/170/31:1"
+    },
+    {
+      "keyword": "بقوة",
+      "best_match": "[OMITTED]",
+      "is_total_omission": true,
+      "sentence_id": "2012/s/prst/2012/23/21:2"
+    },
+    {
+      "keyword": "بموجب",
+      "best_match": "[OMITTED]",
+      "is_total_omission": true,
+      "sentence_id": "2006/s/2006/154/137:1"
+    },
+    {
+      "keyword": "تابع",
+      "best_match": "[OMITTED]",
+      "is_total_omission": true,
+      "sentence_id": "2010/s/prst/2010/22/6:1"
+    },
+    {
+      "keyword": "جوي",
+      "best_match": "[OMITTED]",
+      "is_total_omission": true,
+      "sentence_id": "2002/s/2002/150/8:1"
+    },
+    {
+      "keyword": "حالة",
+      "best_match": "[OMITTED]",
+      "is_total_omission": true,
+      "sentence_id": "2011/s/2011/463/75:4"
+    },
+    {
+      "keyword": "خاص",
+      "best_match": "[OMITTED]",
+      "is_total_omission": true,
+      "sentence_id": "2014/s/2014/943/84:1"
+    },
+    {
+      "keyword": "عندئذ",
+      "best_match": "[OMITTED]",
+      "is_total_omission": true,
+      "sentence_id": "2012/s/2012/373/521:1"
+    },
+    {
+      "keyword": "منظمة مكافحة الألغام الأرضية",
+      "best_match": "[OMITTED]",
+      "is_total_omission": true,
+      "sentence_id": "2008/s/2008/251/40:4"
+    },
+    {
+      "keyword": "وثمة",
+      "best_match": "[OMITTED]",
+      "is_total_omission": true,
+      "sentence_id": "2005/s/2005/60/240:2"
+    }
+  ],
+  "Wrong Structure": [
+    {
+      "keyword": "أشار",
+      "best_match": "في مذكرة، أشار",
+      "is_total_omission": false,
+      "sentence_id": "2012/s/2012/373/641:2"
+    },
+    {
+      "keyword": "إحالة جميع المعلومات",
+      "best_match": "تحيل من اللجنة جميع المعلومات",
+      "is_total_omission": false,
+      "sentence_id": "2012/s/res/2083__2012_/178:1"
+    },
+    {
+      "keyword": "إحالة جميع المعلومات",
+      "best_match": "يرسل من اللجنة جميع المعلومات",
+      "is_total_omission": false,
+      "sentence_id": "2012/s/res/2083__2012_/178:1"
+    },
+    {
+      "keyword": "تقع محطة تحميل الفواكه بجوار محطة التحميل العسكرية",
+      "best_match": "المحطــة الطرفيــة للفاكهة مجــاور للمحطــة العسكريــة",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/699/191:7"
+    },
+    {
+      "keyword": "مكتب الدعم الإقليمي لشرق أفريقيا والجنوب الأفريقي التابع لبرنامج الأمم المتحدة المشترك المعني بفيروس نقص المناعة البشرية/الإيدز",
+      "best_match": "المكتب الإقليمي لدعم برنامج الأمم المتحدة المشترك المعني بفيروس نقص المناعة البشرية/الإيدز في الشرق والجنوب الأفريقيين",
+      "is_total_omission": false,
+      "sentence_id": "2005/s/2005/636/726:1"
+    },
+    {
+      "keyword": "وغالبية الأطفال الذين كانوا مرتبطين سابقا بجماعات مسلحة في نيبال",
+      "best_match": "غالبية الأطفال الذين كانوا مرتبطين سابقا بجماعات مسلحة في نيبال تركوا جماعات مسلحة",
+      "is_total_omission": false,
+      "sentence_id": "2008/s/2008/259/28:3"
+    }
+  ],
+  "Wrong Word Order": [
+    {
+      "keyword": "القانون الدولي الإنساني",
+      "best_match": "القانون الإنساني الدولي",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/2014/943/35:3"
+    },
+    {
+      "keyword": "طويلة الأجل",
+      "best_match": "الأجل الطويل",
+      "is_total_omission": false,
+      "sentence_id": "2014/s/prst/2014/3/1073:1"
+    },
+    {
+      "keyword": "وقف كل استخدام للأسلحة",
+      "best_match": "وقف جميع استخدام الأسلحة",
+      "is_total_omission": false,
+      "sentence_id": "2012/s/2012/245/16:1"
+    }
+  ]
+}

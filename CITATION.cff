@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "Raqeeb: Anchor-Constrained Detection of Fine-Grained Arabic MT Errors"
+message: "If you use this software or dataset, please cite the accompanying paper."
+type: software
+authors:
+  - name: "Anonymous (under review)"
+preferred-citation:
+  type: conference-paper
+  title: "Raqeeb: Anchor-Constrained Detection of Fine-Grained Arabic MT Errors"
+  authors:
+    - name: "Anonymous (under review)"
+  year: 2026
+  conference:
+    name: "Anonymous Review (ARR cycle May 2026)"
+abstract: >-
+  Raqeeb is a community toolkit for fine-grained Arabic machine translation
+  error detection. It comprises six artifacts: the Mizan 23-class taxonomy,
+  the TRIVET validation pipeline, the QUANTA dataset (9,032 instances), the
+  ETCA cross-vendor audit protocol, the Raqbench benchmark with the released
+  Raqeeb classifier (Gold macro-F1 = 0.614), and a dual-annotator validation
+  protocol. A controlled ablation shows TRIVET-validated real data is ~12x
+  more sample-efficient than size-matched synthetic data.
+keywords:
+  - "Arabic NLP"
+  - "Machine Translation Evaluation"
+  - "Quality Estimation"
+  - "Fine-grained Error Detection"
+  - "Annotation Framework"
+license: MIT
+repository-code: "https://anonymous.4open.science/r/raqeeb-anon"

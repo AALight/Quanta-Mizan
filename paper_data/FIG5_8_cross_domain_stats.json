@@ -1,0 +1,56 @@
+{
+  "source_dataset": "google/wmt24pp (en-ar_EG + en-ar_SA)",
+  "total_source_rows": 1920,
+  "rows_with_edits": 1882,
+  "total_t1_rows": 6406,
+  "total_excluded": 1010,
+  "rows_per_mizan_class": {
+    "Meaning Shift": 4177,
+    "Terminology Substitution": 1128,
+    "Spelling Error": 617,
+    "Total Omission": 447,
+    "Partial Translation": 17,
+    "Definiteness Shift": 12,
+    "Tanween Omission": 8
+  },
+  "mizan_classes_represented": 7,
+  "mizan_classes_missing": [
+    "Active to Passive Voice",
+    "Adjective to Noun",
+    "Gender Disagreement",
+    "Hypernym for Hyponym",
+    "Hyponym for Hypernym",
+    "Invalid Pattern",
+    "Literal Translation",
+    "Name Entity Error",
+    "Noun to Adjective",
+    "Passive to Active Voice",
+    "Perfective to Progressive",
+    "Progressive to Perfective",
+    "Register Mismatch",
+    "Tense Shift Under Negation",
+    "Wrong Structure",
+    "Wrong Word Order"
+  ],
+  "exclusion_reasons": {
+    "Addition error (no positive keyword)": 814,
+    "No extractable word-level diffs": 168,
+    "Keyword has no Arabic words": 25,
+    "Best_match too short (< 2 chars)": 3
+  },
+  "severity_distribution": {
+    "Minor": 3583,
+    "Moderate": 2749,
+    "Major": 74
+  },
+  "domain_distribution": {
+    "social": 1934,
+    "news": 1696,
+    "literary": 1407,
+    "speech": 1369
+  },
+  "language_pair_distribution": {
+    "en-ar_EG": 3482,
+    "en-ar_SA": 2924
+  }
+}

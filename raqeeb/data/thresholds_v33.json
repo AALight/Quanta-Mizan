@@ -1,0 +1,29 @@
+{
+  "note": "TRIVET v3.3 thresholds. Regime F (fidelity): OCS=1, CPS>=floor, SFR>=min. Regime D (Meaning Shift only): OCS=1, CSR<=0.88, 0.45<=SFR<=0.78.",
+  "regime_F": {
+    "classes": "22 classes (all except Meaning Shift)",
+    "cps_floor_default": 0.55,
+    "cps_floor_relaxed": 0.45,
+    "cps_relaxed_classes": [
+      "Wrong Word Order",
+      "Active to Passive Voice",
+      "Passive to Active Voice",
+      "Progressive to Perfective",
+      "Perfective to Progressive",
+      "Tense Shift Under Negation",
+      "Wrong Structure"
+    ],
+    "sfr_min_default": 0.62
+  },
+  "regime_D": {
+    "classes": [
+      "Meaning Shift"
+    ],
+    "csr_max": 0.88,
+    "sfr_min": 0.45,
+    "sfr_max": 0.78
+  },
+  "mpqs_clean_a_min": 0.65,
+  "mpqs_clean_b_min": 0.55,
+  "dqi_audit_min": 0.75
+}

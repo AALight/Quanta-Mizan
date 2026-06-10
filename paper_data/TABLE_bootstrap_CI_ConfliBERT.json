@@ -1,0 +1,5 @@
+{
+  "model": "ConfliBERT",
+  "ci_low": 0.5657,
+  "ci_high": 0.6457
+}

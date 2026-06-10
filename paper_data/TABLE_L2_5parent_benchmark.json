@@ -1,0 +1,57 @@
+{
+  "level": "L2",
+  "level_tag": "5parent",
+  "n_classes": 5,
+  "model": "AraBERT-v2",
+  "fold_results": [
+    {
+      "fold": 0,
+      "val_f1": 0.9007,
+      "gold_f1": 0.5716,
+      "gold_acc": 0.7329,
+      "time_sec": 96.2,
+      "gpu_mb": 8359.3
+    },
+    {
+      "fold": 1,
+      "val_f1": 0.8785,
+      "gold_f1": 0.7272,
+      "gold_acc": 0.7466,
+      "time_sec": 95.0,
+      "gpu_mb": 8339.4
+    },
+    {
+      "fold": 2,
+      "val_f1": 0.8788,
+      "gold_f1": 0.5935,
+      "gold_acc": 0.7511,
+      "time_sec": 96.6,
+      "gpu_mb": 8367.8
+    },
+    {
+      "fold": 3,
+      "val_f1": 0.8768,
+      "gold_f1": 0.6369,
+      "gold_acc": 0.8037,
+      "time_sec": 96.1,
+      "gpu_mb": 8355.6
+    },
+    {
+      "fold": 4,
+      "val_f1": 0.8899,
+      "gold_f1": 0.5922,
+      "gold_acc": 0.7648,
+      "time_sec": 97.4,
+      "gpu_mb": 8395.4
+    }
+  ],
+  "mean_gold_f1": 0.6243,
+  "std_gold_f1": 0.0623,
+  "best_gold_f1": 0.7272,
+  "best_fold": 1,
+  "bootstrap_ci_95": [
+    0.5716,
+    0.8161
+  ],
+  "total_time_min": 8.1
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "comparison": "L4 vs L3",
+    "mean_acc_diff": 0.0551,
+    "ci_95": [
+      0.0205,
+      0.0913
+    ],
+    "p_value": 0.0018,
+    "direction": "L3 > L4"
+  },
+  {
+    "comparison": "L3 vs L2",
+    "mean_acc_diff": 0.0845,
+    "ci_95": [
+      0.0479,
+      0.121
+    ],
+    "p_value": 0.0,
+    "direction": "L2 > L3"
+  },
+  {
+    "comparison": "L2 vs L1",
+    "mean_acc_diff": 0.0204,
+    "ci_95": [
+      -0.016,
+      0.0571
+    ],
+    "p_value": 0.3076,
+    "direction": "L1 > L2"
+  }
+]

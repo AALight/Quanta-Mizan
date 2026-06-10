@@ -1,0 +1,5 @@
+{
+  "model": "AraBERT-v2",
+  "ci_low": 0.5632,
+  "ci_high": 0.6746
+}

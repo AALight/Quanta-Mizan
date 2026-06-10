@@ -1,0 +1,153 @@
+{
+  "Meaning Shift": {
+    "precision": 1.0,
+    "recall": 0.15714285714285714,
+    "f1-score": 0.2716049382716049,
+    "support": 70.0
+  },
+  "Total Omission": {
+    "precision": 1.0,
+    "recall": 0.9354838709677419,
+    "f1-score": 0.9666666666666667,
+    "support": 62.0
+  },
+  "Partial Translation": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7.0
+  },
+  "Name Entity Error": {
+    "precision": 0.16666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.2857142857142857,
+    "support": 2.0
+  },
+  "Terminology Substitution": {
+    "precision": 0.8125,
+    "recall": 0.25,
+    "f1-score": 0.38235294117647056,
+    "support": 52.0
+  },
+  "Literal Translation": {
+    "precision": 0.35714285714285715,
+    "recall": 1.0,
+    "f1-score": 0.5263157894736842,
+    "support": 15.0
+  },
+  "Hypernym for Hyponym": {
+    "precision": 0.2,
+    "recall": 0.13333333333333333,
+    "f1-score": 0.16,
+    "support": 30.0
+  },
+  "Hyponym for Hypernym": {
+    "precision": 0.7142857142857143,
+    "recall": 0.5555555555555556,
+    "f1-score": 0.625,
+    "support": 9.0
+  },
+  "Tanween Omission": {
+    "precision": 0.6842105263157895,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.7878787878787878,
+    "support": 14.0
+  },
+  "Gender Disagreement": {
+    "precision": 0.26666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.42105263157894735,
+    "support": 4.0
+  },
+  "Definiteness Shift": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.9230769230769231,
+    "support": 12.0
+  },
+  "Perfective to Progressive": {
+    "precision": 0.625,
+    "recall": 1.0,
+    "f1-score": 0.7692307692307693,
+    "support": 5.0
+  },
+  "Progressive to Perfective": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.8,
+    "support": 6.0
+  },
+  "Tense Shift Under Negation": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3.0
+  },
+  "Wrong Structure": {
+    "precision": 0.13333333333333333,
+    "recall": 0.5,
+    "f1-score": 0.21052631578947367,
+    "support": 8.0
+  },
+  "Wrong Word Order": {
+    "precision": 1.0,
+    "recall": 0.9230769230769231,
+    "f1-score": 0.96,
+    "support": 13.0
+  },
+  "Active to Passive Voice": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4.0
+  },
+  "Passive to Active Voice": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8.0
+  },
+  "Noun to Adjective": {
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.5,
+    "support": 3.0
+  },
+  "Adjective to Noun": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3.0
+  },
+  "Register Mismatch": {
+    "precision": 0.5606060606060606,
+    "recall": 0.7708333333333334,
+    "f1-score": 0.6491228070175439,
+    "support": 96.0
+  },
+  "Spelling Error": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2.0
+  },
+  "Invalid Pattern": {
+    "precision": 0.6153846153846154,
+    "recall": 0.8,
+    "f1-score": 0.6956521739130435,
+    "support": 10.0
+  },
+  "accuracy": 0.6073059360730594,
+  "macro avg": {
+    "precision": 0.6808524332265751,
+    "recall": 0.7298839406658482,
+    "f1-score": 0.6348200737589073,
+    "support": 438.0
+  },
+  "weighted avg": {
+    "precision": 0.7248038141062654,
+    "recall": 0.6073059360730594,
+    "f1-score": 0.580882746390903,
+    "support": 438.0
+  }
+}

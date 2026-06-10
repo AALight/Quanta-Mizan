@@ -1,0 +1,43 @@
+{
+  "total_rows": 6406,
+  "rows_per_class": {
+    "Meaning Shift": 4177,
+    "Terminology Substitution": 1128,
+    "Spelling Error": 617,
+    "Total Omission": 447,
+    "Partial Translation": 17,
+    "Definiteness Shift": 12,
+    "Tanween Omission": 8
+  },
+  "rows_per_domain": {
+    "social": 1934,
+    "news": 1696,
+    "literary": 1407,
+    "speech": 1369
+  },
+  "rows_per_language_pair": {
+    "ar_EG": 3482,
+    "ar_SA": 2924
+  },
+  "ground_truth_omitted": 447,
+  "ground_truth_real_best_match": 5959,
+  "column_names_verification": {
+    "trivet_input_columns": [
+      "eval_id",
+      "keyword",
+      "clean_ar",
+      "error_ar",
+      "expected_error_type",
+      "domain"
+    ],
+    "ground_truth_columns": [
+      "eval_id",
+      "ground_truth_best_match",
+      "keyword",
+      "Sub-Subtype",
+      "domain",
+      "language_pair"
+    ],
+    "trivet_script_compatibility_note": "TRIVET script (tier1_validation_implementation_v2_STAGE_A_V2.py) reads the error-type column via row.get('Sub-Subtype', row.get('error_type', '')). It does NOT recognize 'expected_error_type'. Before running TRIVET, rename 'expected_error_type' to 'error_type' (or 'Sub-Subtype'). Other columns — 'clean_ar', 'error_ar', 'keyword' — are recognized as-is."
+  }
+}

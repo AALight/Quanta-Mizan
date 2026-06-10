@@ -1,0 +1,24 @@
+{
+  "majority_class": {
+    "macro_f1": 0.0108,
+    "accuracy": 0.1416
+  },
+  "stratified_random": {
+    "macro_f1_mean": 0.0337,
+    "macro_f1_std": 0.0077
+  },
+  "tfidf_svm": {
+    "macro_f1_mean": 0.2374,
+    "macro_f1_std": 0.013,
+    "best_fold_f1": 0.2559
+  },
+  "tfidf_logreg": {
+    "macro_f1_mean": 0.1622,
+    "macro_f1_std": 0.0068,
+    "best_fold_f1": 0.1757
+  },
+  "keyword_rule": {
+    "macro_f1": 0.0596,
+    "accuracy": 0.3516
+  }
+}

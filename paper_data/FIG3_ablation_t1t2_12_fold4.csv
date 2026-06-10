@@ -1,0 +1,316 @@
+fold,sample_id,Sentence_ID,Sub-Subtype,predicted_label,correct,confidence
+4,GOLD_0000,2007/s/2007/677/102:2,Passive to Active Voice,Passive to Active Voice,True,0.9988194108009338
+4,GOLD_0001,2007/s/2007/677/102:2,Passive to Active Voice,Passive to Active Voice,True,0.9987699389457703
+4,GOLD_0002,2005/s/2005/631/69:1,Passive to Active Voice,Passive to Active Voice,True,0.9982057809829712
+4,GOLD_0003,2005/s/2005/631/69:1,Passive to Active Voice,Passive to Active Voice,True,0.9982057809829712
+4,GOLD_0004,2005/s/2005/631/69:1,Passive to Active Voice,Passive to Active Voice,True,0.9983591437339783
+4,GOLD_0005,2005/s/2005/682/29:1,Definiteness Shift,Definiteness Shift,True,0.9995391368865967
+4,GOLD_0006,2005/s/2005/682/29:1,Definiteness Shift,Definiteness Shift,True,0.9995741248130798
+4,GOLD_0007,2005/s/2005/682/29:1,Definiteness Shift,Definiteness Shift,True,0.9995256662368774
+4,GOLD_0008,2005/s/2005/682/29:1,Definiteness Shift,Definiteness Shift,True,0.9995741248130798
+4,GOLD_0009,2005/s/2005/633/25:2,Definiteness Shift,Definiteness Shift,True,0.9020034670829773
+4,GOLD_0010,2005/s/2005/633/25:2,Definiteness Shift,Definiteness Shift,True,0.9048967361450195
+4,GOLD_0011,2005/s/2005/633/25:2,Definiteness Shift,Definiteness Shift,True,0.9163874387741089
+4,GOLD_0012,2005/s/2005/633/25:2,Definiteness Shift,Definiteness Shift,True,0.8807005286216736
+4,GOLD_0013,2008/s/2008/250/69:2,Definiteness Shift,Definiteness Shift,True,0.9925639033317566
+4,GOLD_0014,2008/s/2008/250/69:2,Definiteness Shift,Definiteness Shift,True,0.9923978447914124
+4,GOLD_0015,2008/s/2008/250/69:2,Definiteness Shift,Definiteness Shift,True,0.9937067627906799
+4,GOLD_0016,2008/s/2008/250/69:2,Definiteness Shift,Definiteness Shift,True,0.9923978447914124
+4,GOLD_0017,2005/s/2005/60/457:3,Register Mismatch,Register Mismatch,True,0.519684910774231
+4,GOLD_0018,2005/s/2005/60/457:3,Register Mismatch,Hypernym for Hyponym,False,0.5161967873573303
+4,GOLD_0019,2005/s/2005/60/457:3,Register Mismatch,Hypernym for Hyponym,False,0.5721014738082886
+4,GOLD_0020,2005/s/2005/60/457:3,Register Mismatch,Hypernym for Hyponym,False,0.5133750438690186
+4,GOLD_0021,2013/s/2013/447/22:4,Register Mismatch,Register Mismatch,True,0.9973248243331909
+4,GOLD_0022,2013/s/2013/447/22:4,Register Mismatch,Register Mismatch,True,0.9966751337051392
+4,GOLD_0023,2013/s/2013/447/22:4,Register Mismatch,Register Mismatch,True,0.9966751337051392
+4,GOLD_0024,2005/s/2005/631/28:3,Register Mismatch,Register Mismatch,True,0.9433931112289429
+4,GOLD_0025,2005/s/2005/60/254:1,Register Mismatch,Register Mismatch,True,0.9838523864746094
+4,GOLD_0026,2005/s/2005/60/254:1,Register Mismatch,Register Mismatch,True,0.9271673560142517
+4,GOLD_0027,2005/s/2005/60/254:1,Register Mismatch,Register Mismatch,True,0.8851322531700134
+4,GOLD_0028,2005/s/2005/60/254:1,Register Mismatch,Register Mismatch,True,0.9271673560142517
+4,GOLD_0029,2005/s/2005/60/457:3,Register Mismatch,Terminology Substitution,False,0.6665815114974976
+4,GOLD_0030,2005/s/2005/60/457:3,Register Mismatch,Terminology Substitution,False,0.6517543196678162
+4,GOLD_0031,2005/s/2005/60/457:3,Register Mismatch,Terminology Substitution,False,0.642885148525238
+4,GOLD_0032,2014/s/2014/935/80:2,Register Mismatch,Register Mismatch,True,0.8823204636573792
+4,GOLD_0033,2014/s/2014/935/80:2,Register Mismatch,Register Mismatch,True,0.6484751105308533
+4,GOLD_0034,2014/s/2014/935/80:2,Register Mismatch,Register Mismatch,True,0.730360746383667
+4,GOLD_0035,2014/s/2014/935/80:2,Register Mismatch,Register Mismatch,True,0.730360746383667
+4,GOLD_0036,2006/s/2006/822/203:10,Register Mismatch,Register Mismatch,True,0.9848040342330933
+4,GOLD_0037,2006/s/2006/822/203:10,Register Mismatch,Register Mismatch,True,0.9475685358047485
+4,GOLD_0038,2006/s/2006/822/203:10,Register Mismatch,Register Mismatch,True,0.9457947015762329
+4,GOLD_0039,2006/s/2006/822/203:10,Register Mismatch,Register Mismatch,True,0.9475685358047485
+4,GOLD_0040,2008/s/2008/371/235:4,Register Mismatch,Register Mismatch,True,0.9897704124450684
+4,GOLD_0041,2008/s/2008/371/235:4,Register Mismatch,Register Mismatch,True,0.9875539541244507
+4,GOLD_0042,2008/s/2008/371/235:4,Register Mismatch,Register Mismatch,True,0.988698422908783
+4,GOLD_0043,2008/s/2008/371/235:4,Register Mismatch,Register Mismatch,True,0.9895955920219421
+4,GOLD_0044,2012/s/2012/373/576:1,Register Mismatch,Register Mismatch,True,0.9973614811897278
+4,GOLD_0045,2011/s/2011/525/60:1,Register Mismatch,Register Mismatch,True,0.9978121519088745
+4,GOLD_0046,2003/s/2003/946/19:9,Register Mismatch,Register Mismatch,True,0.9512656927108765
+4,GOLD_0047,2012/s/2012/16/45:5,Register Mismatch,Wrong Word Order,False,0.942013144493103
+4,GOLD_0048,2014/s/2014/213/81:7,Register Mismatch,Passive to Active Voice,False,0.3757924735546112
+4,GOLD_0049,2014/s/2014/213/81:7,Register Mismatch,Passive to Active Voice,False,0.3891986310482025
+4,GOLD_0050,2014/s/2014/213/81:7,Register Mismatch,Passive to Active Voice,False,0.38500064611434937
+4,GOLD_0051,2006/s/2006/822/15:3,Register Mismatch,Register Mismatch,True,0.578688383102417
+4,GOLD_0052,2006/s/2006/822/15:3,Register Mismatch,Register Mismatch,True,0.5663164854049683
+4,GOLD_0053,2006/s/2006/822/15:3,Register Mismatch,Register Mismatch,True,0.5235515236854553
+4,GOLD_0054,2006/s/2006/822/15:3,Register Mismatch,Register Mismatch,True,0.5663164854049683
+4,GOLD_0055,2006/s/2006/154/290:2,Register Mismatch,Definiteness Shift,False,0.6687418222427368
+4,GOLD_0056,2013/s/2013/447/22:4,Register Mismatch,Register Mismatch,True,0.9974632263183594
+4,GOLD_0057,2013/s/2013/447/22:4,Register Mismatch,Register Mismatch,True,0.9976505637168884
+4,GOLD_0058,2013/s/2013/447/22:4,Register Mismatch,Register Mismatch,True,0.9976505637168884
+4,GOLD_0059,2005/s/2005/686/23:1,Register Mismatch,Register Mismatch,True,0.9973320960998535
+4,GOLD_0060,2005/s/2005/686/23:1,Register Mismatch,Register Mismatch,True,0.9973461627960205
+4,GOLD_0061,2006/s/2006/822/209:8,Register Mismatch,Register Mismatch,True,0.9057011604309082
+4,GOLD_0062,2014/s/2014/731/14:3,Register Mismatch,Wrong Word Order,False,0.3803620934486389
+4,GOLD_0063,2014/s/2014/731/14:3,Register Mismatch,Wrong Word Order,False,0.4421735107898712
+4,GOLD_0064,2014/s/2014/731/14:3,Register Mismatch,Wrong Word Order,False,0.8580241799354553
+4,GOLD_0065,2014/s/2014/731/14:3,Register Mismatch,Wrong Word Order,False,0.8663978576660156
+4,GOLD_0066,2014/s/2014/902/70:4,Register Mismatch,Register Mismatch,True,0.9897536039352417
+4,GOLD_0067,2014/s/2014/902/70:4,Register Mismatch,Register Mismatch,True,0.9754825830459595
+4,GOLD_0068,2014/s/2014/902/70:4,Register Mismatch,Register Mismatch,True,0.9809500575065613
+4,GOLD_0069,2014/s/2014/902/70:4,Register Mismatch,Register Mismatch,True,0.9754825830459595
+4,GOLD_0070,2006/s/res/1735_2006_/42:1,Register Mismatch,Register Mismatch,True,0.992986261844635
+4,GOLD_0071,2006/s/res/1735_2006_/42:1,Register Mismatch,Register Mismatch,True,0.992986261844635
+4,GOLD_0072,2006/s/res/1735_2006_/42:1,Register Mismatch,Register Mismatch,True,0.6983983516693115
+4,GOLD_0073,2004/s/pv_5025/185:1,Register Mismatch,Register Mismatch,True,0.43771108984947205
+4,GOLD_0074,2004/s/pv_5025/185:1,Register Mismatch,Register Mismatch,True,0.5414232611656189
+4,GOLD_0075,2004/s/pv_5025/185:1,Register Mismatch,Register Mismatch,True,0.43771108984947205
+4,GOLD_0076,2004/s/pv_5025/185:1,Register Mismatch,Register Mismatch,True,0.8053973317146301
+4,GOLD_0077,2014/s/2014/369/37:1,Register Mismatch,Register Mismatch,True,0.997345507144928
+4,GOLD_0078,2014/s/2014/369/37:1,Register Mismatch,Register Mismatch,True,0.9975842237472534
+4,GOLD_0079,2014/s/2014/369/37:1,Register Mismatch,Register Mismatch,True,0.9975645542144775
+4,GOLD_0080,2014/s/2014/369/37:1,Register Mismatch,Register Mismatch,True,0.9975842237472534
+4,GOLD_0081,2011/s/res/1989_2011_/107:1,Register Mismatch,Register Mismatch,True,0.9964073300361633
+4,GOLD_0082,2011/s/res/1989_2011_/107:1,Register Mismatch,Register Mismatch,True,0.9964073300361633
+4,GOLD_0083,2011/s/res/1989_2011_/107:1,Register Mismatch,Register Mismatch,True,0.9967116117477417
+4,GOLD_0084,2014/s/2014/740/53:1,Register Mismatch,Register Mismatch,True,0.9897035956382751
+4,GOLD_0085,2014/s/2014/740/53:1,Register Mismatch,Register Mismatch,True,0.9919770359992981
+4,GOLD_0086,2014/s/2014/740/53:1,Register Mismatch,Register Mismatch,True,0.9917721152305603
+4,GOLD_0087,2014/s/2014/740/53:1,Register Mismatch,Register Mismatch,True,0.9919770359992981
+4,GOLD_0088,2008/s/2008/379/52:1,Register Mismatch,Register Mismatch,True,0.7846800088882446
+4,GOLD_0089,2008/s/2008/379/52:1,Register Mismatch,Register Mismatch,True,0.7841287851333618
+4,GOLD_0090,2011/s/2011/463/171:1,Register Mismatch,Register Mismatch,True,0.80134117603302
+4,GOLD_0091,2011/s/2011/463/171:1,Register Mismatch,Register Mismatch,True,0.7558222413063049
+4,GOLD_0092,2011/s/2011/463/171:1,Register Mismatch,Register Mismatch,True,0.7483287453651428
+4,GOLD_0093,2013/s/2013/722/48:3,Register Mismatch,Wrong Word Order,False,0.7809405326843262
+4,GOLD_0094,2013/s/2013/722/48:3,Register Mismatch,Wrong Word Order,False,0.8645606637001038
+4,GOLD_0095,2013/s/2013/722/48:3,Register Mismatch,Wrong Word Order,False,0.7809405326843262
+4,GOLD_0096,2013/s/2013/722/48:3,Register Mismatch,Wrong Word Order,False,0.6964030265808105
+4,GOLD_0097,2014/s/2014/935/36:1,Register Mismatch,Tanween Omission,False,0.9677807092666626
+4,GOLD_0098,2014/s/2014/935/36:1,Register Mismatch,Tanween Omission,False,0.9677807092666626
+4,GOLD_0099,2014/s/2014/935/36:1,Register Mismatch,Tanween Omission,False,0.8710687160491943
+4,GOLD_0100,2014/s/2014/935/36:1,Register Mismatch,Tanween Omission,False,0.7436652779579163
+4,GOLD_0101,2014/s/2014/935/86:9,Register Mismatch,Tanween Omission,False,0.9470645189285278
+4,GOLD_0102,2014/s/2014/935/86:9,Register Mismatch,Tanween Omission,False,0.9470645189285278
+4,GOLD_0103,2014/s/2014/935/86:9,Register Mismatch,Tanween Omission,False,0.9470645189285278
+4,GOLD_0104,2014/s/2014/935/86:9,Register Mismatch,Tanween Omission,False,0.9472046494483948
+4,GOLD_0105,2009/s/res/1904_2009_/68:1,Register Mismatch,Register Mismatch,True,0.9976480603218079
+4,GOLD_0106,2009/s/res/1904_2009_/68:1,Register Mismatch,Register Mismatch,True,0.9979943037033081
+4,GOLD_0107,2009/s/res/1904_2009_/68:1,Register Mismatch,Register Mismatch,True,0.9978983402252197
+4,GOLD_0108,2009/s/res/1904_2009_/68:1,Register Mismatch,Register Mismatch,True,0.9978983402252197
+4,GOLD_0109,2006/s/2006/154/77:2,Register Mismatch,Register Mismatch,True,0.8426011800765991
+4,GOLD_0110,2006/s/2006/154/77:2,Register Mismatch,Register Mismatch,True,0.9840461611747742
+4,GOLD_0111,2006/s/2006/154/77:2,Register Mismatch,Register Mismatch,True,0.9760333299636841
+4,GOLD_0112,2006/s/2006/154/77:2,Register Mismatch,Register Mismatch,True,0.9840461611747742
+4,GOLD_0115,2006/s/2006/384/61:1,Hypernym for Hyponym,Adjective to Noun,False,0.46115049719810486
+4,GOLD_0116,2006/s/2006/384/61:1,Hypernym for Hyponym,Adjective to Noun,False,0.46115049719810486
+4,GOLD_0117,2006/s/2006/384/61:1,Hypernym for Hyponym,Adjective to Noun,False,0.38038286566734314
+4,GOLD_0118,2006/s/2006/384/61:1,Hypernym for Hyponym,Adjective to Noun,False,0.4835103154182434
+4,GOLD_0119,2010/s/prst/2010/25/568:1,Hypernym for Hyponym,Terminology Substitution,False,0.5378791093826294
+4,GOLD_0120,2005/s/2005/60/236:4,Hypernym for Hyponym,Terminology Substitution,False,0.9961661100387573
+4,GOLD_0121,2005/s/2005/60/236:4,Hypernym for Hyponym,Terminology Substitution,False,0.9961661100387573
+4,GOLD_0122,2006/s/2006/384/61:1,Hypernym for Hyponym,Invalid Pattern,False,0.8695292472839355
+4,GOLD_0123,2005/s/2005/648/40:2,Hypernym for Hyponym,Register Mismatch,False,0.9741155505180359
+4,GOLD_0124,2005/s/2005/648/40:2,Hypernym for Hyponym,Register Mismatch,False,0.974597692489624
+4,GOLD_0125,2005/s/2005/648/40:2,Hypernym for Hyponym,Register Mismatch,False,0.973594605922699
+4,GOLD_0126,2005/s/2005/648/40:2,Hypernym for Hyponym,Register Mismatch,False,0.9707100987434387
+4,GOLD_0127,2014/s/2014/648/15:4,Hypernym for Hyponym,Register Mismatch,False,0.7845133543014526
+4,GOLD_0128,2014/s/2014/648/15:4,Hypernym for Hyponym,Register Mismatch,False,0.7062273025512695
+4,GOLD_0129,2014/s/2014/648/15:4,Hypernym for Hyponym,Register Mismatch,False,0.7966146469116211
+4,GOLD_0130,2014/s/2014/648/15:4,Hypernym for Hyponym,Register Mismatch,False,0.7543725371360779
+4,GOLD_0131,2005/s/2005/686/23:1,Hypernym for Hyponym,Register Mismatch,False,0.9923356175422668
+4,GOLD_0132,2005/s/2005/686/23:1,Hypernym for Hyponym,Register Mismatch,False,0.9929264187812805
+4,GOLD_0133,2006/s/2006/154/290:2,Hypernym for Hyponym,Hypernym for Hyponym,True,0.9982613921165466
+4,GOLD_0134,2006/s/2006/154/290:2,Hypernym for Hyponym,Hypernym for Hyponym,True,0.9982690811157227
+4,GOLD_0135,2006/s/2006/154/290:2,Hypernym for Hyponym,Hypernym for Hyponym,True,0.9982613921165466
+4,GOLD_0136,2014/s/2014/902/124:1,Hypernym for Hyponym,Terminology Substitution,False,0.9712635278701782
+4,GOLD_0137,2005/s/2005/66/30:1,Hypernym for Hyponym,Hypernym for Hyponym,True,0.9886884093284607
+4,GOLD_0138,2005/s/2005/66/30:1,Hypernym for Hyponym,Hypernym for Hyponym,True,0.9883091449737549
+4,GOLD_0139,2005/s/2005/66/30:1,Hypernym for Hyponym,Hypernym for Hyponym,True,0.9886884093284607
+4,GOLD_0140,2005/s/2005/66/30:1,Hypernym for Hyponym,Hypernym for Hyponym,True,0.9852232933044434
+4,GOLD_0141,2004/s/2004/226/118:2,Hypernym for Hyponym,Hypernym for Hyponym,True,0.9692511558532715
+4,GOLD_0142,2004/s/2004/226/118:2,Hypernym for Hyponym,Hypernym for Hyponym,True,0.9692511558532715
+4,GOLD_0143,2004/s/2004/226/118:2,Hypernym for Hyponym,Hypernym for Hyponym,True,0.9700505137443542
+4,GOLD_0144,2004/s/2004/226/118:2,Hypernym for Hyponym,Hypernym for Hyponym,True,0.9706421494483948
+4,GOLD_0145,2011/s/2011/245/131:3,Hyponym for Hypernym,Terminology Substitution,False,0.9818344712257385
+4,GOLD_0146,2011/s/2011/245/131:3,Hyponym for Hypernym,Terminology Substitution,False,0.7669949531555176
+4,GOLD_0147,2011/s/2011/245/131:3,Hyponym for Hypernym,Terminology Substitution,False,0.7647678256034851
+4,GOLD_0148,2011/s/2011/245/131:3,Hyponym for Hypernym,Register Mismatch,False,0.5443893671035767
+4,GOLD_0149,2014/s/2014/740/81:1,Hyponym for Hypernym,Hyponym for Hypernym,True,0.9947475790977478
+4,GOLD_0150,2014/s/2014/740/81:1,Hyponym for Hypernym,Hyponym for Hypernym,True,0.9952589869499207
+4,GOLD_0151,2014/s/2014/740/81:1,Hyponym for Hypernym,Hyponym for Hypernym,True,0.9947475790977478
+4,GOLD_0152,2011/s/2011/463/445:1,Hyponym for Hypernym,Hyponym for Hypernym,True,0.9718676805496216
+4,GOLD_0153,2011/s/2011/463/445:1,Hyponym for Hypernym,Hyponym for Hypernym,True,0.9704545140266418
+4,GOLD_0154,2009/s/2009/170/31:1,Invalid Pattern,Tanween Omission,False,0.9575599431991577
+4,GOLD_0155,2009/s/2009/170/31:1,Invalid Pattern,Tanween Omission,False,0.9575599431991577
+4,GOLD_0156,2009/s/res/1904_2009_/23:1,Invalid Pattern,Invalid Pattern,True,0.9972571730613708
+4,GOLD_0157,2009/s/res/1904_2009_/23:1,Invalid Pattern,Invalid Pattern,True,0.9977705478668213
+4,GOLD_0158,2009/s/res/1904_2009_/23:1,Invalid Pattern,Invalid Pattern,True,0.9972571730613708
+4,GOLD_0159,2009/s/res/1904_2009_/23:1,Invalid Pattern,Invalid Pattern,True,0.9987024068832397
+4,GOLD_0250,2008/s/2008/324/97:2,Tanween Omission,Tanween Omission,True,0.9994180202484131
+4,GOLD_0251,2008/s/2008/324/97:2,Tanween Omission,Tanween Omission,True,0.9993695616722107
+4,GOLD_0252,2008/s/2008/324/97:2,Tanween Omission,Tanween Omission,True,0.9993231296539307
+4,GOLD_0253,2008/s/2008/324/97:2,Tanween Omission,Tanween Omission,True,0.9994277358055115
+4,GOLD_0254,2008/s/2008/324/97:2,Tanween Omission,Tanween Omission,True,0.999406099319458
+4,GOLD_0255,2008/s/2008/324/97:2,Tanween Omission,Tanween Omission,True,0.9994277358055115
+4,GOLD_0256,2008/s/2008/324/97:2,Tanween Omission,Tanween Omission,True,0.9993695616722107
+4,GOLD_0257,2009/s/res/1904_2009_/68:1,Tanween Omission,Register Mismatch,False,0.9979943037033081
+4,GOLD_0258,2006/s/2006/154/268:2,Terminology Substitution,Adjective to Noun,False,0.3451988399028778
+4,GOLD_0259,2006/s/2006/154/268:2,Terminology Substitution,Adjective to Noun,False,0.4150899648666382
+4,GOLD_0260,2006/s/2006/154/268:2,Terminology Substitution,Adjective to Noun,False,0.3451988399028778
+4,GOLD_0261,2006/s/2006/154/268:2,Terminology Substitution,Adjective to Noun,False,0.31954675912857056
+4,GOLD_0262,2011/s/2011/463/395:4,Terminology Substitution,Register Mismatch,False,0.8397772312164307
+4,GOLD_0263,2012/s/2012/245/16:1,Terminology Substitution,Register Mismatch,False,0.7618452310562134
+4,GOLD_0264,2012/s/2012/245/16:1,Terminology Substitution,Register Mismatch,False,0.8809469938278198
+4,GOLD_0265,2005/s/2005/686/23:1,Terminology Substitution,Register Mismatch,False,0.9968857169151306
+4,GOLD_0266,2005/s/2005/686/23:1,Terminology Substitution,Register Mismatch,False,0.9964391589164734
+4,GOLD_0267,2005/s/2005/686/23:1,Terminology Substitution,Register Mismatch,False,0.9973461627960205
+4,GOLD_0268,2005/s/2005/686/23:1,Terminology Substitution,Register Mismatch,False,0.9973320960998535
+4,GOLD_0269,2009/s/2009/241/162:1,Terminology Substitution,Terminology Substitution,True,0.9620814919471741
+4,GOLD_0270,2011/s/2011/463/291:7,Terminology Substitution,Terminology Substitution,True,0.988421618938446
+4,GOLD_0271,2003/s/2003/90/107:3,Terminology Substitution,Passive to Active Voice,False,0.26456862688064575
+4,GOLD_0272,2003/s/2003/90/107:3,Terminology Substitution,Passive to Active Voice,False,0.28566214442253113
+4,GOLD_0273,2003/s/2003/90/107:3,Terminology Substitution,Passive to Active Voice,False,0.27985337376594543
+4,GOLD_0274,2003/s/2003/90/107:3,Terminology Substitution,Passive to Active Voice,False,0.28566214442253113
+4,GOLD_0275,2014/s/2014/921/27:1,Terminology Substitution,Register Mismatch,False,0.5287618041038513
+4,GOLD_0276,2005/s/2005/636/676:1,Terminology Substitution,Terminology Substitution,True,0.9977839589118958
+4,GOLD_0277,2005/s/2005/636/676:1,Terminology Substitution,Terminology Substitution,True,0.99803227186203
+4,GOLD_0278,2005/s/2005/636/676:1,Terminology Substitution,Terminology Substitution,True,0.9976873397827148
+4,GOLD_0279,2005/s/2005/636/676:1,Terminology Substitution,Terminology Substitution,True,0.9976930022239685
+4,GOLD_0280,2014/s/2014/942/42:1,Terminology Substitution,Wrong Word Order,False,0.769213855266571
+4,GOLD_0281,2014/s/2014/942/42:1,Terminology Substitution,Wrong Word Order,False,0.516907811164856
+4,GOLD_0282,2014/s/2014/942/42:1,Terminology Substitution,Wrong Word Order,False,0.769213855266571
+4,GOLD_0283,2014/s/2014/942/42:1,Terminology Substitution,Terminology Substitution,True,0.8104870915412903
+4,GOLD_0284,2014/s/2014/740/53:1,Terminology Substitution,Terminology Substitution,True,0.853646993637085
+4,GOLD_0285,2014/s/2014/740/53:1,Terminology Substitution,Terminology Substitution,True,0.853646993637085
+4,GOLD_0286,2009/s/res/1904_2009_/68:1,Terminology Substitution,Register Mismatch,False,0.9976480603218079
+4,GOLD_0287,2014/s/res/2178__2014_/55:1,Terminology Substitution,Register Mismatch,False,0.9898832440376282
+4,GOLD_0288,2005/s/2005/686/23:1,Terminology Substitution,Terminology Substitution,True,0.8726410865783691
+4,GOLD_0289,2005/s/2005/699/316:1,Terminology Substitution,Terminology Substitution,True,0.8373204469680786
+4,GOLD_0290,2005/s/2005/699/316:1,Terminology Substitution,Terminology Substitution,True,0.8214945793151855
+4,GOLD_0291,2005/s/2005/699/316:1,Terminology Substitution,Terminology Substitution,True,0.8722746968269348
+4,GOLD_0292,2005/s/2005/699/316:1,Terminology Substitution,Terminology Substitution,True,0.6810653209686279
+4,GOLD_0293,2003/s/2003/90/60:2,Terminology Substitution,Register Mismatch,False,0.95424485206604
+4,GOLD_0294,2003/s/2003/90/60:2,Terminology Substitution,Register Mismatch,False,0.9415748715400696
+4,GOLD_0295,2003/s/2003/90/60:2,Terminology Substitution,Register Mismatch,False,0.9241251945495605
+4,GOLD_0296,2003/s/2003/90/60:2,Terminology Substitution,Register Mismatch,False,0.9298450350761414
+4,GOLD_0297,2005/s/2005/572/141:1,Terminology Substitution,Terminology Substitution,True,0.7874419689178467
+4,GOLD_0298,2005/s/2005/572/141:1,Terminology Substitution,Terminology Substitution,True,0.8261332511901855
+4,GOLD_0299,2005/s/2005/572/141:1,Terminology Substitution,Terminology Substitution,True,0.7874419689178467
+4,GOLD_0300,2005/s/2005/572/141:1,Terminology Substitution,Terminology Substitution,True,0.8033589124679565
+4,GOLD_0301,2005/s/2005/60/120:2,Terminology Substitution,Terminology Substitution,True,0.9667693376541138
+4,GOLD_0302,2012/s/prst/2012/23/21:2,Terminology Substitution,Terminology Substitution,True,0.9704996943473816
+4,GOLD_0303,2012/s/prst/2012/23/21:2,Terminology Substitution,Terminology Substitution,True,0.970811128616333
+4,GOLD_0304,2012/s/prst/2012/23/21:2,Terminology Substitution,Terminology Substitution,True,0.9704996943473816
+4,GOLD_0305,2012/s/prst/2012/23/21:2,Terminology Substitution,Terminology Substitution,True,0.9711440205574036
+4,GOLD_0306,2012/s/prst/2012/22/10:3,Terminology Substitution,Terminology Substitution,True,0.9950026869773865
+4,GOLD_0307,2012/s/prst/2012/22/10:3,Terminology Substitution,Terminology Substitution,True,0.9952074885368347
+4,GOLD_0308,2012/s/prst/2012/22/10:3,Terminology Substitution,Terminology Substitution,True,0.9950026869773865
+4,GOLD_0309,2012/s/prst/2012/22/10:3,Terminology Substitution,Terminology Substitution,True,0.9948211908340454
+4,GOLD_0310,2014/s/2014/921/27:1,Total Omission,Total Omission,True,0.9996998310089111
+4,GOLD_0311,2014/s/2014/921/27:1,Total Omission,Total Omission,True,0.9996832609176636
+4,GOLD_0312,2014/s/2014/921/27:1,Total Omission,Total Omission,True,0.9985560774803162
+4,GOLD_0313,2014/s/2014/935/72:3,Total Omission,Total Omission,True,0.9939754605293274
+4,GOLD_0314,2014/s/2014/935/72:3,Total Omission,Total Omission,True,0.995746910572052
+4,GOLD_0315,2014/s/2014/935/72:3,Total Omission,Total Omission,True,0.9968452453613281
+4,GOLD_0316,2014/s/2014/935/72:3,Total Omission,Total Omission,True,0.9968452453613281
+4,GOLD_0317,2011/s/2011/525/60:1,Total Omission,Total Omission,True,0.9995170831680298
+4,GOLD_0318,2009/s/2009/170/31:1,Total Omission,Hypernym for Hyponym,False,0.9560363292694092
+4,GOLD_0319,2009/s/2009/170/31:1,Total Omission,Hypernym for Hyponym,False,0.948905885219574
+4,GOLD_0320,2009/s/2009/170/31:1,Total Omission,Hypernym for Hyponym,False,0.9573619365692139
+4,GOLD_0321,2009/s/2009/170/31:1,Total Omission,Hypernym for Hyponym,False,0.948905885219574
+4,GOLD_0322,2012/s/prst/2012/23/21:2,Total Omission,Total Omission,True,0.9995137453079224
+4,GOLD_0323,2006/s/2006/154/137:1,Total Omission,Total Omission,True,0.9996232986450195
+4,GOLD_0324,2006/s/2006/154/137:1,Total Omission,Total Omission,True,0.9996232986450195
+4,GOLD_0325,2011/s/2011/525/60:1,Total Omission,Total Omission,True,0.9995253086090088
+4,GOLD_0326,2014/s/2014/943/18:4,Total Omission,Total Omission,True,0.9995155334472656
+4,GOLD_0327,2014/s/2014/430/50:1,Total Omission,Total Omission,True,0.9980093836784363
+4,GOLD_0328,2013/s/res/2112__2013_/29:1,Total Omission,Total Omission,True,0.9978296160697937
+4,GOLD_0329,2013/s/res/2112__2013_/29:1,Total Omission,Total Omission,True,0.9978296160697937
+4,GOLD_0330,2013/s/res/2112__2013_/29:1,Total Omission,Total Omission,True,0.9979627132415771
+4,GOLD_0331,2013/s/res/2112__2013_/29:1,Total Omission,Total Omission,True,0.9978296160697937
+4,GOLD_0332,2010/s/prst/2010/22/6:1,Total Omission,Total Omission,True,0.9997257590293884
+4,GOLD_0333,2010/s/prst/2010/22/6:1,Total Omission,Total Omission,True,0.9997337460517883
+4,GOLD_0334,2010/s/prst/2010/22/6:1,Total Omission,Total Omission,True,0.9996916055679321
+4,GOLD_0335,2010/s/prst/2010/22/6:1,Total Omission,Total Omission,True,0.999735414981842
+4,GOLD_0336,2002/s/2002/150/8:1,Total Omission,Total Omission,True,0.9994483590126038
+4,GOLD_0337,2002/s/2002/150/8:1,Total Omission,Total Omission,True,0.9995113611221313
+4,GOLD_0338,2002/s/2002/150/8:1,Total Omission,Total Omission,True,0.9994483590126038
+4,GOLD_0339,2002/s/2002/150/8:1,Total Omission,Total Omission,True,0.9995168447494507
+4,GOLD_0340,2011/s/2011/463/75:4,Total Omission,Total Omission,True,0.9997432827949524
+4,GOLD_0341,2011/s/2011/463/75:4,Total Omission,Total Omission,True,0.9997264742851257
+4,GOLD_0342,2011/s/2011/463/75:4,Total Omission,Total Omission,True,0.9997250437736511
+4,GOLD_0343,2011/s/2011/463/75:4,Total Omission,Total Omission,True,0.9997264742851257
+4,GOLD_0344,2005/s/2005/60/117:3,Total Omission,Total Omission,True,0.9997233748435974
+4,GOLD_0345,2005/s/2005/60/117:3,Total Omission,Total Omission,True,0.999711811542511
+4,GOLD_0346,2005/s/2005/60/117:3,Total Omission,Total Omission,True,0.9997122883796692
+4,GOLD_0347,2005/s/2005/60/117:3,Total Omission,Total Omission,True,0.9997004270553589
+4,GOLD_0348,2001/s/res/1373_2001_/16:1,Total Omission,Total Omission,True,0.9997714161872864
+4,GOLD_0349,2001/s/res/1373_2001_/16:1,Total Omission,Total Omission,True,0.9997676014900208
+4,GOLD_0350,2001/s/res/1373_2001_/16:1,Total Omission,Total Omission,True,0.9997804760932922
+4,GOLD_0351,2001/s/res/1373_2001_/16:1,Total Omission,Total Omission,True,0.9997676014900208
+4,GOLD_0352,2005/s/2005/602/7:1,Total Omission,Total Omission,True,0.9997348189353943
+4,GOLD_0353,2005/s/2005/602/7:1,Total Omission,Total Omission,True,0.9997366070747375
+4,GOLD_0354,2005/s/2005/602/7:1,Total Omission,Total Omission,True,0.9997342228889465
+4,GOLD_0355,2005/s/2005/602/7:1,Total Omission,Total Omission,True,0.9997366070747375
+4,GOLD_0356,2014/s/2014/943/84:1,Total Omission,Total Omission,True,0.9995019435882568
+4,GOLD_0357,2014/s/2014/943/84:1,Total Omission,Total Omission,True,0.9995019435882568
+4,GOLD_0358,2014/s/2014/943/84:1,Total Omission,Total Omission,True,0.9994971752166748
+4,GOLD_0359,2014/s/2014/943/84:1,Total Omission,Total Omission,True,0.9994469285011292
+4,GOLD_0360,2012/s/2012/373/521:1,Total Omission,Total Omission,True,0.9993916749954224
+4,GOLD_0361,2012/s/2012/373/521:1,Total Omission,Total Omission,True,0.9992920160293579
+4,GOLD_0362,2012/s/2012/373/521:1,Total Omission,Total Omission,True,0.9993816614151001
+4,GOLD_0363,2012/s/2012/373/521:1,Total Omission,Total Omission,True,0.9993670582771301
+4,GOLD_0364,2005/s/2005/625/226:5,Total Omission,Total Omission,True,0.9989270567893982
+4,GOLD_0365,2005/s/2005/625/226:5,Total Omission,Total Omission,True,0.9989951252937317
+4,GOLD_0366,2005/s/2005/625/226:5,Total Omission,Total Omission,True,0.998902440071106
+4,GOLD_0367,2000/s/2000/489/20:4,Total Omission,Total Omission,True,0.9989637136459351
+4,GOLD_0368,2000/s/2000/489/20:4,Total Omission,Total Omission,True,0.998950183391571
+4,GOLD_0369,2000/s/2000/489/20:4,Total Omission,Total Omission,True,0.9989637136459351
+4,GOLD_0370,2000/s/2000/489/20:4,Total Omission,Total Omission,True,0.9989354014396667
+4,GOLD_0371,2008/s/2008/251/40:4,Total Omission,Total Omission,True,0.9961279034614563
+4,GOLD_0373,2014/s/2014/943/35:3,Wrong Word Order,Wrong Word Order,True,0.516399621963501
+4,GOLD_0374,2014/s/2014/943/35:3,Wrong Word Order,Wrong Word Order,True,0.5047524571418762
+4,GOLD_0375,2014/s/2014/943/35:3,Wrong Word Order,Wrong Word Order,True,0.516399621963501
+4,GOLD_0376,2014/s/2014/943/35:3,Wrong Word Order,Wrong Word Order,True,0.516399621963501
+4,GOLD_0377,2014/s/2014/943/35:3,Wrong Word Order,Wrong Word Order,True,0.5047524571418762
+4,GOLD_0378,2014/s/2014/943/35:3,Wrong Word Order,Wrong Word Order,True,0.516399621963501
+4,GOLD_0379,2014/s/2014/943/35:3,Wrong Word Order,Wrong Word Order,True,0.47329169511795044
+4,GOLD_0380,2014/s/prst/2014/3/789:2,Wrong Word Order,Wrong Word Order,True,0.6226691603660583
+4,GOLD_0381,2014/s/prst/2014/3/789:2,Wrong Word Order,Wrong Word Order,True,0.6051121354103088
+4,GOLD_0382,2014/s/prst/2014/3/789:2,Wrong Word Order,Wrong Word Order,True,0.6226691603660583
+4,GOLD_0383,2014/s/prst/2014/3/789:2,Wrong Word Order,Wrong Word Order,True,0.4727521240711212
+4,GOLD_0384,2014/s/prst/2014/3/1073:1,Wrong Word Order,Register Mismatch,False,0.996656060218811
+4,GOLD_0385,2012/s/2012/245/16:1,Wrong Word Order,Terminology Substitution,False,0.6604555249214172
+4,GOLD_0391,2005/s/2005/690/14:3,Progressive to Perfective,Progressive to Perfective,True,0.9989888072013855
+4,GOLD_0392,2011/s/2011/463/142:1,Progressive to Perfective,Progressive to Perfective,True,0.9855608344078064
+4,GOLD_0393,2011/s/2011/463/142:1,Progressive to Perfective,Progressive to Perfective,True,0.9866414070129395
+4,GOLD_0394,2011/s/2011/463/142:1,Progressive to Perfective,Progressive to Perfective,True,0.9887794256210327
+4,GOLD_0395,2011/s/2011/463/142:1,Progressive to Perfective,Progressive to Perfective,True,0.9887794256210327
+4,GOLD_0396,2004/s/2004/170/40:1,Progressive to Perfective,Progressive to Perfective,True,0.9975058436393738
+4,GOLD_0410,2005/s/2005/699/320:3,Tanween Omission,Tanween Omission,True,0.9983991980552673
+4,GOLD_0411,2005/s/2005/699/320:3,Tanween Omission,Tanween Omission,True,0.9988967180252075
+4,GOLD_0412,2005/s/2005/699/320:3,Tanween Omission,Tanween Omission,True,0.9988967180252075
+4,GOLD_0413,2014/s/2014/919/26:2,Tanween Omission,Tanween Omission,True,0.9991227984428406
+4,GOLD_0414,2014/s/2014/919/26:2,Tanween Omission,Tanween Omission,True,0.999136745929718
+4,GOLD_0415,2014/s/2014/919/26:2,Tanween Omission,Tanween Omission,True,0.999136745929718
+4,GOLD_0419,2009/s/res/1904_2009_/23:1,Invalid Pattern,Invalid Pattern,True,0.996882438659668
+4,GOLD_0420,2009/s/res/1904_2009_/23:1,Invalid Pattern,Invalid Pattern,True,0.9969724416732788
+4,GOLD_0421,2009/s/res/1904_2009_/23:1,Invalid Pattern,Invalid Pattern,True,0.9968300461769104
+4,GOLD_0422,2009/s/res/1904_2009_/23:1,Invalid Pattern,Invalid Pattern,True,0.9970400929450989
+4,GOLD_0423,2011/s/2011/245/51:2,Adjective to Noun,Adjective to Noun,True,0.990985631942749
+4,GOLD_0424,2011/s/2011/245/51:2,Adjective to Noun,Adjective to Noun,True,0.9919146299362183
+4,GOLD_0425,2011/s/2011/245/51:2,Adjective to Noun,Adjective to Noun,True,0.990985631942749
+4,GOLD_0430,2002/s/2002/169/93:5,Passive to Active Voice,Passive to Active Voice,True,0.9995397329330444
+4,GOLD_0431,2002/s/2002/169/93:5,Passive to Active Voice,Passive to Active Voice,True,0.9995492100715637
+4,GOLD_0432,2002/s/2002/169/93:5,Passive to Active Voice,Passive to Active Voice,True,0.9995397329330444

@@ -1,0 +1,74 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "raqeeb"
+version = "1.0.0"
+description = "Anchor-Constrained Detection of Fine-Grained Arabic MT Errors"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+  {name = "Anonymous (under review)"}
+]
+keywords = [
+  "arabic-nlp",
+  "machine-translation",
+  "quality-estimation",
+  "error-detection",
+  "fine-grained-classification"
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Natural Language :: Arabic",
+]
+dependencies = [
+  "pandas>=1.5",
+  "numpy>=1.23",
+  "torch>=2.0",
+  "transformers>=4.35",
+  "scikit-learn>=1.2",
+  "tqdm>=4.65",
+]
+
+[project.optional-dependencies]
+etca = ["anthropic>=0.34"]
+test = ["pytest>=7.0", "pytest-cov>=4.0"]
+dev = ["pytest>=7.0", "pytest-cov>=4.0", "anthropic>=0.34", "black", "ruff"]
+
+[project.scripts]
+raqeeb = "raqeeb.run_pipeline:main"
+
+[project.urls]
+Homepage = "https://anonymous.4open.science/r/raqeeb-anon"
+Repository = "https://anonymous.4open.science/r/raqeeb-anon"
+
+# Flat layout: the project root IS the `raqeeb` package, so map it explicitly.
+[tool.setuptools]
+packages = [
+  "raqeeb",
+  "raqeeb.lib",
+  "raqeeb.trivet",
+  "raqeeb.classifier",
+  "raqeeb.etca",
+  "raqeeb.data",
+]
+
+[tool.setuptools.package-dir]
+"raqeeb" = "."
+
+[tool.setuptools.package-data]
+"raqeeb.data" = ["*.json", "*.csv", "prompts/*.txt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --tb=short"

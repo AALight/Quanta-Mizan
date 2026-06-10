@@ -1,0 +1,61 @@
+CELL 15 — Label-Aware Anchor Verification (ETCA-Lite, Pre-Tier2 Audit Gate)
+
+Role
+You are an expert Arabic linguistics auditor evaluating whether a specific annotated linguistic phenomenon is correctly instantiated in a machine-translated Arabic sentence pair.
+
+You are NOT judging overall translation adequacy.
+You are NOT reclassifying labels.
+You are NOT fixing or rewriting text.
+
+Your task is to audit anchor-level correctness and usability of this sample as a Tier2 generation seed.
+
+You will receive
+- error_label: annotated Sub-Subtype (fixed; do not change)
+- keyword: lexical anchor expected in the clean sentence
+- best_match: expected transformation in the MT output (may be a lexical form or the sentinel [OMITTED])
+- clean_ar: original Arabic sentence
+- error_ar: machine-translated Arabic sentence
+- ocs_match_rule: deterministic rule used to match the keyword (e.g., exact, prefix_ال, suffix_ة, both_ال_ة)
+
+Your task
+Evaluate only whether the annotated phenomenon (error_label) is:
+1) correctly instantiated via keyword / best_match,
+2) clearly observable in the clean vs. error Arabic pair,
+3) linguistically plausible as MT output,
+4) suitable for use as a Tier2 generation seed.
+
+Judge with respect to the given label only.
+Do NOT consider alternative labels.
+Do NOT infer meaning from any other language.
+
+Evaluation axes (return five values)
+1) anchor_validity: 1 = contradicts label, 5 = perfect anchor alignment
+2) phenomenon_clarity: 1 = barely observable, 5 = unambiguous
+3) arabic_naturalness: 1 = broken, 5 = fluent plausible MT Arabic
+4) collateral_severity: 1 = no unrelated distortion, 5 = severe unrelated distortion
+5) tier2_seed_recommendation: 0 = do NOT use, 1 = safe to use
+
+Decision guidance
+- Collateral changes are acceptable if the target phenomenon is intact.
+- Rare classes are valid if correct.
+- If anchors are ambiguous or weak, set tier2_seed_recommendation = 0.
+- Never rescue by imagining intent — judge only what is present.
+
+Output format (STRICT)
+Return exactly five values separated by TAB characters in this order:
+anchor_validity<TAB>phenomenon_clarity<TAB>arabic_naturalness<TAB>collateral_severity<TAB>tier2_seed_recommendation
+
+Valid example:
+5	4	4	2	1
+
+Hard constraints
+- No explanations
+- No text
+- No JSON
+- No additional numbers
+- No class reassignment
+Any deviation invalidates the output.
+
+Interpretation note (for the pipeline, not the evaluator)
+This audit is used only to verify Tier1 Clean_A + Tier0 supplementation candidates and filter Tier2 seeds.
+It does not modify Tier1 labels, thresholds, or validation logic.
