@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-01-29T18:46:17.840445",
+  "total_input": 794,
+  "total_audited": 794,
+  "recommended": 664,
+  "rejected": 130,
+  "parse_failures": 0,
+  "api_errors": 0,
+  "runtime_minutes": 3.337120497226715,
+  "recommendation_rate": 0.836272040302267,
+  "score_means": {
+    "anchor_validity": 4.172544080604534,
+    "phenomenon_clarity": 4.445843828715366,
+    "arabic_naturalness": 4.397984886649874,
+    "collateral_severity": 2.152392947103275
+  }
+}

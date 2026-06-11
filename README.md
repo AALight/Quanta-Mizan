@@ -5,11 +5,17 @@
 This repository releases the six artifacts described in the Raqeeb paper:
 
 1. **Mizan** — a 23-class taxonomy of Arabic MT linguistic-shift errors, with MQM-compatible severity weights
-2. **TRIVET** — the validation pipeline (anchor extraction → ESV gates → ETCA audit)
+2. **TRIVET** — the validation pipeline (anchor extraction → ESV structural gates; ETCA seed/quality audit runs in parallel — see *QUANTA T2 selection* below)
 3. **QUANTA** — the 9,032-instance dataset (738 T1 + 7,856 T2 + 438 Gold)
 4. **ETCA** — the cross-vendor LLM-as-judge audit protocol (GPT-4o generator, Claude Sonnet 4 judge)
 5. **Raqbench** + the released **Raqeeb classifier** (AraBERT v2, 5-fold mean Gold macro-F1 = 0.614 ± 0.017; released checkpoint is fold-3, single-fold F1 = 0.589, selected for downstream cross-domain reproducibility — best fold is fold-0)
 6. **Dual-annotator validation protocol** + reusable workbook templates
+
+## QUANTA T2 selection (provenance)
+
+The released **7,856 T2** instances are selected by TRIVET's **structural validation** (the ESV anchor gates — OCS / CPS / SFR) followed by the **Partial-Translation / Total-Omission re-classification audit**: of 8,044 generated candidates, 188 are excluded as PT/TO confounds, 15 are relabelled (Partial Translation → Total Omission), and 20 receive corrected `Best_Match` spans, yielding 7,856. Manifests: `paper_data/audit_manifests/excluded_188.csv`, `relabelled_15.csv`, `corrected_20.csv`.
+
+**ETCA is a parallel cross-vendor quality audit, not the T2 selection gate.** It (a) audits the Clean_A / Tier0 generation **seeds** (794 audited → 664 recommended; results in `paper_data/etca_audits/`; prompt in `raqeeb/data/prompts/etca_audit_prompt.txt`, whose legacy title line "Pre-Tier2 Audit Gate" refers to *seed* auditing — the prompt body states it "verifies anchors" and is "NOT reclassifying labels"), and (b) is run as an **ETCA audit** (LLM scores only — not a human evaluation) on a stratified ~5% T2 subset (414 instances, all 23 classes; `paper_data/etca_audits/etca_t2_audit_414.csv`; ETCA per-dimension means ≈ 4.70 / 4.74 / 4.62 of 5). ETCA's external validation against the dual-annotator human consensus (Gwet's AC1 = 0.62) is a *separate* 43-instance Clean_A check, not the 414 subset. The `DQI ≥ 0.75` threshold marks a high-confidence audited instance; it is **not** applied as a filter to the released T2 (the released 7,856 exceed the 6,851 that would pass DQI ≥ 0.75, so DQI cannot have gated the split). The optional `--etca` flag in `raqeeb/run_pipeline.py` applies a `DQI ≥ 0.75 AND seed_recommendation ≥ 4` acceptance rule to *candidates* and is off by default; it did not produce the released dataset.
 
 ## Headline numbers
 
