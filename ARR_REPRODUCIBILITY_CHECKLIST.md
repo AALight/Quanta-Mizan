@@ -71,7 +71,7 @@ Mapped to the ARR (Anonymous Review Review) reproducibility checklist. Items are
 **Yes.** Appendix D (*Human Evaluation Protocol*). Two independent native-Arabic-speaking annotators not involved in taxonomy design; both have prior NLP annotation experience.
 
 ### C2. Did you provide the full annotation interface?
-**Yes.** The annotation workbook templates (Excel files with Layer 1 + Layer 2 sheets, bilingual EN/AR instructions, automated DQI/MPQS quality scoring) are released in the repository alongside Appendix D.
+**Partially.** The annotation protocol and the evaluation criteria (Layer 1 + Layer 2, bilingual EN/AR) are described in the paper's dual-annotator validation appendix. The annotation workbook templates and per-instance annotator responses are reserved for a dedicated annotation-methodology paper and are not included in this release.
 
 ### C3. Did you report inter-annotator agreement?
 **Yes.** §1, §3, §6, and Appendix D — Gwet's AC1 = 0.97 on T2 synthetic core-three, AC1 = 0.83 on T1 real core-three, on 147 stratified instances. Computation script and per-question breakdown in `experiments/iaa_tier1_AB.py`.
