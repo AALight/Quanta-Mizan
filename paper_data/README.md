@@ -48,9 +48,21 @@ accepted.
 | File | Description |
 |------|-------------|
 | `gold_test_438.csv` | Gold test set (438 instances, all 23 classes) |
-| `train_T1T2_8594.csv` | Combined T1+T2 training data |
-| `train_T2_only.csv` | T2-only synthetic training data |
+| `train_T1T2_8594.csv` | **Released** post-audit T1+T2 training data — **8,594 rows (738 T1 + 7,856 T2)** |
+| `train_T2_only.csv` | **Released** post-audit T2-only synthetic training data — **7,856 rows** |
+| `train_T1T2_raw_8782.csv` | Pre-audit superset (8,782 rows = 738 T1 + 8,044 T2), before the T2 re-classification audit |
+| `train_T2_only_raw_8044.csv` | Pre-audit T2 superset (8,044 rows) |
 | `mizan_taxonomy_v7_weights.json` | Full Mizan V7 taxonomy with severity weights |
+
+**T2 re-classification audit (raw → released).** The released T2 (7,856) is the pre-audit
+generation set (8,044) after the Partial-Translation/Total-Omission audit recorded in
+`audit_manifests/`: **−188** excluded PT/TO confounds (`excluded_188.csv`), **15** relabelled
+Partial Translation → Total Omission (`relabelled_15.csv`, `label_id` → 1), and **20** corrected
+`Best_Match` spans (`corrected_20.csv`). Applying these to the `*_raw_*` files reproduces the
+released files exactly (`8,044 − 188 = 7,856`; T1 = 738 throughout, so `738 + 7,856 = 8,594`).
+The matching `T1 (real)` column is `tier = TIER1` (738 rows, 12 classes); Stage-A Clean_A spans
+15 of 23 classes, of which Gold-overlap removal drops 3 (Literal Translation, Perfective to
+Progressive, Tense Shift Under Negation) to give T1's 12.
 
 ## Tables
 | Prefix | Paper section | What it feeds |
