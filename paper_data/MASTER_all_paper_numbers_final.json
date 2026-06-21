@@ -139,76 +139,77 @@
     },
     "significance": {
       "n_pairs": 10,
-      "significant_after_bh": 0,
+      "significant_after_bh": 3,
+      "method": "paired bootstrap on 5 fold-level macro-F1 differences (10k resamples, seed 42), BH-FDR across 10 pairs; XLM-R folds use the seed-43 fold-1 retrain. Source: experiments/E04_xlmr_fold1_retrain/scripts/pairwise_significance.py",
       "pairs": [
         {
           "a": "AraBERT-v2",
           "b": "CAMeLBERT-MSA",
-          "diff": 0.003688,
-          "p_adj": 1.0,
+          "diff": 0.027483,
+          "p_adj": 0.078,
           "significant": false
         },
         {
           "a": "AraBERT-v2",
           "b": "CAMeLBERT-Mix",
-          "diff": 0.012261,
-          "p_adj": 1.0,
+          "diff": 0.017416,
+          "p_adj": 0.3028,
           "significant": false
         },
         {
           "a": "AraBERT-v2",
           "b": "ConfliBERT",
-          "diff": 0.01664,
-          "p_adj": 1.0,
-          "significant": false
+          "diff": 0.031576,
+          "p_adj": 0.0,
+          "significant": true
         },
         {
           "a": "AraBERT-v2",
           "b": "XLM-R",
-          "diff": 0.02704,
-          "p_adj": 1.0,
-          "significant": false
+          "diff": 0.049598,
+          "p_adj": 0.007,
+          "significant": true
         },
         {
           "a": "CAMeLBERT-MSA",
           "b": "CAMeLBERT-Mix",
-          "diff": 0.008573,
-          "p_adj": 1.0,
+          "diff": -0.010067,
+          "p_adj": 0.574444,
           "significant": false
         },
         {
           "a": "CAMeLBERT-MSA",
           "b": "ConfliBERT",
-          "diff": 0.012952,
-          "p_adj": 1.0,
+          "diff": 0.004093,
+          "p_adj": 0.7726,
           "significant": false
         },
         {
           "a": "CAMeLBERT-MSA",
           "b": "XLM-R",
-          "diff": 0.023352,
-          "p_adj": 1.0,
+          "diff": 0.022115,
+          "p_adj": 0.355,
           "significant": false
         },
         {
           "a": "CAMeLBERT-Mix",
           "b": "ConfliBERT",
-          "diff": 0.004379,
-          "p_adj": 1.0,
+          "diff": 0.01416,
+          "p_adj": 0.355,
           "significant": false
         },
         {
           "a": "CAMeLBERT-Mix",
           "b": "XLM-R",
-          "diff": 0.014779,
-          "p_adj": 1.0,
-          "significant": false
+          "diff": 0.032182,
+          "p_adj": 0.015333,
+          "significant": true
         },
         {
           "a": "ConfliBERT",
           "b": "XLM-R",
-          "diff": 0.0104,
-          "p_adj": 1.0,
+          "diff": 0.018022,
+          "p_adj": 0.355,
           "significant": false
         }
       ]
