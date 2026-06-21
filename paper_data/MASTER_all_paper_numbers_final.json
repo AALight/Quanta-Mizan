@@ -128,13 +128,14 @@
         ]
       },
       "XLM-R": {
-        "mean_f1": 0.4566,
-        "std_f1": 0.251,
+        "mean_f1": 0.5648,
+        "std_f1": 0.0226,
         "best_f1": 0.6004,
         "ci_95": [
           0.5441,
           0.6481
-        ]
+        ],
+        "note": "fold 1 retrained at seed 43 after the original fold-1 run collapsed (val_f1 0.0041, gold_f1 0.0092); see experiments/E04_xlmr_fold1_retrain. The collapsed raw run gave 0.4566 +/- 0.251."
       }
     },
     "significance": {

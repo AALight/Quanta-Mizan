@@ -237,6 +237,7 @@
       "short_name": "XLM-R",
       "hf_name": "xlm-roberta-base",
       "model_type": "multilingual",
+      "fold1_note": "fold 1 retrained at seed 43 after the original fold-1 run collapsed (val_f1 0.0041, gold_f1 0.0092, gold_acc 0.1187); see experiments/E04_xlmr_fold1_retrain/results/retrain_fold1_seed_43. The collapsed raw run gave mean 0.4566 +/- 0.251; the retrained run gives 0.5648 +/- 0.0226.",
       "fold_results": [
         {
           "fold": 0,
@@ -248,10 +249,10 @@
         },
         {
           "fold": 1,
-          "val_f1": 0.0041,
-          "gold_f1": 0.0092,
-          "gold_acc": 0.1187,
-          "time_sec": 149.9,
+          "val_f1": 0.8397,
+          "gold_f1": 0.5499,
+          "gold_acc": 0.5616,
+          "time_sec": 156.0,
           "gpu_mb": 10014.5
         },
         {
@@ -279,11 +280,11 @@
           "gpu_mb": 10004.1
         }
       ],
-      "mean_gold_f1": 0.4566,
-      "std_gold_f1": 0.251,
+      "mean_gold_f1": 0.5648,
+      "std_gold_f1": 0.0226,
       "best_gold_f1": 0.6004,
       "best_fold": 3,
-      "mean_gold_acc": 0.4831,
+      "mean_gold_acc": 0.5717,
       "bootstrap_ci_95": [
         0.5441,
         0.6481

@@ -31,6 +31,8 @@ The released **7,856 T2** instances are selected by TRIVET's **structural valida
 
 Pairwise paired-bootstrap with BH-FDR: AraBERT v2 significantly outperforms ConfliBERT (p_adj < 0.001) and XLM-R (p_adj = 0.007); CAMeLBERT-Mix significantly outperforms XLM-R (p_adj = 0.015). Other 7 pairs non-significant.
 
+> **XLM-R fold-1 reseed.** The original XLM-R fold-1 run collapsed (val macro-F1 = 0.0041, Gold macro-F1 = 0.0092), which dragged the raw 5-fold mean to 0.4566 ± 0.251. We retrained fold 1 at seed 43; it converged normally (val 0.8397, Gold 0.5499), giving the reported XLM-R mean of **0.565 ± 0.023**. The retrained fold is shipped in `experiments/E04_xlmr_fold1_retrain/results/retrain_fold1_seed_43/`, the raw collapsed run is retained for transparency, and `paper_data/TABLE_main_benchmark_23class.json` / `MASTER_all_paper_numbers_final.json` carry the retrained number. All other encoders and folds are unchanged.
+
 Controlled 12-class data ablation: T1 (738 real) reaches macro-F1 = 0.656 vs T2-12 (4,274 synthetic) = 0.312 → DES (per-1k samples) of 0.889 vs 0.073 → ~12× per-sample advantage for validated real data.
 
 ## Repository layout
