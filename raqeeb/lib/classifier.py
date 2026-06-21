@@ -1,10 +1,11 @@
 """
 classifier.py — Raqeeb 23-class classifier wrapper.
 
-Loads the frozen AraBERT v2 fold-3 checkpoint (the one released as the
-Raqeeb classifier in Paper 1) and exposes a single predict(...) method that
-takes a list of (keyword, best_match, ar_ref, mt_output) tuples and returns
-predicted Mizan class labels + confidences.
+Loads a frozen AraBERT v2 fold checkpoint and exposes a single predict(...)
+method that takes a list of (keyword, best_match, ar_ref, mt_output) tuples
+and returns predicted Mizan class labels + confidences. The default deployable
+released in Paper 1 is fold-0 (the best fold, single-fold Gold macro-F1 =
+0.635); fold-3 (0.589) is the cross-domain / companion-lineage checkpoint.
 
 The architecture and tokenisation are byte-for-byte identical to the
 training run that produced the checkpoint, via the RaqeebEncoder wrapper.
@@ -49,7 +50,7 @@ def _collate(batch, encoder: RaqeebEncoder):
 
 
 class RaqeebClassifier:
-    """Raqeeb 23-class classifier (AraBERT v2, fold-3 best checkpoint)."""
+    """Raqeeb 23-class classifier (AraBERT v2; default deployable = fold-0)."""
 
     def __init__(self, checkpoint_dir: str | Path, label_map_path: str | Path,
                  device: str = "cpu", batch_size: int = 16):

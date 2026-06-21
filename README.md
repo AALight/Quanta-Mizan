@@ -8,7 +8,7 @@ This repository releases the six artifacts described in the Raqeeb paper:
 2. **TRIVET** — the validation pipeline (anchor extraction → ESV structural gates; ETCA seed/quality audit runs in parallel — see *QUANTA T2 selection* below)
 3. **QUANTA** — the 9,032-instance dataset (738 T1 + 7,856 T2 + 438 Gold)
 4. **ETCA** — the cross-vendor LLM-as-judge audit protocol (GPT-4o generator, Claude Sonnet 4 judge)
-5. **Raqbench** + the released **Raqeeb classifier** (AraBERT v2, 5-fold mean Gold macro-F1 = 0.614 ± 0.017; released checkpoint is fold-3, single-fold F1 = 0.589, selected for downstream cross-domain reproducibility — best fold is fold-0)
+5. **Raqbench** + the released **Raqeeb classifier** (AraBERT v2, 5-fold mean Gold macro-F1 = 0.614 ± 0.017). All 5 fold checkpoints are released; the **default deployable is fold-0** (best fold, single-fold Gold F1 = 0.635), which reproduces the paper's per-class and Frontier-tier numbers. Fold-3 (single-fold F1 = 0.589) is retained as the **cross-domain / companion-lineage** checkpoint used for the WMT24++ probe and the Paper-2 cascade.
 6. **Dual-annotator validation protocol** + reusable workbook templates
 
 ## QUANTA T2 selection (provenance)
@@ -56,7 +56,7 @@ raqeeb-paper1/
 │   │   ├── patterns.py                          anchor extraction
 │   │   ├── esv_gates.py                         lightweight ESV gate (OCS + token-overlap proxies)
 │   │   ├── etca_auditor.py                      Claude Sonnet 4 audit wrapper
-│   │   ├── classifier.py                        AraBERT v2 fold-3 classifier wrapper
+│   │   ├── classifier.py                        AraBERT v2 classifier wrapper (default fold-0; fold-3 for cross-domain)
 │   │   └── raqeeb_encoder*.py                   training-identical tokenisation/head
 │   ├── data/
 │   │   ├── label_map.json                       23-class Mizan label → integer id

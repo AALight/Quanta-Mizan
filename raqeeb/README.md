@@ -15,7 +15,7 @@ result  = t.validate(keyword="السلام", best_match="الأمن",
                      sub_subtype="Terminology Substitution")
 print(result.ocs, result.cps, result.mpqs, result.quality_tier)
 
-# Use the classifier alone (loads the released AraBERT v2 fold-3 checkpoint)
+# Use the classifier alone (loads the released AraBERT v2 fold-0 default checkpoint)
 clf = RaqeebClassifier(checkpoint_dir="path/to/ckpt", label_map_path="data/label_map.json")
 preds = clf.predict([{"keyword": "...", "best_match": "...",
                        "ar_ref": "...", "mt_output": "..."}])
@@ -62,7 +62,7 @@ from raqeeb.trivet import (
     classify_quality_tier, get_regime, load_rubric_from_csv,
 )
 
-# Classifier — 23-class AraBERT v2 fold-3 wrapper
+# Classifier — 23-class AraBERT v2 wrapper (default deployable fold-0)
 from raqeeb.classifier import RaqeebClassifier
 
 # ETCA — cross-vendor LLM audit (Claude Sonnet 4)
@@ -92,7 +92,7 @@ Each row of the output CSV is one detected error candidate, with:
 | `run_pipeline.py` | End-to-end CLI |
 | `lib/trivet_validator.py` | TRIVET v3.3 validator (clitic-aware matching, OCS / CPS / SFR / MPQS) |
 | `lib/patterns.py` | Anchor extraction — applies (keyword, best_match) patterns to candidate text |
-| `lib/classifier.py` | AraBERT v2 fold-3 classifier wrapper (23 Mizan classes) |
+| `lib/classifier.py` | AraBERT v2 classifier wrapper, 23 Mizan classes (default deployable fold-0; fold-3 for cross-domain) |
 | `lib/raqeeb_encoder.py`, `raqeeb_encoder_shared.py` | Tokenisation + classifier head, byte-for-byte identical to training |
 | `data/patterns_v1.json` | 177 frozen anchor patterns from the 446-row expert-annotated gold pool (23/23 class coverage) |
 | `data/rubric_v33.csv` | TRIVET v3.3 per-class ESV thresholds (CSR_Min, OCS_Min, SFR_Min/Max, weights, MPQS targets) |
@@ -122,8 +122,9 @@ benefit from domain-specific exemplars.
 
 ## Reproducing the paper's numbers
 
-Sanity check on the 438-instance UN Gold test set (should reproduce macro-F1 ≈ 0.589, accuracy
-≈ 0.578 — fold-3 of the AraBERT v2 release, same as Table 4 in the paper):
+Sanity check on the 438-instance UN Gold test set (with the default fold-0 deployable, should
+reproduce macro-F1 ≈ 0.635, accuracy ≈ 0.607; the fold-3 cross-domain checkpoint gives
+macro-F1 ≈ 0.589, accuracy ≈ 0.578 — both are reported in Table 4 of the paper):
 
 ```bash
 python run_pipeline.py \

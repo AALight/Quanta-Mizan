@@ -8,14 +8,15 @@ Pipeline:
      pattern set (TRIVET v3.3 anchor extraction; clitic-aware)
   3. Run TRIVET structural gates (OCS / CPS / SFR / MPQS) per candidate
   4. (Optional) ETCA audit via --etca flag (requires Anthropic API key)
-  5. Run the Raqeeb classifier (AraBERT v2 fold-3) for 23-class prediction
+  5. Run the Raqeeb classifier (AraBERT v2, default deployable = fold-0) for
+     23-class prediction
   6. Write per-candidate output to --output CSV
 
 Example:
     python run_pipeline.py \\
         --input examples/un_demo_input.csv \\
         --output errors.csv \\
-        --checkpoint ../experiments/E01_cross_domain_classifier/checkpoints/arabert_v2_fold3
+        --checkpoint ../checkpoints/arabert_v2_fold0
 
     # With user-supplied patterns (medical, legal, etc.)
     python run_pipeline.py --input my_input.csv --output errors.csv \\
@@ -52,8 +53,10 @@ def main():
     ap.add_argument("--output", required=True,
                     help="Output CSV path")
     ap.add_argument("--checkpoint", default=None,
-                    help="Path to AraBERT v2 fold-3 checkpoint dir "
-                         "(default: ../experiments/E01_cross_domain_classifier/checkpoints/arabert_v2_fold3)")
+                    help="Path to an AraBERT v2 fold checkpoint dir "
+                         "(default deployable: ../checkpoints/arabert_v2_fold0, the best fold; "
+                         "use ../experiments/E01_cross_domain_classifier/checkpoints/arabert_v2_fold3 "
+                         "for the cross-domain checkpoint)")
     ap.add_argument("--patterns", default=str(DEFAULT_PATTERNS),
                     help="Pattern JSON (default: data/un_t1_patterns.json). "
                          "Replace this with a domain-specific patterns file "
@@ -140,12 +143,13 @@ def main():
         df_out["confidence"] = 0.0
     else:
         ckpt = Path(args.checkpoint) if args.checkpoint else (
-            HERE.parent / "experiments" / "E01_cross_domain_classifier"
-            / "checkpoints" / "arabert_v2_fold3"
+            HERE.parent / "checkpoints" / "arabert_v2_fold0"
         )
         if not ckpt.exists():
             print(f"ERROR: checkpoint not found: {ckpt}\n"
-                  f"  Provide --checkpoint or place the AraBERT v2 fold-3 directory there.",
+                  f"  Provide --checkpoint or place the AraBERT v2 fold-0 directory there "
+                  f"(fold-0 is the default deployable; fold-3 lives under "
+                  f"experiments/E01_cross_domain_classifier/checkpoints for cross-domain use).",
                   file=sys.stderr)
             sys.exit(3)
         print(f"  Classifier:     {ckpt.name}")
