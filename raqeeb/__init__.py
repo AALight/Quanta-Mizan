@@ -3,7 +3,9 @@ Raqeeb — Anchor-Constrained Detection of Fine-Grained Arabic MT Errors.
 
 A toolkit for fine-grained 23-class Arabic MT error classification with
 anchor-constrained validation, cross-vendor LLM audit, and dual-layer
-human evaluation support.
+human evaluation support. The TRIVET validator (raqeeb.trivet) is the
+companion methods paper's contribution, bundled here as the substrate that
+built QUANTA; ETCA and the released 23-class classifier are this paper's.
 
 Public API
 ----------

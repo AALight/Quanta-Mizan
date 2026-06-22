@@ -1,6 +1,6 @@
 # Raqeeb — Anchor-Constrained Detection of Fine-Grained Arabic MT Errors
 
-A Python toolkit for fine-grained 23-class Arabic MT error classification with anchor-constrained validation, cross-vendor LLM audit, and dual-layer human evaluation. The toolkit can be used in three ways: as a Python library (recommended for research integration), as a CLI (recommended for batch jobs), or as individual components (TRIVET, the classifier, ETCA — for ablations and extensions).
+A Python toolkit for fine-grained 23-class Arabic MT error classification with anchor-constrained validation, cross-vendor LLM audit, and dual-layer human evaluation. The toolkit can be used in three ways: as a Python library (recommended for research integration), as a CLI (recommended for batch jobs), or as individual components (TRIVET, the classifier, ETCA — for ablations and extensions). Note: the **TRIVET** validator's methodology is the contribution of the companion methods paper; its code is bundled here as the substrate that built QUANTA and for reproducibility, not as a contribution of this resource paper.
 
 ## Quick start (Python library)
 

@@ -2,14 +2,15 @@
 
 > *Anonymized repository for the Raqeeb paper, currently under review at the ACL Rolling Review (ARR).*
 
-This repository releases the six artifacts described in the Raqeeb paper:
+This repository releases the five artifacts contributed by the Raqeeb resource paper:
 
 1. **Mizan** — a 23-class taxonomy of Arabic MT linguistic-shift errors, with MQM-compatible severity weights
-2. **TRIVET** — the validation pipeline (anchor extraction → ESV structural gates; ETCA seed/quality audit runs in parallel — see *QUANTA T2 selection* below)
-3. **QUANTA** — the 9,032-instance dataset (738 T1 + 7,856 T2 + 438 Gold)
-4. **ETCA** — the cross-vendor LLM-as-judge audit protocol (GPT-4o generator, Claude Sonnet 4 judge)
-5. **Raqbench** + the released **Raqeeb classifier** (AraBERT v2, 5-fold mean Gold macro-F1 = 0.614 ± 0.017). All 5 fold checkpoints are released; the **default deployable is fold-0** (best fold, single-fold Gold F1 = 0.635), which reproduces the paper's per-class and Frontier-tier numbers. Fold-3 (single-fold F1 = 0.589) is retained as the **cross-domain / companion-lineage** checkpoint used for the WMT24++ probe and the Paper-2 cascade.
-6. **Dual-annotator validation protocol** + reusable workbook templates
+2. **QUANTA** — the 9,032-instance dataset (738 T1 + 7,856 T2 + 438 Gold)
+3. **ETCA** — the cross-vendor LLM-as-judge audit protocol (GPT-4o generator, Claude Sonnet 4 judge)
+4. **Raqbench** + the released **Raqeeb classifier** (AraBERT v2, 5-fold mean Gold macro-F1 = 0.614 ± 0.017). All 5 fold checkpoints are released; the **default deployable is fold-0** (best fold, single-fold Gold F1 = 0.635), which reproduces the paper's per-class and Frontier-tier numbers. Fold-3 (single-fold F1 = 0.589) is retained as the **cross-domain / companion-lineage** checkpoint used for the WMT24++ probe and the Paper-2 cascade.
+5. **Dual-annotator validation protocol** + reusable workbook templates
+
+QUANTA was built with **TRIVET**, the anchor-constrained validation pipeline (anchor extraction → ESV structural gates; ETCA seed/quality audit runs in parallel — see *QUANTA T2 selection* below). TRIVET's methodology is the contribution of the **companion methods paper** (anonymized for review); its validator code is included here (`raqeeb/trivet/`) solely so QUANTA can be reproduced, and is not claimed as a contribution of this paper.
 
 ## QUANTA T2 selection (provenance)
 

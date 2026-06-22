@@ -34,10 +34,13 @@ The cascade is the Arabic-specific innovation: 13 prefix patterns + 12 suffix
 patterns + diacritic / Tanween / tatweel handling, applied as a 6-step
 matching procedure.
 
-References
-----------
-See the Raqeeb paper (Mizan/TRIVET/QUANTA framework) for the full description
-of regimes, thresholds, and per-class calibration.
+Attribution
+-----------
+TRIVET's methodology (the ESV, the two-regime cascade, regimes, thresholds,
+and per-class calibration) is the contribution of the companion methods paper,
+not of this resource paper. This validator code is bundled here only as the
+production substrate that built QUANTA, so the dataset can be reproduced. See
+the companion methods paper for the full method description.
 """
 from raqeeb.lib.trivet_validator import (
     calculate_csr,
