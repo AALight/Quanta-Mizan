@@ -1,0 +1,31 @@
+ALLaM few_shot_5 Format D
+
+                            precision    recall  f1-score   support
+
+             Meaning Shift      0.253     0.529     0.343        70
+            Total Omission      0.877     0.806     0.840        62
+       Partial Translation      0.000     0.000     0.000         7
+         Name Entity Error      0.000     0.000     0.000         2
+  Terminology Substitution      0.096     0.154     0.119        52
+       Literal Translation      0.000     0.000     0.000        15
+      Hypernym for Hyponym      0.000     0.000     0.000        30
+      Hyponym for Hypernym      0.000     0.000     0.000         9
+          Tanween Omission      0.000     0.000     0.000        14
+       Gender Disagreement      1.000     0.500     0.667         4
+        Definiteness Shift      0.000     0.000     0.000        12
+ Perfective to Progressive      0.000     0.000     0.000         5
+ Progressive to Perfective      0.000     0.000     0.000         6
+Tense Shift Under Negation      0.037     0.333     0.067         3
+           Wrong Structure      0.000     0.000     0.000         8
+          Wrong Word Order      0.000     0.000     0.000        13
+   Active to Passive Voice      0.143     0.250     0.182         4
+   Passive to Active Voice      0.000     0.000     0.000         8
+         Noun to Adjective      0.021     0.333     0.040         3
+         Adjective to Noun      0.000     0.000     0.000         3
+         Register Mismatch      0.000     0.000     0.000        96
+            Spelling Error      0.000     0.000     0.000         2
+           Invalid Pattern      0.000     0.000     0.000        10
+
+                 micro avg      0.257     0.228     0.242       438
+                 macro avg      0.106     0.126     0.098       438
+              weighted avg      0.187     0.228     0.196       438

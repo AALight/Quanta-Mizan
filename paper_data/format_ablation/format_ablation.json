@@ -1,0 +1,88 @@
+{
+  "protocol": "5-fold CV format ablation, AraBERT v2, fixed T1+T2",
+  "model": "aubmindlab/bert-base-arabertv02",
+  "training_size": 8594,
+  "format_A": {
+    "mean_gold_f1": 0.1135,
+    "std_gold_f1": 0.0302,
+    "best_gold_f1": 0.1609,
+    "mean_gold_acc": 0.232,
+    "fold_results": [
+      {
+        "fold": 0,
+        "val_f1": 0.807,
+        "gold_f1": 0.1609,
+        "gold_acc": 0.2397
+      },
+      {
+        "fold": 1,
+        "val_f1": 0.822,
+        "gold_f1": 0.1158,
+        "gold_acc": 0.2557
+      },
+      {
+        "fold": 2,
+        "val_f1": 0.8147,
+        "gold_f1": 0.0959,
+        "gold_acc": 0.2306
+      },
+      {
+        "fold": 3,
+        "val_f1": 0.8139,
+        "gold_f1": 0.1146,
+        "gold_acc": 0.2443
+      },
+      {
+        "fold": 4,
+        "val_f1": 0.815,
+        "gold_f1": 0.0804,
+        "gold_acc": 0.1895
+      }
+    ]
+  },
+  "format_D": {
+    "mean_gold_f1": 0.6185,
+    "std_gold_f1": 0.0225,
+    "best_gold_f1": 0.6397,
+    "mean_gold_acc": 0.6028,
+    "fold_results": [
+      {
+        "fold": 0,
+        "val_f1": 0.8674,
+        "gold_f1": 0.5821,
+        "gold_acc": 0.5868
+      },
+      {
+        "fold": 1,
+        "val_f1": 0.8672,
+        "gold_f1": 0.6397,
+        "gold_acc": 0.5959
+      },
+      {
+        "fold": 2,
+        "val_f1": 0.8622,
+        "gold_f1": 0.6168,
+        "gold_acc": 0.5982
+      },
+      {
+        "fold": 3,
+        "val_f1": 0.8666,
+        "gold_f1": 0.62,
+        "gold_acc": 0.621
+      },
+      {
+        "fold": 4,
+        "val_f1": 0.8815,
+        "gold_f1": 0.6339,
+        "gold_acc": 0.6119
+      }
+    ]
+  },
+  "paired_bootstrap": {
+    "n_resamples": 10000,
+    "mean_diff": 0.4697,
+    "ci_95_low": 0.3999,
+    "ci_95_high": 0.5358,
+    "p_value_one_sided": 0.0
+  }
+}

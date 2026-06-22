@@ -1,0 +1,54 @@
+{
+  "majority_class": {
+    "macro_f1": 0.0108,
+    "accuracy": 0.1416
+  },
+  "stratified_random": {
+    "macro_f1_mean": 0.0337,
+    "macro_f1_std": 0.0077,
+    "accuracy_mean": 0.0543,
+    "accuracy_std": 0.0123
+  },
+  "tfidf_svm": {
+    "macro_f1_mean": 0.2374,
+    "macro_f1_std": 0.013,
+    "best_fold_f1": 0.2559,
+    "accuracy_mean": 0.2749,
+    "accuracy_std": 0.0105,
+    "best_fold_accuracy": 0.2877,
+    "predictions_file": "predictions_tfidf_svm.csv"
+  },
+  "tfidf_logreg": {
+    "macro_f1_mean": 0.1622,
+    "macro_f1_std": 0.0068,
+    "best_fold_f1": 0.1757,
+    "accuracy_mean": 0.1922,
+    "accuracy_std": 0.0077,
+    "best_fold_accuracy": 0.2009,
+    "predictions_file": "predictions_tfidf_logreg.csv"
+  },
+  "keyword_rule": {
+    "macro_f1": 0.0596,
+    "accuracy": 0.3516
+  },
+  "_meta": {
+    "regenerated_utc": "2026-06-22T21:04:07Z",
+    "note": "Re-run of m04_baselines.py with accuracy columns added. macro-F1 fields reproduce the original baselines.json exactly; accuracy added for stratified_random/tfidf_svm/tfidf_logreg (the original omitted them). TF-IDF rows are 5-fold mean+/-std; per-instance predictions now saved for re-scoring.",
+    "input_format": "Format D / anchor-guided (Keyword + Best_Match + ar + mt_output)",
+    "tfidf_config": {
+      "ngram_range": [
+        1,
+        2
+      ],
+      "max_features": 50000,
+      "min_df": 2,
+      "sublinear_tf": true
+    },
+    "svm": "LinearSVC(class_weight=balanced, max_iter=5000, random_state=42)",
+    "logreg": "LogisticRegression(class_weight=balanced, max_iter=1000, random_state=42, solver=saga)",
+    "n_gold": 438,
+    "n_classes": 23,
+    "n_train": 8594,
+    "data_source": "exold/delta_upload (2)/data/pipeline_snapshot (train_t1t2_audited 8594, test_gold 438)"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "model": "ALLaM-7B",
+  "mode": "few_shot_5",
+  "format": "D",
+  "gold_macro_f1": 0.0981,
+  "gold_accuracy": 0.2283,
+  "unknown_rate": 0.1119
+}
