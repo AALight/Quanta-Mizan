@@ -1,0 +1,56 @@
+﻿Eval_ID,Sub_Subtype_A,Q1_A,Q2_A,Q3_A,Q4_A,Q5_A,Q6_A,Q7_A,Sub_Subtype_B,Q1_B,Q2_B,Q3_B,Q4_B,Q5_B,Q6_B,Q7_B
+T1G_0032,Hyponym for Hypernym,1,1,0.2,1,1,4,1,Hyponym for Hypernym,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T1G_0006,Register Mismatch,1,1,0.4,0,0,2,0,Register Mismatch,1.0,1.0,0.4,0.0,1.0,4.0,1.0
+T1G_0033,Wrong Word Order,1,1,0.4,1,1,4,1,Wrong Word Order,1.0,1.0,0.4,0.0,1.0,4.0,1.0
+T1G_0014,Hypernym for Hyponym,1,1,0.2,1,1,5,1,Hypernym for Hyponym,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T1G_0020,Tanween Omission,1,1,0.2,1,1,5,1,Tanween Omission,1.0,1.0,0.2,1.0,1.0,4.0,1.0
+T1G_0050,Wrong Structure,1,1,0.4,0,1,3,0,Wrong Structure,1.0,1.0,0.4,0.0,1.0,3.0,1.0
+T1G_0042,Passive to Active Voice,1,1,0.2,1,1,5,1,Passive to Active Voice,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T1G_0027,Definiteness Shift,1,1,0.2,1,1,4,0,Definiteness Shift,0.0,0.0,0.0,0.0,0.0,5.0,1.0
+T1G_0044,Passive to Active Voice,1,1,0.2,1,1,5,1,Passive to Active Voice,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T1G_0013,Hypernym for Hyponym,1,1,0.2,1,1,4,0,Hypernym for Hyponym,1.0,1.0,0.2,0.0,0.0,3.0,0.0
+T1G_0053,Literal Translation,1,1,0.4,0,0,4,0,Literal Translation,1.0,1.0,0.4,0.0,1.0,2.0,0.0
+T1G_0004,Total Omission,1,1,0.7,0,1,5,1,Total Omission,1.0,1.0,1.0,0.0,1.0,3.0,0.0
+T1G_0034,Wrong Word Order,1,1,0.2,1,1,5,1,Wrong Word Order,1.0,1.0,0.4,0.0,1.0,2.0,0.0
+T1G_0035,Wrong Word Order,1,1,0.2,1,1,5,1,Wrong Word Order,1.0,1.0,0.4,0.0,1.0,2.0,0.0
+T1G_0009,Terminology Substitution,1,1,0.4,1,1,4,0,Terminology Substitution,1.0,1.0,0.7,0.0,1.0,2.0,0.0
+T1G_0018,Tanween Omission,1,1,0.2,1,1,4,1,Tanween Omission,1.0,1.0,0.2,1.0,1.0,4.0,1.0
+T1G_0007,Register Mismatch,1,1,0.2,1,1,5,0,Register Mismatch,1.0,1.0,0.4,0.0,1.0,4.0,0.0
+T1G_0005,Register Mismatch,1,1,0.2,1,1,5,1,Register Mismatch,1.0,1.0,0.4,0.0,1.0,4.0,1.0
+T1G_0048,Wrong Structure,1,1,0.4,0,1,3,0,Wrong Structure,1.0,1.0,0.4,0.0,1.0,2.0,0.0
+T1G_0028,Definiteness Shift,1,1,0.2,1,1,5,1,Definiteness Shift,0.0,0.0,0.0,0.0,0.0,5.0,1.0
+T1G_0047,Adjective to Noun,1,1,0.2,1,1,5,1,Adjective to Noun,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T1G_0046,Adjective to Noun,1,1,0.2,1,1,5,1,Adjective to Noun,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T1G_0054,Literal Translation,1,1,0.2,1,1,3,0,Literal Translation,1.0,1.0,0.4,0.0,1.0,4.0,0.0
+T1G_0016,Hypernym for Hyponym,1,1,0.2,1,1,5,1,Hypernym for Hyponym,1.0,1.0,0.2,0.0,1.0,4.0,0.0
+T1G_0010,Terminology Substitution,1,1,0.4,1,1,5,1,Terminology Substitution,1.0,1.0,0.7,0.0,1.0,4.0,1.0
+T1G_0017,Tanween Omission,1,1,0.2,1,1,4,1,Tanween Omission,1.0,1.0,0.2,1.0,1.0,4.0,1.0
+T1G_0025,Definiteness Shift,1,1,0.2,1,1,4,1,Definiteness Shift,0.0,0.0,0.0,0.0,0.0,4.0,1.0
+T1G_0031,Hyponym for Hypernym,1,1,0.2,1,1,5,1,Hyponym for Hypernym,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T1G_0038,Invalid Pattern,1,1,0.4,1,0,3,0,Invalid Pattern,1.0,1.0,0.4,0.0,1.0,4.0,1.0
+T1G_0026,Definiteness Shift,1,1,0.2,1,1,5,0,Definiteness Shift,0.0,0.0,0.0,0.0,0.0,4.0,1.0
+T1G_0012,Terminology Substitution,1,1,0.4,1,1,4,0,Terminology Substitution,1.0,1.0,0.7,0.0,1.0,3.0,0.0
+T1G_0001,Total Omission,1,1,0.7,0,1,5,1,Total Omission,1.0,1.0,1.0,0.0,0.0,2.0,0.0
+T1G_0049,Wrong Structure,1,1,0.4,0,1,3,0,Wrong Structure,1.0,1.0,0.4,0.0,1.0,2.0,0.0
+T1G_0037,Invalid Pattern,1,1,0.4,1,0,5,1,Invalid Pattern,1.0,1.0,0.4,0.0,0.0,4.0,1.0
+T1G_0030,Hyponym for Hypernym,1,1,0.2,1,1,5,0,Hyponym for Hypernym,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T1G_0041,Passive to Active Voice,1,1,0.2,1,1,5,1,Passive to Active Voice,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T1G_0002,Total Omission,1,1,0.7,0,1,4,1,Total Omission,1.0,1.0,1.0,0.0,0.0,3.0,0.0
+T1G_0022,Progressive to Perfective,1,1,0.4,1,1,5,1,Progressive to Perfective,1.0,1.0,0.7,0.0,1.0,4.0,1.0
+T1G_0003,Total Omission,1,1,0.7,0,1,5,1,Total Omission,0.0,0.0,1.0,0.0,0.0,4.0,0.0
+T1G_0051,Perfective to Progressive,1,1,0.4,1,1,5,1,Perfective to Progressive,1.0,1.0,0.7,0.0,1.0,4.0,0.0
+T1G_0040,Invalid Pattern,1,1,0.4,1,0,3,0,Invalid Pattern,1.0,1.0,0.4,0.0,0.0,4.0,1.0
+T1G_0036,Wrong Word Order,1,1,0.2,1,1,2,0,Wrong Word Order,1.0,1.0,0.4,0.0,1.0,2.0,0.0
+T1G_0024,Progressive to Perfective,1,1,0.4,1,1,4,0,Progressive to Perfective,1.0,1.0,0.7,0.0,1.0,4.0,1.0
+T1G_0045,Adjective to Noun,1,1,0.2,1,1,5,1,Adjective to Noun,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T1G_0011,Terminology Substitution,1,1,0.4,1,1,2,0,Terminology Substitution,1.0,1.0,0.7,0.0,1.0,4.0,0.0
+T1G_0023,Progressive to Perfective,1,1,0.4,1,1,4,0,Progressive to Perfective,1.0,1.0,0.7,0.0,1.0,4.0,1.0
+T1G_0019,Tanween Omission,1,1,0.2,1,1,5,0,Tanween Omission,1.0,1.0,0.2,1.0,1.0,4.0,1.0
+T1G_0055,Tense Shift Under Negation,1,1,0.7,0,0,3,0,Tense Shift Under Negation,1.0,1.0,0.4,0.0,1.0,4.0,1.0
+T1G_0021,Progressive to Perfective,1,1,0.4,1,1,5,1,Progressive to Perfective,1.0,1.0,0.7,0.0,1.0,4.0,1.0
+T1G_0008,Register Mismatch,1,1,0.2,1,1,3,0,Register Mismatch,1.0,1.0,0.4,0.0,1.0,4.0,0.0
+T1G_0043,Passive to Active Voice,1,1,0.2,1,1,5,1,Passive to Active Voice,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T1G_0015,Hypernym for Hyponym,1,1,0.2,1,1,5,1,Hypernym for Hyponym,1.0,1.0,0.2,0.0,1.0,3.0,0.0
+T1G_0029,Hyponym for Hypernym,1,1,0.2,1,1,5,1,Hyponym for Hypernym,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T1G_0052,Perfective to Progressive,1,1,0.4,1,1,5,0,Perfective to Progressive,1.0,1.0,0.7,0.0,1.0,4.0,0.0
+T1G_0039,Invalid Pattern,1,1,0.4,1,0,3,0,Invalid Pattern,1.0,1.0,0.4,0.0,1.0,4.0,1.0

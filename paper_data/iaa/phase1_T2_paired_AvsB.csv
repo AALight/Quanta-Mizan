@@ -1,0 +1,93 @@
+﻿Eval_ID,Sub_Subtype_A,Q1_A,Q2_A,Q3_A,Q4_A,Q5_A,Q6_A,Q7_A,Sub_Subtype_B,Q1_B,Q2_B,Q3_B,Q4_B,Q5_B,Q6_B,Q7_B
+T2G_0041,Progressive to Perfective,1,1,0.7,1,1,5,1,Progressive to Perfective,1.0,1.0,0.7,0.0,1.0,4.0,1.0
+T2G_0023,Literal Translation,1,1,0.4,0,1,4,1,Literal Translation,1.0,1.0,0.4,0.0,1.0,4.0,1.0
+T2G_0056,Passive to Active Voice,1,1,0.2,1,1,4,1,Passive to Active Voice,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T2G_0073,Adjective to Noun,1,1,0.2,1,1,4,1,Adjective to Noun,1.0,1.0,0.2,0.0,1.0,2.0,0.0
+T2G_0001,Meaning Shift,1,1,1.0,1,1,5,1,Meaning Shift,1.0,1.0,1.0,0.0,1.0,4.0,1.0
+T2G_0027,Hypernym for Hyponym,1,1,0.2,1,1,5,1,Hypernym for Hyponym,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T2G_0040,Tense Shift Under Negation,1,1,0.4,1,1,5,1,Tense Shift Under Negation,1.0,1.0,0.4,0.0,1.0,4.0,1.0
+T2G_0068,Gender Disagreement,1,1,0.4,1,1,4,1,Gender Disagreement,1.0,1.0,0.4,0.0,1.0,4.0,1.0
+T2G_0011,Partial Translation,1,0,0.7,0,1,3,1,Partial Translation,1.0,1.0,0.7,0.0,1.0,3.0,0.0
+T2G_0045,Wrong Structure,1,1,0.4,1,1,4,1,Wrong Structure,1.0,1.0,0.4,0.0,1.0,4.0,1.0
+T2G_0084,Definiteness Shift,1,1,0.2,1,1,5,1,Definiteness Shift,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T2G_0036,Tanween Omission,1,1,0.2,1,1,5,1,Tanween Omission,1.0,1.0,0.2,1.0,1.0,5.0,1.0
+T2G_0090,Spelling Error,1,1,0.1,1,1,4,1,Spelling Error,1.0,1.0,0.1,1.0,1.0,2.0,0.0
+T2G_0063,Perfective to Progressive,1,1,0.7,1,1,5,1,Perfective to Progressive,1.0,1.0,0.7,0.0,1.0,4.0,0.0
+T2G_0013,Name Entity Error,1,1,0.7,1,1,5,1,Name Entity Error,1.0,1.0,0.7,0.0,1.0,4.0,1.0
+T2G_0005,Total Omission,1,1,1.0,0,1,3,1,Total Omission,1.0,1.0,1.0,0.0,1.0,2.0,0.0
+T2G_0019,Terminology Substitution,1,1,0.7,1,1,5,1,Terminology Substitution,1.0,1.0,0.7,0.0,1.0,4.0,1.0
+T2G_0029,Hyponym for Hypernym,1,1,0.2,1,1,5,1,Hyponym for Hypernym,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T2G_0050,Wrong Word Order,1,1,0.4,1,1,4,1,Wrong Word Order,1.0,1.0,0.4,0.0,1.0,2.0,0.0
+T2G_0066,Gender Disagreement,1,1,0.4,1,1,4,1,Gender Disagreement,1.0,1.0,0.4,0.0,1.0,4.0,1.0
+T2G_0016,Name Entity Error,1,1,0.7,1,1,5,1,Name Entity Error,1.0,1.0,0.7,0.0,1.0,3.0,1.0
+T2G_0069,Register Mismatch,1,1,0.4,1,1,4,1,Register Mismatch,1.0,1.0,0.4,0.0,1.0,4.0,1.0
+T2G_0079,Noun to Adjective,1,1,0.2,1,1,4,1,Noun to Adjective,1.0,1.0,0.2,0.0,1.0,2.0,0.0
+T2G_0031,Hyponym for Hypernym,1,1,0.2,1,1,5,1,Hyponym for Hypernym,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T2G_0034,Tanween Omission,1,1,0.2,1,1,5,1,Tanween Omission,1.0,1.0,0.2,1.0,1.0,4.0,1.0
+T2G_0012,Partial Translation,1,1,0.7,0,1,3,1,Partial Translation,1.0,1.0,0.7,0.0,1.0,1.0,0.0
+T2G_0067,Gender Disagreement,1,1,0.4,1,1,4,1,Gender Disagreement,1.0,1.0,0.4,0.0,1.0,2.0,1.0
+T2G_0070,Register Mismatch,1,1,0.4,1,1,4,1,Register Mismatch,1.0,1.0,0.4,0.0,1.0,4.0,0.0
+T2G_0032,Hyponym for Hypernym,1,1,0.2,1,1,5,1,Hyponym for Hypernym,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T2G_0078,Noun to Adjective,1,1,0.2,1,1,4,1,Noun to Adjective,1.0,1.0,0.2,0.0,1.0,2.0,0.0
+T2G_0010,Partial Translation,1,1,0.7,0,1,3,1,Partial Translation,1.0,1.0,0.7,0.0,0.0,1.0,0.0
+T2G_0071,Register Mismatch,1,1,0.4,1,1,4,1,Register Mismatch,1.0,1.0,0.4,0.0,1.0,4.0,1.0
+T2G_0006,Total Omission,1,1,1.0,0,1,3,1,Total Omission,1.0,1.0,1.0,0.0,1.0,3.0,0.0
+T2G_0043,Progressive to Perfective,1,1,0.7,1,1,5,1,Progressive to Perfective,1.0,1.0,0.7,0.0,1.0,4.0,1.0
+T2G_0048,Wrong Structure,1,1,0.4,1,1,4,1,Wrong Structure,1.0,1.0,0.4,0.0,0.0,4.0,1.0
+T2G_0017,Terminology Substitution,1,1,0.7,1,1,5,1,Terminology Substitution,1.0,1.0,0.7,0.0,1.0,4.0,1.0
+T2G_0046,Wrong Structure,1,1,0.4,1,1,4,1,Wrong Structure,1.0,1.0,0.4,0.0,1.0,4.0,1.0
+T2G_0035,Tanween Omission,1,1,0.2,1,1,5,1,Tanween Omission,1.0,1.0,0.2,1.0,1.0,4.0,1.0
+T2G_0008,Total Omission,1,1,1.0,0,1,3,1,Total Omission,1.0,1.0,1.0,0.0,1.0,2.0,0.0
+T2G_0081,Definiteness Shift,1,1,0.2,1,1,5,1,Definiteness Shift,1.0,1.0,0.2,1.0,1.0,4.0,1.0
+T2G_0028,Hypernym for Hyponym,1,1,0.2,1,1,5,1,Hypernym for Hyponym,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T2G_0020,Terminology Substitution,1,1,0.7,1,1,5,1,Terminology Substitution,1.0,1.0,0.7,0.0,1.0,3.0,1.0
+T2G_0077,Noun to Adjective,1,1,0.2,1,1,4,1,Noun to Adjective,1.0,1.0,0.2,0.0,1.0,2.0,0.0
+T2G_0026,Hypernym for Hyponym,1,1,0.2,1,1,5,1,Hypernym for Hyponym,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T2G_0054,Passive to Active Voice,1,1,0.2,1,1,4,1,Passive to Active Voice,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T2G_0014,Name Entity Error,1,1,0.7,1,1,5,1,Name Entity Error,1.0,1.0,0.7,0.0,1.0,1.0,0.0
+T2G_0025,Hypernym for Hyponym,1,1,0.2,1,1,5,1,Hypernym for Hyponym,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T2G_0004,Meaning Shift,1,1,1.0,1,1,5,1,Meaning Shift,1.0,1.0,1.0,0.0,1.0,3.0,1.0
+T2G_0018,Terminology Substitution,1,1,0.7,1,1,5,1,Terminology Substitution,1.0,1.0,0.7,0.0,1.0,4.0,1.0
+T2G_0039,Tense Shift Under Negation,1,1,0.4,1,1,4,1,Tense Shift Under Negation,1.0,1.0,0.4,0.0,1.0,4.0,1.0
+T2G_0009,Partial Translation,1,1,0.7,0,1,3,1,Partial Translation,1.0,1.0,0.7,0.0,0.0,2.0,0.0
+T2G_0074,Adjective to Noun,1,1,0.2,1,1,4,1,Adjective to Noun,1.0,1.0,0.2,0.0,1.0,2.0,0.0
+T2G_0007,Total Omission,1,1,1.0,0,1,3,1,Total Omission,1.0,1.0,1.0,0.0,1.0,2.0,0.0
+T2G_0089,Spelling Error,1,1,0.1,1,1,4,1,Spelling Error,1.0,1.0,0.1,1.0,1.0,4.0,0.0
+T2G_0037,Tense Shift Under Negation,1,1,0.4,1,1,4,1,Tense Shift Under Negation,1.0,1.0,0.4,0.0,1.0,4.0,1.0
+T2G_0087,Invalid Pattern,1,1,0.4,1,1,4,1,Invalid Pattern,1.0,1.0,0.4,0.0,1.0,4.0,1.0
+T2G_0057,Active to Passive Voice,1,1,0.2,1,1,4,1,Active to Passive Voice,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T2G_0092,Spelling Error,1,1,0.1,1,1,4,1,Spelling Error,1.0,1.0,0.1,1.0,1.0,4.0,1.0
+T2G_0055,Passive to Active Voice,1,1,0.2,1,1,4,1,Passive to Active Voice,1.0,1.0,0.2,0.0,1.0,2.0,0.0
+T2G_0044,Progressive to Perfective,1,1,0.7,1,1,5,1,Progressive to Perfective,1.0,1.0,0.7,0.0,1.0,4.0,1.0
+T2G_0051,Wrong Word Order,1,1,0.4,1,1,4,1,Wrong Word Order,1.0,1.0,0.4,0.0,1.0,2.0,0.0
+T2G_0076,Adjective to Noun,1,1,0.2,1,1,4,1,Adjective to Noun,1.0,1.0,0.2,0.0,1.0,2.0,1.0
+T2G_0047,Wrong Structure,1,1,0.4,1,1,5,1,Wrong Structure,1.0,1.0,0.4,0.0,0.0,3.0,0.0
+T2G_0065,Gender Disagreement,1,1,0.4,1,1,4,1,Gender Disagreement,1.0,1.0,0.4,0.0,1.0,3.0,1.0
+T2G_0062,Perfective to Progressive,1,1,0.7,1,1,5,1,Perfective to Progressive,1.0,1.0,0.7,0.0,1.0,4.0,1.0
+T2G_0091,Spelling Error,1,1,0.1,1,1,4,1,Spelling Error,1.0,1.0,0.1,1.0,1.0,4.0,1.0
+T2G_0085,Invalid Pattern,1,1,0.4,1,1,4,1,Invalid Pattern,1.0,1.0,0.4,0.0,1.0,2.0,0.0
+T2G_0042,Progressive to Perfective,1,1,0.7,1,1,5,1,Progressive to Perfective,1.0,1.0,0.7,0.0,1.0,4.0,1.0
+T2G_0059,Active to Passive Voice,1,1,0.2,1,1,4,1,Active to Passive Voice,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T2G_0049,Wrong Word Order,1,1,0.4,1,1,4,1,Wrong Word Order,1.0,1.0,0.4,0.0,1.0,2.0,0.0
+T2G_0082,Definiteness Shift,1,1,0.2,1,1,5,1,Definiteness Shift,1.0,1.0,0.2,1.0,1.0,4.0,1.0
+T2G_0058,Active to Passive Voice,1,1,0.2,1,1,4,1,Active to Passive Voice,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T2G_0033,Tanween Omission,1,1,0.2,1,1,5,1,Tanween Omission,1.0,1.0,0.2,1.0,1.0,4.0,1.0
+T2G_0088,Invalid Pattern,1,1,0.4,1,1,4,1,Invalid Pattern,1.0,1.0,0.4,0.0,1.0,4.0,1.0
+T2G_0060,Active to Passive Voice,1,1,0.2,1,1,4,1,Active to Passive Voice,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T2G_0064,Perfective to Progressive,1,1,0.7,1,1,5,1,Perfective to Progressive,1.0,1.0,0.7,0.0,1.0,4.0,1.0
+T2G_0080,Noun to Adjective,1,1,0.2,1,1,4,1,Noun to Adjective,1.0,1.0,0.2,0.0,1.0,3.0,1.0
+T2G_0038,Tense Shift Under Negation,1,1,0.4,1,1,4,1,Tense Shift Under Negation,1.0,1.0,0.4,0.0,1.0,4.0,1.0
+T2G_0030,Hyponym for Hypernym,1,1,0.2,1,1,5,1,Hyponym for Hypernym,1.0,1.0,0.2,0.0,0.0,5.0,1.0
+T2G_0002,Meaning Shift,1,1,1.0,1,1,5,1,Meaning Shift,1.0,1.0,1.0,0.0,1.0,5.0,1.0
+T2G_0053,Passive to Active Voice,1,1,0.2,1,1,4,1,Passive to Active Voice,1.0,1.0,0.2,0.0,1.0,4.0,1.0
+T2G_0022,Literal Translation,1,1,0.4,1,1,4,1,Literal Translation,1.0,1.0,0.4,0.0,1.0,5.0,1.0
+T2G_0003,Meaning Shift,1,1,1.0,1,1,5,1,Meaning Shift,1.0,1.0,1.0,0.0,1.0,4.0,1.0
+T2G_0024,Literal Translation,1,1,0.4,1,1,4,1,Literal Translation,1.0,1.0,0.4,0.0,1.0,5.0,1.0
+T2G_0086,Invalid Pattern,1,1,0.4,1,1,4,1,Invalid Pattern,1.0,1.0,0.4,0.0,1.0,2.0,0.0
+T2G_0075,Adjective to Noun,1,1,0.2,1,1,4,1,Adjective to Noun,1.0,1.0,0.2,0.0,1.0,3.0,1.0
+T2G_0083,Definiteness Shift,1,1,0.2,1,1,5,1,Definiteness Shift,1.0,1.0,0.2,1.0,1.0,4.0,1.0
+T2G_0021,Literal Translation,1,1,0.4,1,1,4,1,Literal Translation,0.0,0.0,0.0,0.0,0.0,5.0,1.0
+T2G_0061,Perfective to Progressive,1,1,0.7,1,1,5,1,Perfective to Progressive,1.0,1.0,0.7,0.0,1.0,5.0,1.0
+T2G_0072,Register Mismatch,1,1,0.4,1,1,4,1,Register Mismatch,1.0,1.0,0.4,0.0,1.0,4.0,1.0
+T2G_0015,Name Entity Error,1,1,0.7,1,1,5,1,Name Entity Error,1.0,1.0,0.7,0.0,1.0,2.0,0.0
+T2G_0052,Wrong Word Order,1,1,0.4,1,1,4,1,Wrong Word Order,1.0,1.0,0.4,0.0,1.0,2.0,0.0
