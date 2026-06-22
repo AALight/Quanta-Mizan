@@ -1,24 +1,64 @@
 {
+  "_meta": {
+    "description": "Baseline + reference comparison for the 23-class Mizan task on the 438-instance Gold test (paper App G, tab:baselines).",
+    "input": "Format D (anchor-guided: [CLS] keyword best_match [SEP] ar mt [SEP]) for all methods EXCEPT format_a_blind_bert, which is the no-anchor control ([CLS] ar mt [SEP]).",
+    "metric": "macro-F1 and accuracy; *_mean/*_std are over 5 folds; trivial baselines (majority, keyword) are single deterministic runs.",
+    "sources": {
+      "majority/stratified/keyword/tfidf": "delta_upload/results/M04/baselines.json (+ predictions_tfidf_svm.csv / predictions_tfidf_logreg.csv for accuracy)",
+      "allam_zero/5shot": "ALLaM-7B Format-D anchor-guided run (outputs/<mode>/metrics.json)",
+      "format_a_blind_bert": "format ablation run (format_ablation.json, format_A block)",
+      "arabert_v2_anchor": "main benchmark 5-fold mean (TABLE_main_benchmark_23class.json)"
+    }
+  },
   "majority_class": {
     "macro_f1": 0.0108,
     "accuracy": 0.1416
   },
   "stratified_random": {
     "macro_f1_mean": 0.0337,
-    "macro_f1_std": 0.0077
-  },
-  "tfidf_svm": {
-    "macro_f1_mean": 0.2374,
-    "macro_f1_std": 0.013,
-    "best_fold_f1": 0.2559
-  },
-  "tfidf_logreg": {
-    "macro_f1_mean": 0.1622,
-    "macro_f1_std": 0.0068,
-    "best_fold_f1": 0.1757
+    "macro_f1_std": 0.0077,
+    "accuracy_mean": 0.0543,
+    "accuracy_std": 0.0123
   },
   "keyword_rule": {
     "macro_f1": 0.0596,
     "accuracy": 0.3516
+  },
+  "allam_7b_zero_shot": {
+    "macro_f1": 0.0495,
+    "accuracy": 0.1484,
+    "format": "D",
+    "unknown_rate": 0.29
+  },
+  "allam_7b_5shot": {
+    "macro_f1": 0.0981,
+    "accuracy": 0.2283,
+    "format": "D",
+    "unknown_rate": 0.1119
+  },
+  "format_a_blind_bert": {
+    "macro_f1_mean": 0.1135,
+    "macro_f1_std": 0.0302,
+    "best_fold_f1": 0.1609,
+    "accuracy_mean": 0.232,
+    "note": "no-anchor control (input = ar mt only)"
+  },
+  "tfidf_logreg": {
+    "macro_f1_mean": 0.1622,
+    "macro_f1_std": 0.0068,
+    "best_fold_f1": 0.1757,
+    "accuracy_mean": 0.1922
+  },
+  "tfidf_svm": {
+    "macro_f1_mean": 0.2374,
+    "macro_f1_std": 0.013,
+    "best_fold_f1": 0.2559,
+    "accuracy_mean": 0.2749
+  },
+  "arabert_v2_anchor_formatD": {
+    "macro_f1_mean": 0.6144,
+    "macro_f1_std": 0.0167,
+    "accuracy_mean": 0.5927,
+    "note": "released Raqeeb classifier, 5-fold mean (main benchmark, Table 4)"
   }
 }
