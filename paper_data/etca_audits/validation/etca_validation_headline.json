@@ -1,0 +1,79 @@
+{
+  "n_total_T1": 55,
+  "n_etca_T1": 43,
+  "n_T2_A": 91,
+  "n_T2_B": 92,
+  "n_total_phase1": 147,
+  "agreement": [
+    {
+      "dimension": "ETCA Anchor≥4  vs  Q2 consensus",
+      "n": 43,
+      "pct_agree": 0.721,
+      "pa_lo": 0.581,
+      "pa_hi": 0.837,
+      "gwet_ac1": 0.616,
+      "ac1_lo": 0.35,
+      "ac1_hi": 0.809
+    },
+    {
+      "dimension": "ETCA Clarity≥4 vs  Q1 consensus",
+      "n": 43,
+      "pct_agree": 0.721,
+      "pa_lo": 0.581,
+      "pa_hi": 0.837,
+      "gwet_ac1": 0.616,
+      "ac1_lo": 0.373,
+      "ac1_hi": 0.809
+    },
+    {
+      "dimension": "ETCA Natural≥4 vs  Q7 consensus",
+      "n": 43,
+      "pct_agree": 0.442,
+      "pa_lo": 0.302,
+      "pa_hi": 0.605,
+      "gwet_ac1": 0.035,
+      "ac1_lo": -0.337,
+      "ac1_hi": 0.374
+    },
+    {
+      "dimension": "ETCA Seed-rec vs core-three consensus",
+      "n": 43,
+      "pct_agree": 0.628,
+      "pa_lo": 0.488,
+      "pa_hi": 0.767,
+      "gwet_ac1": 0.399,
+      "ac1_lo": 0.088,
+      "ac1_hi": 0.666
+    },
+    {
+      "dimension": "ETCA Seed-rec vs annotator Dr Amal (A)",
+      "n": 43,
+      "pct_agree": 0.744,
+      "pa_lo": 0.605,
+      "pa_hi": 0.86,
+      "gwet_ac1": 0.641,
+      "ac1_lo": 0.397,
+      "ac1_hi": 0.832
+    },
+    {
+      "dimension": "ETCA Seed-rec vs annotator Kareemah (B)",
+      "n": 43,
+      "pct_agree": 0.651,
+      "pa_lo": 0.512,
+      "pa_hi": 0.791,
+      "gwet_ac1": 0.489,
+      "ac1_lo": 0.196,
+      "ac1_hi": 0.718
+    }
+  ],
+  "confusion_seed_vs_consensus": {
+    "0": {
+      "0": 3,
+      "1": 11
+    },
+    "1": {
+      "0": 5,
+      "1": 24
+    }
+  }
+}
