@@ -46,7 +46,7 @@
       "ac1_hi": 0.666
     },
     {
-      "dimension": "ETCA Seed-rec vs annotator Dr Amal (A)",
+      "dimension": "ETCA Seed-rec vs Annotator A",
       "n": 43,
       "pct_agree": 0.744,
       "pa_lo": 0.605,
@@ -56,7 +56,7 @@
       "ac1_hi": 0.832
     },
     {
-      "dimension": "ETCA Seed-rec vs annotator Kareemah (B)",
+      "dimension": "ETCA Seed-rec vs Annotator B",
       "n": 43,
       "pct_agree": 0.651,
       "pa_lo": 0.512,

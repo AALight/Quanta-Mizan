@@ -93,5 +93,4 @@ Progressive, Tense Shift Under Negation) to give T1's 12.
 ## Master references
 | File | Description |
 |------|-------------|
-| `MASTER_all_paper_numbers.json` | Every number cited in the paper (phase 1) |
-| `MASTER_all_paper_numbers_final.json` | Final assembled numbers (all phases) |
+| `MASTER_all_paper_numbers_final.json` | Final assembled numbers, all phases (canonical; matches the paper) |

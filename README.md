@@ -32,23 +32,21 @@ The released **7,856 T2** instances are selected by TRIVET's **structural valida
 
 Pairwise paired-bootstrap with BH-FDR: AraBERT v2 significantly outperforms ConfliBERT (p_adj < 0.001) and XLM-R (p_adj = 0.007); CAMeLBERT-Mix significantly outperforms XLM-R (p_adj = 0.015). Other 7 pairs non-significant.
 
-> **XLM-R fold-1 reseed.** The original XLM-R fold-1 run collapsed (val macro-F1 = 0.0041, Gold macro-F1 = 0.0092), which dragged the raw 5-fold mean to 0.4566 ± 0.251. We retrained fold 1 at seed 43; it converged normally (val 0.8397, Gold 0.5499), giving the reported XLM-R mean of **0.565 ± 0.023**. The retrained fold is shipped in `experiments/E04_xlmr_fold1_retrain/results/retrain_fold1_seed_43/`, the raw collapsed run is retained for transparency, and `paper_data/TABLE_main_benchmark_23class.json` / `MASTER_all_paper_numbers_final.json` carry the retrained number. All other encoders and folds are unchanged.
+> **XLM-R fold-1 reseed.** The original XLM-R fold-1 run collapsed (val macro-F1 = 0.0041, Gold macro-F1 = 0.0092), which dragged the raw 5-fold mean to 0.4566 ± 0.251. We retrained fold 1 at seed 43; it converged normally (val 0.8397, Gold 0.5499), giving the reported XLM-R mean of **0.565 ± 0.023**. The retrained number is carried in `paper_data/TABLE_main_benchmark_23class.json` and `paper_data/MASTER_all_paper_numbers_final.json`; the raw collapsed fold-1 predictions are retained for transparency in `paper_data/TABLE_main_preds_XLM-R_fold1.csv`. All other encoders and folds are unchanged.
 
 Controlled 12-class data ablation: T1 (738 real) reaches macro-F1 = 0.656 vs T2-12 (4,274 synthetic) = 0.312 → DES (per-1k samples) of 0.889 vs 0.073 → ~12× per-sample advantage for validated real data.
 
 ## Repository layout
 
 ```
-raqeeb-paper1/
+Quanta-Mizan/
 ├── README.md                                 ← this file
 ├── LICENSE                                   ← MIT
 ├── CITATION.cff                              ← citation metadata
 ├── ARR_REPRODUCIBILITY_CHECKLIST.md          ← ACL/EMNLP reproducibility checklist
-├── paper_v2.tex                              ← the paper source (compiles to 34 pages)
-├── paper_v2.pdf                              ← compiled PDF
-├── references.bib                            ← 46 cited references
+├── requirements.txt                          ← top-level pinned dependencies
 │
-├── raqeeb/                                   ← the runtime toolkit
+├── raqeeb/                                   ← the runtime toolkit (end-user package)
 │   ├── README.md                                end-user usage guide
 │   ├── requirements.txt
 │   ├── run_pipeline.py                          end-to-end CLI
@@ -59,8 +57,10 @@ raqeeb-paper1/
 │   │   ├── etca_auditor.py                      Claude Sonnet 4 audit wrapper
 │   │   ├── classifier.py                        AraBERT v2 classifier wrapper (default fold-0; fold-3 for cross-domain)
 │   │   └── raqeeb_encoder*.py                   training-identical tokenisation/head
+│   ├── trivet/wrapper.py                        thin TRIVET pipeline wrapper
 │   ├── data/
 │   │   ├── label_map.json                       23-class Mizan label → integer id
+│   │   ├── canonical_mizan_v7.json              canonical Mizan taxonomy (L1/L2/L4 + severity weights)
 │   │   ├── patterns_v1.json                     177 frozen anchor patterns (full set, all 23 classes)
 │   │   ├── rubric_v33.csv                       TRIVET v3.3 per-class ESV thresholds
 │   │   ├── thresholds_v33.json                  high-level threshold reference
@@ -73,21 +73,33 @@ raqeeb-paper1/
 │       ├── un_demo_input.csv                    10-row UN demo input
 │       └── un_demo_output.csv                   produced by the CLI
 │
-├── delta_upload/                             ← training/eval pipeline (Delta GPU runs)
-│   ├── data/processed/                          QUANTA splits: train_t1t2.csv, test_gold.csv
-│   ├── results/M01/                             5-encoder Raqbench predictions + summaries
-│   └── ...
+├── paper_data/                              ← every table/figure number in the paper (see paper_data/README.md)
+│   ├── README.md                                per-file guide + critical usage notes
+│   ├── MASTER_all_paper_numbers_final.json      single roll-up of all reported numbers
+│   ├── TABLE_main_benchmark_23class.json        Table 4: 5-encoder mean ± std + 95% CIs
+│   ├── TABLE_paired_bootstrap_significance.json pairwise paired-bootstrap + BH-FDR
+│   ├── TABLE_perclass_F1_*.json                 per-class F1 per encoder (+ reliable10 variants)
+│   ├── TABLE_{L1_4tqa,L2_5parent,L3_14subtype,multilevel_L1_L4}.json   multi-level benchmarks
+│   ├── TABLE_baselines.json                     TF-IDF+SVM and ALLaM zero-shot baselines
+│   ├── FIG3_data_efficiency_12class_ablation.json   12x DES real-vs-synthetic ablation
+│   ├── FIG5_*_cross_domain_*.{csv,json}         cross-domain WMT24++ probe
+│   ├── TABLE_main_preds_<encoder>_fold*.csv     frozen per-fold Gold predictions (438 instances)
+│   ├── {gold_test_438,train_T1T2_8594,train_T2_only}.csv   QUANTA splits
+│   ├── audit_manifests/                         T2 PT/TO re-classification manifests (188 / 15 / 20)
+│   ├── etca_audits/                             ETCA seed + 414-subset audits + external-validation bundle
+│   ├── iaa/                                     dual-annotator IAA bundle (Gwet AC1)
+│   └── baselines/ · allam_baseline/ · format_ablation/   baseline + ablation artifacts
 │
-├── experiments/                              ← research experiments
-│   ├── E01_cross_domain_classifier/             AraBERT v2 fold-3 checkpoint + WMT24++ probe
-│   ├── E03_L1_layer1_validation/                Layer-1 sentence-level validation
-│   └── E04_xlmr_fold1_retrain/                  XLM-R seed-43 retrain (replaces collapsed fold)
+├── src/                                     ← training / data-prep pipeline (research code)
+│   ├── data/        prepare_splits.py, validate_data.py, validate_taxonomy.py
+│   ├── models/      anchor_extractor.py, encoder.py
+│   └── training/    trainer.py, evaluator.py, train_anchor_extractor.py
 │
-├── analysis/                                 ← post-hoc analysis (ETCA validation, etc.)
-├── figures/                                  ← rendered figures
-├── TRIVET_SCRIPTS/                           ← original research notebooks (TRIVET pipeline)
-└── historical_handoff/                       ← validated historical artifacts (gold pool, patterns)
+├── tools/                                   ← regen_figures.py (rebuild all figures), restore_cross_domain.py
+└── TRIVET_SCRIPTS/                          ← original research notebooks (TRIVET generation + Stage-A validation)
 ```
+
+> The paper PDF/source and `references.bib` are **not** included in this anonymized repository; they are submitted separately through the review system.
 
 ## Quick start
 
@@ -112,13 +124,17 @@ python run_pipeline.py \
 
 ## Reproducing the paper's numbers
 
-| Number | Where | Script |
-|---|---|---|
-| Table 4 mean ± std (5 encoders) | `delta_upload/results/M01/benchmark_23class.json` | `experiments/E04_xlmr_fold1_retrain/scripts/compute_5fold_stats.py` |
-| Pairwise paired-bootstrap + BH-FDR | `experiments/E04_xlmr_fold1_retrain/scripts/pairwise_significance.py` | run locally, no Delta needed |
-| 12× DES data ablation | `delta_upload/results/M02/data_efficiency.json` | run on Delta |
-| Cross-domain WMT24++ | `experiments/E01_cross_domain_classifier/scripts/inference.py` | local |
-| Per-class F1 (best fold) | `delta_upload/results/M02/<encoder>/reliable_classification_report.json` | per encoder |
+All reported numbers are shipped as frozen JSON/CSV under `paper_data/` (read `paper_data/README.md` first — it documents per-file usage and a critical macro-F1-vs-accuracy caveat for the ablation CSVs). No GPU or retraining is required to re-derive the paper's tables.
+
+| Number | Read from |
+|---|---|
+| Table 4 mean ± std (5 encoders) + 95% CI | `paper_data/TABLE_main_benchmark_23class.json` (rolled up in `MASTER_all_paper_numbers_final.json`); per-fold preds in `paper_data/TABLE_main_preds_<encoder>_fold*.csv` |
+| Pairwise paired-bootstrap + BH-FDR | `paper_data/TABLE_paired_bootstrap_significance.json` |
+| 12× DES data ablation | `paper_data/FIG3_data_efficiency_12class_ablation.json` (use the JSON, not the fold CSVs) |
+| Cross-domain WMT24++ | `paper_data/FIG5_8_cross_domain_stats.json` + `paper_data/FIG5_*_cross_domain_*.csv` |
+| Per-class F1 (best fold) | `paper_data/TABLE_perclass_F1_<encoder>.json` (+ `_reliable10_` variants) |
+| Multi-level L1–L4 benchmarks | `paper_data/TABLE_{L1_4tqa,L2_5parent,L3_14subtype,multilevel_L1_L4}.json` |
+| All paper figures (rebuild) | `python tools/regen_figures.py` (reads `paper_data/`) |
 
 ## Citation
 

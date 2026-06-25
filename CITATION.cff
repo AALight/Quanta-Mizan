@@ -14,12 +14,12 @@ preferred-citation:
     name: "Anonymous Review (ARR cycle May 2026)"
 abstract: >-
   Raqeeb is a community toolkit for fine-grained Arabic machine translation
-  error detection. It comprises six artifacts: the Mizan 23-class taxonomy,
-  the TRIVET validation pipeline, the QUANTA dataset (9,032 instances), the
-  ETCA cross-vendor audit protocol, the Raqbench benchmark with the released
-  Raqeeb classifier (Gold macro-F1 = 0.614), and a dual-annotator validation
-  protocol. A controlled ablation shows TRIVET-validated real data is ~12x
-  more sample-efficient than size-matched synthetic data.
+  error detection. It comprises five artifacts: the Mizan 23-class taxonomy,
+  the QUANTA dataset (9,032 instances), the ETCA cross-vendor audit protocol,
+  the Raqbench benchmark with the released Raqeeb classifier (Gold macro-F1 =
+  0.614), and a dual-annotator validation protocol. A controlled ablation shows
+  anchor-validated real data is ~12x more sample-efficient than size-matched
+  synthetic data.
 keywords:
   - "Arabic NLP"
   - "Machine Translation Evaluation"
