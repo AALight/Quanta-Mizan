@@ -1,8 +1,7 @@
-# ALLaM-7B — Format D (anchor-guided) — for Paper 1
+# ALLaM-7B — Format D (anchor-guided)
 
 Self-contained bundle of the **Format-D (anchor-guided)** ALLaM-7B zero-shot + few-shot
-baseline for Paper 1. Carry this into the Paper-1 writing session to fix the ALLaM row in
-the baselines table (App G, `tab:baselines`) and to add a reproducible artifact to the repo.
+baseline for the ALLaM row in the baselines table (`tab:baselines`).
 
 **All numbers below were re-verified by recomputing macro-F1/accuracy from the prediction
 CSVs in this folder.**
@@ -24,7 +23,7 @@ These match `outputs/<mode>/metrics.json` exactly and the per-class reports in `
   encoders receive (`[CLS] keyword best_match [SEP] ar mt [SEP]`). This is the
   apples-to-apples LLM comparison.
 - **Few-shot:** 5 in-prompt examples drawn from `train_t2` (diverse classes, seed 42).
-- **Generator:** `script/run_format_d_our_models.py` (Part 2 = the ALLaM section). It writes
+- **Generator:** `script/run_format_d_our_models.py` (the ALLaM section). It writes
   the `metrics.json` + `predictions_test_gold.csv` reproduced here.
 - **Test set:** the frozen 438-instance Gold test, full 23/23 class coverage.
 
@@ -49,10 +48,10 @@ outputs/zero_shot/metrics.json + predictions_test_gold.csv     (F1 0.0495 / acc 
 outputs/few_shot_5/metrics.json + predictions_test_gold.csv    (F1 0.0981 / acc 0.2283)
 per_class/per_class_allam_zero_shot_format_d.txt               (per-class P/R/F1 + macro avg)
 per_class/per_class_allam_few_shot_5_format_d.txt
-script/run_format_d_our_models.py                              (generator; ALLaM = Part 2)
+script/run_format_d_our_models.py                              (generator; ALLaM section)
 ```
 
 ## Notes for the repo
 - `metrics.json` records the model only as `"ALLaM-7B"`; pin the full id
   `ALLaM-AI/ALLaM-7B-Instruct-preview` when releasing.
-- The generator also trains CAMeLBERT encoders in Part 1; for an ALLaM-only run, use Part 2 (the ALLaM section).
+- The generator also trains CAMeLBERT encoders; for an ALLaM-only run, use just the ALLaM section.
