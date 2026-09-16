@@ -1,4 +1,4 @@
-# Dual-annotator IAA (Paper 1, Appendix B)
+# Dual-annotator IAA (Appendix B)
 
 Released artifacts behind the inter-annotator agreement table (`tab:iaa-main`):
 two expert linguists (Annotator A / B), *not* the taxonomy designers,
