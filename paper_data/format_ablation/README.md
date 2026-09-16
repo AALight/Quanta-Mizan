@@ -1,14 +1,7 @@
-# E0x — Format Ablation (Format A blind vs Format D anchor) — for Paper 1
+# Format Ablation (Format A blind vs Format D anchor)
 
-Self-contained bundle for Paper 1's **format ablation** (App G `tab:format-ablation`) and the
-**Format-A (blind BERT) accuracy** in `tab:baselines`. Carry into the Paper-1 writing/repo
-session. Rename to the next free experiment number (**E08**) when dropping into
-`raqeeb-paper1/experiments/`.
-
-## Why this folder exists
-The format ablation was the **only** Paper-1 result with no home in the released
-`experiments/` tree or `paper_data/` — it lived solely in an `exold` archive
-(`AllamFiles/results (9)/`). This bundle anchors the claim in a shippable artifact.
+Self-contained bundle for the **format ablation** (`tab:format-ablation`) and the
+**Format-A (blind BERT) accuracy** in `tab:baselines`.
 
 ## Verified results (AraBERT v2, 5-fold, n=438 Gold, 23-class)
 | Format | Input | macro-F1 (mean ± std) | best fold | accuracy (mean) |
@@ -44,8 +37,7 @@ The format ablation was the **only** Paper-1 result with no home in the released
 ## Caveat — no per-instance predictions
 `run_format_ablation.py` saves only the aggregate JSON + per-class report; it keeps the
 best-fold predictions in memory (for the bootstrap) and never writes a predictions CSV. So:
-- **No Format-A (blind) per-instance prediction file exists anywhere** (verified across
-  raqeeb-paper1, raqeeb-paper2, exold, BertFormA, New folder, .claude/worktrees).
+- **No Format-A (blind) per-instance prediction file exists anywhere.**
 - The numbers above are **aggregate-sourced** (this `format_ablation.json` +
   `per_class_format_ablation.txt`). To produce per-instance predictions you must **re-run on a
   GPU** (10 AraBERT trainings: 5 folds × 2 formats) — not reproducible on CPU.
@@ -63,6 +55,4 @@ README.md                       this file
   Δ +0.505 (+445%) · p < 0.0001.
 - `tab:baselines` Format-A (blind BERT) accuracy = **0.232** (5-fold mean).
 
-Source: copied from `exold/AllamFiles/results (9)/` (`format_ablation.json`,
-`per_class_format_ablation.txt`) and `exold/AllamFiles/delta (1)/run_format_ablation.py`.
-No retraining performed; no Delta/GPU used to stage this bundle.
+No retraining was performed to stage this bundle; the figures are aggregate-sourced from `format_ablation.json` and `per_class_format_ablation.txt`.
