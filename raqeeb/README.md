@@ -1,6 +1,6 @@
 # Raqeeb — Anchor-Constrained Detection of Fine-Grained Arabic MT Errors
 
-A Python toolkit for fine-grained 23-class Arabic MT error classification with anchor-constrained validation, cross-vendor LLM audit, and dual-layer human evaluation. The toolkit can be used in three ways: as a Python library (recommended for research integration), as a CLI (recommended for batch jobs), or as individual components (TRIVET, the classifier, ETCA — for ablations and extensions). Note: the **TRIVET** validator's methodology is the contribution of the companion methods paper; its code is bundled here as the substrate that built QUANTA and for reproducibility, not as a contribution of this resource paper.
+A Python toolkit for fine-grained 23-class Arabic MT error classification with anchor-constrained validation, cross-vendor LLM audit, and dual-layer human evaluation. The toolkit can be used in three ways: as a Python library (recommended for research integration), as a CLI (recommended for batch jobs), or as individual components (TRIVET, the classifier, ETCA — for ablations and extensions). Note: the **TRIVET** validator's code is bundled here as the substrate that built QUANTA and for reproducibility; it is a supporting tool, not a contribution claimed by this release.
 
 ## Quick start (Python library)
 
@@ -128,11 +128,11 @@ macro-F1 ≈ 0.589, accuracy ≈ 0.578 — both are reported in Table 4 of the p
 
 ```bash
 python run_pipeline.py \
-    --input ../delta_upload/data/processed/test_gold.csv \
+    --input ../paper_data/gold_test_438.csv \
     --output gold_predictions.csv
 ```
 
-(Note: `test_gold.csv` already has `keyword`/`best_match` columns prepared, so the candidate-extraction
+(Note: `gold_test_438.csv` already has `keyword`/`best_match` columns prepared, so the candidate-extraction
 step is a no-op for that file. The CLI handles either input format.)
 
 ## Dependencies
