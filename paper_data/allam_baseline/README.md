@@ -55,8 +55,4 @@ script/run_format_d_our_models.py                              (generator; ALLaM
 ## Notes for the repo
 - `metrics.json` records the model only as `"ALLaM-7B"`; pin the full id
   `ALLaM-AI/ALLaM-7B-Instruct-preview` when releasing.
-- The generator also trains CAMeLBERT encoders in Part 1; for an ALLaM-only release, keep
-  just Part 2 (the ALLaM section) or document that Part 1 is unrelated.
-- This bundle was prepared from `exold/AllamFiles/` (already-extracted folders only; no zips
-  opened). Source folders: `allam_format_d/`, the loose `per_class_allam_*_format_d.txt`, and
-  `delta (1)/run_format_d_our_models.py`.
+- The generator also trains CAMeLBERT encoders in Part 1; for an ALLaM-only run, use Part 2 (the ALLaM section).
