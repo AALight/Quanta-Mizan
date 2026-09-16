@@ -1,17 +1,34 @@
 cff-version: 1.2.0
-title: "Raqeeb: Anchor-Constrained Detection of Fine-Grained Arabic MT Errors"
+title: "QUANTA: A Fine-Grained Dataset and Benchmark for Arabic Machine-Translation Error Analysis"
 message: "If you use this software or dataset, please cite the accompanying paper."
 type: software
-authors:
-  - name: "Anonymous (under review)"
+authors: &authors
+  - given-names: Afraa
+    family-names: Alshammari
+  - given-names: Ahmad
+    family-names: Alahmari
+  - given-names: Amal
+    family-names: Alaboud
+  - given-names: Jaber Ahmed
+    family-names: Harthi
+  - given-names: Karima Ali Shahwan
+    family-names: Alzahrani
+  - given-names: Ahnaf
+    family-names: Adib
+  - given-names: Patrick
+    family-names: Brandt
+  - given-names: Javier
+    family-names: Osorio
+  - given-names: Vito
+    family-names: "D'Orazio"
+  - given-names: Latifur
+    family-names: Khan
 preferred-citation:
   type: conference-paper
-  title: "Raqeeb: Anchor-Constrained Detection of Fine-Grained Arabic MT Errors"
-  authors:
-    - name: "Anonymous (under review)"
+  title: "QUANTA: A Fine-Grained Dataset and Benchmark for Arabic Machine-Translation Error Analysis"
+  authors: *authors
   year: 2026
-  conference:
-    name: "Anonymous Review (ARR cycle May 2026)"
+  collection-title: "Proceedings of the Second Arabic Natural Language Processing Conference (ArabicNLP 2026)"
 abstract: >-
   Raqeeb is a community toolkit for fine-grained Arabic machine translation
   error detection. It comprises five artifacts: the Mizan 23-class taxonomy,
@@ -26,5 +43,5 @@ keywords:
   - "Quality Estimation"
   - "Fine-grained Error Detection"
   - "Annotation Framework"
-license: MIT
-repository-code: "https://anonymous.4open.science/r/Quanta-Mizan-FF3C"
+license: CC-BY-4.0
+repository-code: "https://github.com/AALight/Quanta-Mizan"

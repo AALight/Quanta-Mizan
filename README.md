@@ -1,16 +1,16 @@
 # Raqeeb — Anchor-Constrained Detection of Fine-Grained Arabic MT Errors
 
-> *Anonymized repository for the Raqeeb paper, currently under review at the ACL Rolling Review (ARR).*
+> *Code and data for QUANTA (ArabicNLP 2026): a fine-grained dataset and benchmark for Arabic machine-translation error analysis.*
 
 This repository releases the five artifacts contributed by the Raqeeb resource paper:
 
 1. **Mizan** — a 23-class taxonomy of Arabic MT linguistic-shift errors, with MQM-compatible severity weights
 2. **QUANTA** — the 9,032-instance dataset (738 T1 + 7,856 T2 + 438 Gold)
 3. **ETCA** — the cross-vendor LLM-as-judge audit protocol (GPT-4o generator, Claude Sonnet 4 judge)
-4. **Raqbench** + the released **Raqeeb classifier** (AraBERT v2, 5-fold mean Gold macro-F1 = 0.614 ± 0.017). All 5 fold checkpoints are released; the **default deployable is fold-0** (best fold, single-fold Gold F1 = 0.635), which reproduces the paper's per-class and Frontier-tier numbers. Fold-3 (single-fold F1 = 0.589) is retained as the **cross-domain / companion-lineage** checkpoint used for the WMT24++ probe and the Paper-2 cascade.
+4. **Raqbench** + the released **Raqeeb classifier** (AraBERT v2, 5-fold mean Gold macro-F1 = 0.614 ± 0.017). All 5 fold checkpoints are released; the **default deployable is fold-0** (best fold, single-fold Gold F1 = 0.635), which reproduces the paper's per-class and Frontier-tier numbers. Fold-3 (single-fold F1 = 0.589) is retained as the **cross-domain / companion-lineage** checkpoint used for the WMT24++ cross-domain probe.
 5. **Dual-annotator validation protocol** + reusable workbook templates
 
-QUANTA was built with **TRIVET**, the anchor-constrained validation pipeline (anchor extraction → ESV structural gates; ETCA seed/quality audit runs in parallel — see *QUANTA T2 selection* below). TRIVET's methodology is the contribution of the **companion methods paper** (anonymized for review); its validator code is included here (`raqeeb/trivet/`) solely so QUANTA can be reproduced, and is not claimed as a contribution of this paper.
+QUANTA was built with **TRIVET**, the anchor-constrained validation pipeline (anchor extraction → ESV structural gates; ETCA seed/quality audit runs in parallel — see *QUANTA T2 selection* below). TRIVET's methodology is the contribution of a companion methods paper; its validator code is included here (`raqeeb/trivet/`) solely so QUANTA can be reproduced, and is not claimed as a contribution of this paper.
 
 ## QUANTA T2 selection (provenance)
 
@@ -41,7 +41,7 @@ Controlled 12-class data ablation: T1 (738 real) reaches macro-F1 = 0.656 vs T2-
 ```
 Quanta-Mizan/
 ├── README.md                                 ← this file
-├── LICENSE                                   ← MIT
+├── LICENSE                                   ← CC-BY-4.0
 ├── CITATION.cff                              ← citation metadata
 ├── ARR_REPRODUCIBILITY_CHECKLIST.md          ← ACL/EMNLP reproducibility checklist
 ├── requirements.txt                          ← top-level pinned dependencies
@@ -95,11 +95,10 @@ Quanta-Mizan/
 │   ├── models/      anchor_extractor.py, encoder.py
 │   └── training/    trainer.py, evaluator.py, train_anchor_extractor.py
 │
-├── tools/                                   ← regen_figures.py (rebuild all figures), restore_cross_domain.py
-└── TRIVET_SCRIPTS/                          ← original research notebooks (TRIVET generation + Stage-A validation)
+└── tools/                                   ← regen_figures.py (rebuild all figures), restore_cross_domain.py
 ```
 
-> The paper PDF/source and `references.bib` are **not** included in this anonymized repository; they are submitted separately through the review system.
+> The paper PDF/source and `references.bib` are **not** included in this repository.
 
 ## Quick start
 
@@ -138,11 +137,11 @@ All reported numbers are shipped as frozen JSON/CSV under `paper_data/` (read `p
 
 ## Citation
 
-See [`CITATION.cff`](CITATION.cff). At review time the paper is anonymized; full citation will appear at camera-ready.
+See [`CITATION.cff`](CITATION.cff).
 
 ## License
 
-MIT — see [`LICENSE`](LICENSE).
+CC BY 4.0 — see [`LICENSE`](LICENSE).
 
 ## Ethics
 

@@ -19,7 +19,7 @@ statsmodels>=0.14.0
 matplotlib>=3.7.0
 seaborn>=0.12.0
 
-# Arabic NLP (optional, for RUE framework in Paper 2)
+# Arabic NLP (optional)
 # camel-tools>=1.5.0
 
 # ALLaM (for LLM baselines)
