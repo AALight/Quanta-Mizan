@@ -27,21 +27,6 @@ These match `outputs/<mode>/metrics.json` exactly and the per-class reports in `
   the `metrics.json` + `predictions_test_gold.csv` reproduced here.
 - **Test set:** the frozen 438-instance Gold test, full 23/23 class coverage.
 
-## Why this replaces the paper's current ALLaM row
-The paper currently prints **ALLaM-7B zero-shot = macro-F1 0.025, accuracy 0.068**. That is
-**not** this Format-D run:
-- The **0.025** comes from a *different*, **non-anchor-guided** ALLaM run (prompt = reference
-  + MT only; folder `allam_verify/`). It is not comparable to the anchor-guided encoders.
-- The **0.068 accuracy** matches **no artifact** found anywhere (the non-anchor zero-shot
-  accuracy is 0.119; a "Team B" ALLaM run is referenced in code as F1 0.0262 but was never
-  saved). So the printed pair (0.025 / 0.068) is not jointly reproducible.
-
-**Recommended fix:** report the Format-D (anchor-guided) zero-shot number
-**macro-F1 = 0.049 (≈0.05), accuracy = 0.148**, optionally adding the 5-shot result
-(0.098 / 0.228). The qualitative claim is unchanged — ALLaM zero-shot (0.05) remains far
-below the fine-tuned encoders (0.56–0.61), so the 23-class task still "requires task-specific
-fine-tuning." Only the specific number and its fairness framing change (now anchor-matched).
-
 ## Contents
 ```
 outputs/zero_shot/metrics.json + predictions_test_gold.csv     (F1 0.0495 / acc 0.1484)
@@ -50,8 +35,3 @@ per_class/per_class_allam_zero_shot_format_d.txt               (per-class P/R/F1
 per_class/per_class_allam_few_shot_5_format_d.txt
 script/run_format_d_our_models.py                              (generator; ALLaM section)
 ```
-
-## Notes for the repo
-- `metrics.json` records the model only as `"ALLaM-7B"`; pin the full id
-  `ALLaM-AI/ALLaM-7B-Instruct-preview` when releasing.
-- The generator also trains CAMeLBERT encoders; for an ALLaM-only run, use just the ALLaM section.
