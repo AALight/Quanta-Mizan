@@ -1,4 +1,4 @@
-# ETCA external validation (Paper 1, §4.3)
+# ETCA external validation (§4.3)
 
 Reproduces the paper's claim that the cross-vendor ETCA judge (Claude Sonnet 4)
 agrees with the dual-annotator **human consensus** at Gwet's **AC1 = 0.62**
